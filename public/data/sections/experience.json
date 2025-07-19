@@ -1,0 +1,618 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Experience",
+        "title_short_nav": "Experience",
+        "title_long_prefix": "Summary of my",
+        "title_long": "{{Work}} Experience"
+      },
+      "es": {
+        "title_short": "Experiencia",
+        "title_short_nav": "Experiencia",
+        "title_long_prefix": "Resumen de mi",
+        "title_long": "Experiencia {{Laboral}}"
+      },
+      "fr": {
+        "title_short": "Expérience",
+        "title_short_nav": "Expérience",
+        "title_long_prefix": "Résumé de mon",
+        "title_long": "Parcours {{Professionel}}"
+      },
+      "ko": {
+        "title_short": "경험",
+        "title_short_nav": "경험",
+        "title_long_prefix": "이것은 내",
+        "title_long": "{{직업적}} 경험"
+      },
+      "ar": {
+        "title_short": "الخبرات",
+        "title_short_nav": "الخبرات",
+        "title_long_prefix": "ملخص لـ",
+        "title_long": "الخبرات {{العملية}}"
+      },
+      "hi": {
+        "title_short": "अनुभव",
+        "title_short_nav": "अनुभव",
+        "title_long_prefix": "मेरे",
+        "title_long": "{{काम का}} अनुभव"
+      },
+      "de": {
+        "title_short": "Erfahrung",
+        "title_short_nav": "Erfahrung",
+        "title_long_prefix": "Zusammenfassung meiner",
+        "title_long": "{{Beruflichen}} Erfahrung"
+      },
+      "ur": {
+        "title_short": "تجربہ",
+        "title_short_nav": "تجربہ",
+        "title_long_prefix": "میرا خلاصہ",
+        "title_long": "{{کام کا}} تجربہ"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "dateStart"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/exp1.png",
+          "faIcon": "fa-solid fa-graduation-cap",
+          "faIconColors": { "bg": "#2563eb", "fill": "#ffffff" },
+          "dateStart": { "year": 2021, "month": 8 },
+          "dateEnd": { "year": 2022, "month": 5 },
+          "locales": {
+            "en": {
+              "title": "BS Computer {{Software Engineering}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Began my CS journey at UET Mardan. During this first year, I learned <b>Computer Fundamentals</b>, programming in <b>C & C++</b>, and built a strong foundation in <b>problem-solving</b> and <b>logic building</b>.",
+              "list": [
+                "Programming with C and C++",
+                "Computer Fundamentals",
+                "Mathematics & Logic Building"
+              ],
+              "tags": ["C", "C++", "Fundamentals"]
+            },
+            "es": {
+              "title": "Licenciatura en {{Ingeniería de Software}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "UET Mardan",
+              "text": "Comencé mi camino en UET Mardan. En el primer año aprendí <b>fundamentos de computación</b>, <b>programación en C y C++</b> y desarrollé habilidades de <b>lógica y resolución de problemas</b>.",
+              "list": [],
+              "tags": ["C", "C++", "Fundamentos"]
+            },
+            "fr": {
+              "title": "Licence en {{Génie Logiciel}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "J'ai débuté à UET Mardan. Durant ma première année, j'ai appris les <b>fondamentaux de l'informatique</b>, la <b>programmation en C et C++</b> et j’ai développé une forte logique.",
+              "list": [],
+              "tags": ["C", "C++", "Bases"]
+            },
+            "ko": {
+              "title": "{{컴퓨터 소프트웨어 공학}}",
+              "province": "카이베르파크툰크와",
+              "country": "파키스탄",
+              "institution": "UET 마르단",
+              "text": "UET 마르단에서 시작했습니다. 1학년에는 <b>컴퓨터 기초</b>, <b>C/C++ 프로그래밍</b>, <b>문제 해결 능력</b>을 배웠습니다.",
+              "list": [],
+              "tags": ["C", "C++", "기초"]
+            },
+            "ar": {
+              "title": "بكالوريوس {{هندسة البرمجيات}}",
+              "province": "خیبر پختونخوا",
+              "country": "باكستان",
+              "institution": "جامعة UET مردان",
+              "text": "بدأت رحلتي في جامعة UET مردان. تعلمت في السنة الأولى <b>أساسيات الحاسوب</b>، <b>البرمجة بلغة C و C++</b>، وبنيت مهارات منطقية قوية.",
+              "list": [],
+              "tags": ["C", "C++", "الأساسيات"]
+            },
+            "hi": {
+              "title": "बीएस {{कंप्यूटर सॉफ्टवेयर इंजीनियरिंग}}",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "UET मर्दान",
+              "text": "UET मर्दान में शुरुआत की। पहले वर्ष में मैंने <b>C, C++</b> सीखा और <b>कंप्यूटर के मूल सिद्धांत</b> और <b>लॉजिक बिल्डिंग</b> पर ध्यान केंद्रित किया।",
+              "list": [],
+              "tags": ["C", "C++", "बेसिक्स"]
+            },
+            "de": {
+              "title": "B.Sc. {{Softwaretechnik}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Ich begann mein Studium an der UET Mardan. Im ersten Jahr lernte ich <b>C und C++</b>, <b>Grundlagen der Informatik</b> und entwickelte <b>logisches Denken</b>.",
+              "list": [],
+              "tags": ["C", "C++", "Grundlagen"]
+            },
+            "ur": {
+              "title": "بی ایس {{کمپیوٹر سافٹ ویئر انجینئرنگ}}",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "یو ای ٹی مردان",
+              "text": "UET مردان سے اپنی تعلیم کا آغاز کیا۔ پہلے سال میں <b>C اور C++</b> سیکھی، <b>کمپیوٹر کی بنیادی معلومات</b> حاصل کی اور <b>لاجک بلڈنگ</b> پر کام کیا۔",
+              "list": [],
+              "tags": ["C", "C++", "بنیادی"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "images/pictures/exp2.png",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": { "bg": "#14b8a6", "fill": "#ffffff" },
+          "dateStart": { "year": 2022, "month": 7 },
+          "dateEnd": { "year": 2023, "month": 4 },
+          "locales": {
+            "en": {
+              "title": "BS Computer {{Software Engineering}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Focused on <b>frontend development</b> using <b>HTML, CSS, Tailwind CSS</b>, <b>JavaScript</b>, and <b>PHP</b>. Also studied key subjects like <b>Data Structures</b>, <b>Object-Oriented Programming (OOP)</b>, and <b>SQL</b>.",
+              "list": [
+                "HTML, CSS, Tailwind CSS, JavaScript, PHP",
+                "Object Oriented Programming (OOP)",
+                "Data Structures & Algorithms",
+                "SQL & Relational Databases"
+              ],
+              "tags": ["HTML", "Tailwind", "JavaScript", "PHP", "OOP", "SQL"]
+            },
+            "es": {
+              "title": "Licenciatura en {{Ingeniería de Software}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "UET Mardan",
+              "text": "Me enfoqué en el <b>desarrollo frontend</b> con <b>HTML, CSS, Tailwind CSS, JavaScript</b> y <b>PHP</b>. También estudié <b>estructuras de datos</b>, <b>programación orientada a objetos</b> y <b>SQL</b>.",
+              "tags": ["HTML", "Tailwind", "JavaScript", "PHP", "OOP", "SQL"]
+            },
+            "fr": {
+              "title": "Licence en {{Génie Logiciel}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Concentration sur le <b>développement frontend</b> avec <b>HTML, CSS, Tailwind CSS, JavaScript</b> et <b>PHP</b>. Étude approfondie des <b>structures de données</b>, <b>programmation orientée objet</b> et <b>SQL</b>.",
+              "tags": ["HTML", "Tailwind", "JavaScript", "PHP", "OOP", "SQL"]
+            },
+            "ko": {
+              "title": "{{컴퓨터 소프트웨어 공학}}",
+              "province": "카이베르파크툰크와",
+              "country": "파키스탄",
+              "institution": "UET 마르단",
+              "text": "<b>HTML, CSS, Tailwind CSS, JavaScript, PHP</b>를 배우고 <b>자료구조</b>, <b>객체 지향 프로그래밍(OOP)</b>, <b>SQL</b> 같은 주요 과목을 공부했습니다.",
+              "tags": ["HTML", "Tailwind", "JavaScript", "PHP", "OOP", "SQL"]
+            },
+            "ar": {
+              "title": "بكالوريوس {{هندسة البرمجيات}}",
+              "province": "خیبر پختونخوا",
+              "country": "باكستان",
+              "institution": "جامعة UET مردان",
+              "text": "ركزت على <b>تطوير الواجهة الأمامية</b> باستخدام <b>HTML و CSS و Tailwind CSS و JavaScript و PHP</b>، ودرست أيضًا <b>هياكل البيانات</b>، <b>البرمجة الكائنية</b> و <b>SQL</b>.",
+              "tags": ["HTML", "Tailwind", "JavaScript", "PHP", "OOP", "SQL"]
+            },
+            "hi": {
+              "title": "बीएस {{कंप्यूटर सॉफ्टवेयर इंजीनियरिंग}}",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "UET मर्दान",
+              "text": "<b>HTML, CSS, Tailwind CSS, JavaScript, PHP</b> जैसे तकनीकों पर ध्यान केंद्रित किया। साथ ही <b>डेटा स्ट्रक्चर</b>, <b>OOP</b>, और <b>SQL</b> जैसे मुख्य विषयों का अध्ययन किया।",
+              "tags": ["HTML", "Tailwind", "JavaScript", "PHP", "OOP", "SQL"]
+            },
+            "de": {
+              "title": "B.Sc. {{Softwaretechnik}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Fokus lag auf <b>Frontend-Entwicklung</b> mit <b>HTML, CSS, Tailwind CSS, JavaScript</b> und <b>PHP</b>. Außerdem lernte ich <b>Datenstrukturen</b>, <b>OOP</b> und <b>SQL</b>.",
+              "tags": ["HTML", "Tailwind", "JavaScript", "PHP", "OOP", "SQL"]
+            },
+            "ur": {
+              "title": "بی ایس {{کمپیوٹر سافٹ ویئر انجینئرنگ}}",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "یو ای ٹی مردان",
+              "text": "<b>HTML، CSS، Tailwind CSS، JavaScript، PHP</b> سیکھنے پر توجہ دی اور <b>ڈیٹا اسٹرکچر</b>، <b>OOP</b>، اور <b>SQL</b> جیسے اہم مضامین کو پڑھا۔",
+              "tags": ["HTML", "Tailwind", "JavaScript", "PHP", "OOP", "SQL"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "images/pictures/exp3.png",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "#1e293b", "fill": "#ffffff" },
+          "dateStart": { "year": 2023, "month": 5 },
+          "dateEnd": { "year": 2024, "month": 3 },
+          "locales": {
+            "en": {
+              "title": "Backend {{Developer}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Specialized in backend development using <b>Node.js, Express.js, MongoDB, Mongoose, JWT, REST APIs</b>, and <b>Cloudinary</b>. Built secure, scalable systems and practiced advanced API design and authentication.",
+              "list": [
+                "Built RESTful APIs using Node.js & Express.js",
+                "Authentication using JWT",
+                "Data modeling with MongoDB & Mongoose",
+                "Media management with Cloudinary"
+              ],
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "REST API",
+                "Cloudinary"
+              ]
+            },
+            "es": {
+              "title": "Desarrollador {{Backend}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "UET Mardan",
+              "text": "Me especialicé en desarrollo backend con <b>Node.js, Express.js, MongoDB, Mongoose, JWT, REST APIs</b> y <b>Cloudinary</b>. Construí sistemas seguros y escalables con autenticación avanzada.",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "REST API",
+                "Cloudinary"
+              ]
+            },
+            "fr": {
+              "title": "Développeur {{Backend}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Spécialisé dans le développement backend avec <b>Node.js, Express.js, MongoDB, Mongoose, JWT, REST APIs</b> et <b>Cloudinary</b>. Création de systèmes sécurisés et évolutifs.",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "REST API",
+                "Cloudinary"
+              ]
+            },
+            "ko": {
+              "title": "{{백엔드}} 개발자",
+              "province": "카이베르파크툰크와",
+              "country": "파키스탄",
+              "institution": "UET 마르단",
+              "text": "<b>Node.js, Express.js, MongoDB, Mongoose, JWT, REST API, Cloudinary</b>를 사용하여 백엔드 개발에 집중했습니다. 보안성과 확장성을 고려한 시스템을 구축했습니다.",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "REST API",
+                "Cloudinary"
+              ]
+            },
+            "ar": {
+              "title": "مطور {{خلفية}}",
+              "province": "خیبر پختونخوا",
+              "country": "باكستان",
+              "institution": "جامعة UET مردان",
+              "text": "تخصصت في تطوير الواجهة الخلفية باستخدام <b>Node.js و Express.js و MongoDB و Mongoose و JWT و REST API و Cloudinary</b>. أنشأت أنظمة آمنة وقابلة للتوسع.",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "REST API",
+                "Cloudinary"
+              ]
+            },
+            "hi": {
+              "title": "{{बैकएंड}} डेवलपर",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "UET मर्दान",
+              "text": "<b>Node.js, Express.js, MongoDB, Mongoose, JWT, REST API</b> और <b>Cloudinary</b> के साथ बैकएंड विकास में विशेषज्ञता प्राप्त की। सुरक्षित और स्केलेबल सिस्टम बनाए।",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "REST API",
+                "Cloudinary"
+              ]
+            },
+            "de": {
+              "title": "{{Backend}}-Entwickler",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Spezialisiert auf Backend-Entwicklung mit <b>Node.js, Express.js, MongoDB, Mongoose, JWT, REST APIs</b> und <b>Cloudinary</b>. Sichere und skalierbare Systeme entwickelt.",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "REST API",
+                "Cloudinary"
+              ]
+            },
+            "ur": {
+              "title": "{{بیک اینڈ}} ڈویلپر",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "یو ای ٹی مردان",
+              "text": "<b>Node.js، Express.js، MongoDB، Mongoose، JWT، REST API</b> اور <b>Cloudinary</b> کے ساتھ بیک اینڈ ڈیولپمنٹ میں مہارت حاصل کی۔ محفوظ اور اسکیل ایبل سسٹم تیار کیے۔",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "REST API",
+                "Cloudinary"
+              ]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": "images/pictures/exp4.png",
+          "faIcon": "fa-solid fa-desktop",
+          "faIconColors": { "bg": "#4f46e5", "fill": "#ffffff" },
+          "dateStart": { "year": 2024, "month": 4 },
+          "dateEnd": { "year": 2025, "month": 1 },
+          "locales": {
+            "en": {
+              "title": "Frontend {{Developer}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Focused on frontend development with <b>React.js, Redux, Tailwind CSS</b>, <b>HTML</b>, and <b>CSS</b>. Built fully responsive interfaces, enhanced state management, and developed full-stack projects with elegant UIs.",
+              "list": [
+                "Modern React development with hooks & Redux",
+                "Tailwind CSS for advanced UI design",
+                "Fully responsive and accessible layouts",
+                "Project work using MERN stack"
+              ],
+              "tags": ["React", "Redux", "Tailwind", "HTML", "CSS"]
+            },
+            "es": {
+              "title": "Desarrollador {{Frontend}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "UET Mardan",
+              "text": "Me enfoqué en desarrollo frontend utilizando <b>React.js, Redux, Tailwind CSS, HTML y CSS</b>. Creé interfaces receptivas y mejoré la gestión de estado con Redux.",
+              "tags": ["React", "Redux", "Tailwind", "HTML", "CSS"]
+            },
+            "fr": {
+              "title": "Développeur {{Frontend}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Concentration sur le développement frontend avec <b>React.js, Redux, Tailwind CSS, HTML et CSS</b>. Création d'interfaces modernes et responsives.",
+              "tags": ["React", "Redux", "Tailwind", "HTML", "CSS"]
+            },
+            "ko": {
+              "title": "{{프론트엔드}} 개발자",
+              "province": "카이베르파크툰크와",
+              "country": "파키스탄",
+              "institution": "UET 마르단",
+              "text": "<b>React.js, Redux, Tailwind CSS, HTML, CSS</b>를 사용한 프론트엔드 개발에 집중하며, 반응형 UI 및 상태 관리를 향상시켰습니다.",
+              "tags": ["React", "Redux", "Tailwind", "HTML", "CSS"]
+            },
+            "ar": {
+              "title": "مطور {{واجهة أمامية}}",
+              "province": "خیبر پختونخوا",
+              "country": "باكستان",
+              "institution": "جامعة UET مردان",
+              "text": "ركزت على تطوير الواجهة الأمامية باستخدام <b>React.js و Redux و Tailwind CSS و HTML و CSS</b>. أنشأت واجهات مستخدم متجاوبة وحديثة.",
+              "tags": ["React", "Redux", "Tailwind", "HTML", "CSS"]
+            },
+            "hi": {
+              "title": "{{फ्रंटएंड}} डेवलपर",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "UET मर्दान",
+              "text": "<b>React.js, Redux, Tailwind CSS, HTML, CSS</b> के साथ फ्रंटएंड विकास पर ध्यान केंद्रित किया। आधुनिक यूआई और बेहतर स्टेट मैनेजमेंट सीखा।",
+              "tags": ["React", "Redux", "Tailwind", "HTML", "CSS"]
+            },
+            "de": {
+              "title": "{{Frontend}}-Entwickler",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Frontend-Entwicklung mit <b>React.js, Redux, Tailwind CSS, HTML und CSS</b>. Erstellung moderner und responsiver Benutzeroberflächen mit Redux-Integration.",
+              "tags": ["React", "Redux", "Tailwind", "HTML", "CSS"]
+            },
+            "ur": {
+              "title": "{{فرنٹ اینڈ}} ڈویلپر",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "یو ای ٹی مردان",
+              "text": "<b>React.js، Redux، Tailwind CSS، HTML، CSS</b> کے ساتھ فرنٹ اینڈ ڈویلپمنٹ پر توجہ دی۔ خوبصورت اور ریسپانسیو یوزر انٹرفیس بنائے۔",
+              "tags": ["React", "Redux", "Tailwind", "HTML", "CSS"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": "images/pictures/exp5.png",
+          "faIcon": "fa-solid fa-layer-group",
+          "faIconColors": { "bg": "#0f172a", "fill": "#ffffff" },
+          "dateStart": { "year": 2025, "month": 1 },
+          "dateEnd": "present",
+          "locales": {
+            "en": {
+              "title": "Full Stack {{Developer}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Building scalable applications using <b>Next.js, React, Express.js, Node.js</b>, and <b>MongoDB</b>. Implementing schema validation with <b>Zod</b> and modern UI design using <b>Aceternity UI</b> and <b>shadcn/ui</b>.",
+              "list": [
+                "Type-safe APIs with Next.js + Zod",
+                "UI with shadcn/ui and Aceternity components",
+                "Express.js backend with MongoDB & Mongoose",
+                "Frontend: React & Tailwind CSS (shadcn design)"
+              ],
+              "tags": [
+                "Full Stack",
+                "Next.js",
+                "Zod",
+                "shadcn/ui",
+                "Aceternity UI",
+                "React",
+                "Express",
+                "Node.js",
+                "MongoDB"
+              ]
+            },
+            "es": {
+              "title": "Desarrollador {{Full Stack}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "UET Mardan",
+              "text": "Desarrollo de aplicaciones escalables con <b>Next.js, React, Express.js, Node.js</b> y <b>MongoDB</b>. Uso de <b>Zod</b> para validación y diseño de UI con <b>shadcn/ui</b> y <b>Aceternity UI</b>.",
+              "tags": [
+                "Full Stack",
+                "Next.js",
+                "Zod",
+                "shadcn/ui",
+                "Aceternity UI",
+                "React",
+                "Express",
+                "Node.js",
+                "MongoDB"
+              ]
+            },
+            "fr": {
+              "title": "Développeur {{Full Stack}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Développement d'applications avec <b>Next.js, React, Express.js, Node.js</b> et <b>MongoDB</b>. Validation avec <b>Zod</b> et conception UI moderne avec <b>shadcn/ui</b> et <b>Aceternity UI</b>.",
+              "tags": [
+                "Full Stack",
+                "Next.js",
+                "Zod",
+                "shadcn/ui",
+                "Aceternity UI",
+                "React",
+                "Express",
+                "Node.js",
+                "MongoDB"
+              ]
+            },
+            "ko": {
+              "title": "풀스택 {{개발자}}",
+              "province": "카이베르파크툰크와",
+              "country": "파키스탄",
+              "institution": "UET 마르단",
+              "text": "<b>Next.js, React, Express.js, Node.js, MongoDB</b>를 사용하여 확장 가능한 애플리케이션 개발. <b>Zod</b>로 유효성 검사 및 <b>shadcn/ui, Aceternity UI</b>로 UI 디자인.",
+              "tags": [
+                "Full Stack",
+                "Next.js",
+                "Zod",
+                "shadcn/ui",
+                "Aceternity UI",
+                "React",
+                "Express",
+                "Node.js",
+                "MongoDB"
+              ]
+            },
+            "ar": {
+              "title": "مطور {{فل ستاك}}",
+              "province": "خیبر پختونخوا",
+              "country": "باكستان",
+              "institution": "جامعة UET مردان",
+              "text": "بناء تطبيقات باستخدام <b>Next.js, React, Express.js, Node.js</b> و <b>MongoDB</b>. استخدام <b>Zod</b> للتحقق وتصميم واجهات مستخدم بـ <b>shadcn/ui</b> و <b>Aceternity UI</b>.",
+              "tags": [
+                "Full Stack",
+                "Next.js",
+                "Zod",
+                "shadcn/ui",
+                "Aceternity UI",
+                "React",
+                "Express",
+                "Node.js",
+                "MongoDB"
+              ]
+            },
+            "hi": {
+              "title": "फुल स्टैक {{डेवलपर}}",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "UET मर्दान",
+              "text": "<b>Next.js, React, Express.js, Node.js, MongoDB</b> के साथ स्केलेबल ऐप्स बना रहा हूँ। <b>Zod</b> से वेलिडेशन और <b>shadcn/ui, Aceternity UI</b> से UI डिज़ाइन करता हूँ।",
+              "tags": [
+                "Full Stack",
+                "Next.js",
+                "Zod",
+                "shadcn/ui",
+                "Aceternity UI",
+                "React",
+                "Express",
+                "Node.js",
+                "MongoDB"
+              ]
+            },
+            "de": {
+              "title": "Full Stack {{Entwickler}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Entwicklung skalierbarer Anwendungen mit <b>Next.js, React, Express.js, Node.js, MongoDB</b>. Validierung mit <b>Zod</b> und UI-Design mit <b>shadcn/ui</b> und <b>Aceternity UI</b>.",
+              "tags": [
+                "Full Stack",
+                "Next.js",
+                "Zod",
+                "shadcn/ui",
+                "Aceternity UI",
+                "React",
+                "Express",
+                "Node.js",
+                "MongoDB"
+              ]
+            },
+            "ur": {
+              "title": "{{فل اسٹیک}} ڈویلپر",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "یو ای ٹی مردان",
+              "text": "<b>Next.js، React، Express.js، Node.js، MongoDB</b> کے ساتھ اسکیل ایبل ایپلیکیشنز تیار کر رہا ہوں۔ <b>Zod</b> سے اسکیمہ ویلیڈیشن اور <b>shadcn/ui</b> و <b>Aceternity UI</b> سے جدید یوزر انٹرفیس بناتا ہوں۔",
+              "tags": [
+                "Full Stack",
+                "Next.js",
+                "Zod",
+                "shadcn/ui",
+                "Aceternity UI",
+                "React",
+                "Express",
+                "Node.js",
+                "MongoDB"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

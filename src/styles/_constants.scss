@@ -1,0 +1,43 @@
+@import 'themes/variables-theme-dark';
+@import 'themes/variables-theme-light';
+
+/** Overriding Bootstrap's contrast ratio. **/
+$min-contrast-ratio: 1.5 !default;
+
+/** Typography **/
+$font-family-base: 'Saira', sans-serif;
+$headings-font-family: 'Orbitron', sans-serif;
+
+/** Static Colors **/
+$loader-background: #111111;
+$loader-contrast: #ffffff;
+$primary: #36ad59;
+
+/** Z-Indexing **/
+$z-index-background: -1;
+$z-index-content: 0;
+$z-index-section-inactive: 10;
+$z-index-section-active: 20;
+$z-index-section-floating-items: 30;
+$z-index-sidebar: 40;
+$z-index-nav-tabs: 50;
+$z-index-pop-over: 1200;
+$z-index-modal: 1210;
+$z-index-notifications: 1220;
+$z-index-dialogs: 1230;
+$z-index-activity-spinner: 1240;
+$z-index-animated-cursor: 1250;
+$z-index-loader: 1260;
+
+/** Layout Constraints - General **/
+$max-breakpoint-for-tabbed-interface: md;
+$standard-border-radius: 10px;
+$default-card-spacing: 0.5rem;
+$default-card-spacing-mobile: 5px;
+$timeline-merge-mode-breakpoint: sm;
+
+/** Layout Constraints - Nav **/
+$nav-tabs-height: 55px;
+$nav-tabs-height-with-offset: 75px;
+$nav-pills-height: 50px;
+$nav-pills-height-compressed: 50px;

@@ -1,0 +1,612 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Welcome!",
+        "title_short_nav": "About me",
+        "title_long_prefix": "Hello...",
+        "title_long": "I'm {{Muhammad Shakeel!}}"
+      },
+      "es": {
+        "title_short": "¡Saludos!",
+        "title_short_nav": "Sobre mí",
+        "title_long_prefix": "Hola...",
+        "title_long": "Soy {{Muhammad Shakeel!}}"
+      },
+      "fr": {
+        "title_short": "Salut !",
+        "title_short_nav": "À propos",
+        "title_long_prefix": "Salut...",
+        "title_long": "Je suis {{Muhammad Shakeel !}}"
+      },
+      "ko": {
+        "title_short": "환영합니다!",
+        "title_short_nav": "소개",
+        "title_long_prefix": "안녕하세요...",
+        "title_long": "저는 {{Muhammad Shakeel}}입니다!"
+      },
+      "ar": {
+        "title_short": "مرحباً!",
+        "title_short_nav": "نبذة عني",
+        "title_long_prefix": "مرحباً بك...",
+        "title_long": "أنا {{Muhammad Shakeel!}}"
+      },
+      "hi": {
+        "title_short": "स्वागत है!",
+        "title_short_nav": "मेरे बारे में",
+        "title_long_prefix": "नमस्ते...",
+        "title_long": "मैं {{Muhammad Shakeel!}} हूँ"
+      },
+      "de": {
+        "title_short": "Willkommen!",
+        "title_short_nav": "Über mich",
+        "title_long_prefix": "Hallo...",
+        "title_long": "Ich bin {{Muhammad Shakeel!}}"
+      },
+      "ur": {
+        "title_short": "خوش آمدید!",
+        "title_short_nav": "میرے بارے میں",
+        "title_long_prefix": "سلام...",
+        "title_long": "میں ہوں {{Muhammad Shakeel!}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleInlineList",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "display_as_list_if_width_is_lower_than": 380
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "Peshawar",
+          "link": {
+            "href": "https://maps.google.com/?q=Peshawar",
+            "tooltipString": ""
+          },
+          "faIcon": "pi pi-map-marker"
+        },
+        {
+          "id": 2,
+          "label": "muhammadshakeelafd@gmail.com",
+          "link": {
+            "href": "mailto:muhammadshakeelafd@gmail.com",
+            "tooltipString": "email_me"
+          },
+          "faIcon": "fa-regular fa-envelope"
+        },
+        {
+          "id": 3,
+          "label": "@Muhammad-Shakeel123",
+          "link": {
+            "href": "https://github.com/Muhammad-Shakeel123",
+            "tooltipString": "see_on_github"
+          },
+          "faIcon": "fa-brands fa-github"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleText",
+      "locales": {
+        "en": { "title": "{{A little bit}} about me..." },
+        "es": { "title": "{{Un poco}} sobre mí..." },
+        "fr": { "title": "{{Un peu}} sur moi..." },
+        "ko": { "title": "{{조금}} 저에 대해..." },
+        "ar": { "title": "قليلاً {{عنّي}}..." },
+        "hi": { "title": "{{थोड़ा सा}} मेरे बारे में..." },
+        "de": { "title": "{{Ein bisschen}} über mich..." },
+        "ur": { "title": "میرے بارے میں {{تھوڑا سا}}..." }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/about3.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "text": "<p>I’m a {{MERN Stack + Next.js}} developer with [[strong experience]] in full-stack web development. I specialize in building modern, scalable web applications using MongoDB, Express.js, React, and Node.js with Next.js for server-side rendering and performance optimization.</p><p>I also have experience with REST APIs, third-party integrations, responsive UI/UX, and deployment best practices.</p><p>I look forward to collaborating [[with you!]]</p>"
+            },
+            "es": {
+              "text": "<p>Soy un desarrollador de {{MERN Stack + Next.js}} con [[una sólida experiencia]] en desarrollo web full-stack. Me especializo en construir aplicaciones web modernas y escalables utilizando MongoDB, Express.js, React y Node.js con Next.js para renderizado del lado del servidor y optimización del rendimiento.</p><p>También tengo experiencia con APIs REST, integraciones de terceros, diseño UI/UX receptivo y buenas prácticas de despliegue.</p><p>¡Espero colaborar [[contigo!]]</p>"
+            },
+            "fr": {
+              "text": "<p>Je suis développeur {{MERN Stack + Next.js}} avec [[une solide expérience]] en développement web full-stack. Je me spécialise dans la création d'applications web modernes et évolutives en utilisant MongoDB, Express.js, React et Node.js avec Next.js pour le rendu côté serveur et l'optimisation des performances.</p><p>J'ai également de l'expérience avec les API REST, les intégrations tierces, l’UI/UX réactive et les meilleures pratiques de déploiement.</p><p>Je suis impatient de collaborer [[avec vous !]]</p>"
+            },
+            "ko": {
+              "text": "<p>저는 {{MERN 스택 + Next.js}} 개발자로서 [[풀스택 웹 개발]]에 대한 풍부한 경험을 가지고 있습니다. MongoDB, Express.js, React, Node.js 및 서버 사이드 렌더링과 성능 최적화를 위한 Next.js를 사용하여 현대적이고 확장 가능한 웹 애플리케이션을 개발합니다.</p><p>또한 REST API, 타사 통합, 반응형 UI/UX 및 배포 최적화에 대한 경험도 있습니다.</p><p>[[당신과 함께]] 협업하길 기대합니다!</p>"
+            },
+            "ar": {
+              "text": "<p>أنا مطور {{MERN Stack + Next.js}} أتمتع [[بخبرة قوية]] في تطوير الويب الكامل. أُتقن بناء تطبيقات ويب حديثة وقابلة للتوسع باستخدام MongoDB وExpress.js وReact وNode.js مع Next.js لتقديم محتوى من جهة الخادم وتحسين الأداء.</p><p>كما أن لدي خبرة في واجهات REST، والتكامل مع أطراف خارجية، وتصميم UI/UX المتجاوب، وأفضل ممارسات النشر.</p><p>أتطلع للتعاون [[معك!]]</p>"
+            },
+            "hi": {
+              "text": "<p>मैं {{MERN Stack + Next.js}} डेवलपर हूँ, जिसे [[फुल-स्टैक वेब डेवलपमेंट]] में अच्छा अनुभव है। मैं MongoDB, Express.js, React, और Node.js के साथ Next.js का उपयोग करके आधुनिक और स्केलेबल वेब एप्लिकेशन बनाता हूँ।</p><p>मुझे REST APIs, थर्ड-पार्टी इंटीग्रेशन, रेस्पॉन्सिव UI/UX और डिप्लॉयमेंट बेस्ट प्रैक्टिसेज़ का भी अनुभव है।</p><p>[[आपके साथ सहयोग]] करने के लिए उत्सुक हूँ!</p>"
+            },
+            "de": {
+              "text": "<p>Ich bin ein {{MERN Stack + Next.js}} Entwickler mit [[umfangreicher Erfahrung]] in der Full-Stack-Webentwicklung. Ich spezialisiere mich auf moderne, skalierbare Webanwendungen mit MongoDB, Express.js, React und Node.js sowie Next.js für serverseitiges Rendering und Performanceoptimierung.</p><p>Ich habe auch Erfahrung mit REST-APIs, Drittanbieter-Integrationen, responsivem UI/UX und Best Practices für Deployments.</p><p>Ich freue mich auf eine Zusammenarbeit [[mit dir!]]</p>"
+            },
+            "ur": {
+              "text": "<p>میں {{MERN Stack + Next.js}} ڈویلپر ہوں جسے [[فل اسٹیک ویب ڈیویلپمنٹ]] کا اچھا تجربہ حاصل ہے۔ میں MongoDB, Express.js, React, اور Node.js کے ساتھ Next.js کا استعمال کرتے ہوئے جدید اور اسکیل ایبل ویب ایپلی کیشنز تیار کرتا ہوں۔</p><p>مجھے REST APIs، تھرڈ پارٹی انٹیگریشنز، ریسپانسیو UI/UX اور ڈیپلائمنٹ کی بہترین حکمت عملیوں میں بھی مہارت حاصل ہے۔</p><p>[[آپ کے ساتھ کام کرنے]] کا منتظر ہوں!</p>"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "component": "ArticleTestimonials",
+      "locales": {
+        "en": { "title": "Client {{testimonials}}" },
+        "es": { "title": "Testimonios de {{clientes}}" },
+        "fr": { "title": "Témoignages de {{clients}}" },
+        "ko": { "title": "{{고객}} 추천사" },
+        "ar": { "title": "آراء {{العملاء}}" },
+        "hi": { "title": "{{क्लाइंट}} की प्रशंसा" },
+        "de": { "title": "Kunden{{bewertungen}}" },
+        "ur": { "title": "کلائنٹ کی {{تعریفیں}}" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "Sikandar Afridi",
+          "link": {
+            "href": "https://github.com/khanafridi2244",
+            "tooltipString": "see_on_github"
+          },
+          "img": "images/pictures/test1.png",
+          "faIcon": "fa-brands fa-github",
+          "faIconColors": { "bg": "#333", "fill": "#fff" },
+          "locales": {
+            "en": {
+              "title": "Frontend Developer at [[Github]]",
+              "text": "Shakeel’s attention to detail and passion for full stack development are truly impressive. He has a strong grasp of both frontend and backend, and his work always stands out."
+            },
+            "es": {
+              "title": "Desarrollador Frontend en [[Github]]",
+              "text": "La atención al detalle de Shakeel y su pasión por el desarrollo full stack son realmente impresionantes. Tiene un sólido dominio de frontend y backend, y su trabajo siempre destaca."
+            },
+            "fr": {
+              "title": "Développeur Frontend chez [[Github]]",
+              "text": "L’attention de Shakeel aux détails et sa passion pour le développement full stack sont impressionnantes. Il maîtrise aussi bien le frontend que le backend, et son travail se démarque."
+            },
+            "ko": {
+              "title": "[[Github]]의 프론트엔드 개발자",
+              "text": "Shakeel의 디테일에 대한 집착과 풀스택 개발에 대한 열정은 정말 인상적입니다. 그는 프론트엔드와 백엔드 모두에서 뛰어난 실력을 보여줍니다."
+            },
+            "ar": {
+              "title": "مطور الواجهة الأمامية في [[Github]]",
+              "text": "انتباه Shakeel للتفاصيل وشغفه بتطوير البرمجيات الكاملة مذهل حقًا. لديه فهم قوي للواجهة الأمامية والخلفية، وعمله دائمًا مميز."
+            },
+            "hi": {
+              "title": "[[Github]] में फ्रंटेंड डेवलपर",
+              "text": "Shakeel का डिटेल पर ध्यान और फुलस्टैक डेवलपमेंट के प्रति जुनून वाकई काबिले तारीफ है। वह फ्रंटेंड और बैकेंड दोनों में माहिर हैं, और उनका काम हमेशा अलग नज़र आता है।"
+            },
+            "de": {
+              "title": "Frontend-Entwickler bei [[Github]]",
+              "text": "Shakeels Liebe zum Detail und seine Leidenschaft für Full-Stack-Entwicklung sind beeindruckend. Er beherrscht sowohl das Frontend als auch das Backend und hebt sich mit seiner Arbeit stets hervor."
+            },
+            "ur": {
+              "title": "[[Github]] میں فرنٹ اینڈ ڈویلپر",
+              "text": "Shakeel کی تفصیل پر توجہ اور فل اسٹیک ڈویلپمنٹ کے لیے جذبہ واقعی متاثر کن ہے۔ وہ فرنٹ اینڈ اور بیک اینڈ دونوں پر مکمل عبور رکھتے ہیں، اور ان کا کام ہمیشہ نمایاں ہوتا ہے۔"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "label": "Muhammad Asif",
+          "link": {
+            "href": "",
+            "tooltipString": ""
+          },
+          "img": "images/pictures/test2.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Telecom Engineer",
+              "text": "During his AI-based final year project, I had the opportunity to [[support Muhammad Asif]] with the technical implementation and guidance. It was a valuable and collaborative experience."
+            },
+            "es": {
+              "title": "Ingeniero de Telecomunicaciones",
+              "text": "Durante su proyecto final basado en IA, tuve la oportunidad de [[apoyar a Muhammad Asif]] con la implementación técnica y orientación. Fue una experiencia valiosa y colaborativa."
+            },
+            "fr": {
+              "title": "Ingénieur Télécom",
+              "text": "Pendant son projet de fin d’études basé sur l’IA, j’ai eu l’occasion de [[soutenir Muhammad Asif]] dans la mise en œuvre technique et l’orientation. Ce fut une expérience précieuse et collaborative."
+            },
+            "ko": {
+              "title": "통신 엔지니어",
+              "text": "AI 기반 졸업 프로젝트 동안, 저는 Muhammad Asif을 [[기술적인 구현과 방향 제시에 있어 지원할 기회]]를 가졌습니다. 값지고 협력적인 경험이었습니다."
+            },
+            "ar": {
+              "title": "مهندس اتصالات",
+              "text": "خلال مشروع تخرجه القائم على الذكاء الاصطناعي، أتيحت لي الفرصة [[لدعم محمد آصف]] في التنفيذ الفني والتوجيه. كانت تجربة قيمة وتعاونية."
+            },
+            "de": {
+              "title": "Telekommunikationsingenieur",
+              "text": "Während seines KI-basierten Abschlussprojekts hatte ich die Möglichkeit, [[Muhammad Asif bei der technischen Umsetzung und Beratung zu unterstützen]]. Es war eine wertvolle und kooperative Erfahrung."
+            },
+            "hi": {
+              "title": "टेलीकॉम इंजीनियर",
+              "text": "AI आधारित अंतिम वर्ष परियोजना के दौरान मुझे [[मुहम्मद आसिफ की तकनीकी सहायता और मार्गदर्शन में मदद करने]] का अवसर मिला। यह एक मूल्यवान और सहयोगी अनुभव था।"
+            },
+            "ur": {
+              "title": "ٹیلی کام انجینئر",
+              "text": "ان کے AI پر مبنی فائنل ایئر پروجیکٹ کے دوران مجھے [[محمد آصف کی تکنیکی رہنمائی اور مدد کرنے]] کا موقع ملا۔ یہ ایک قیمتی اور اشتراکی تجربہ تھا۔"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "label": "Academic Discipline",
+          "img": "images/pictures/test3.png",
+          "faIcon": "fa-solid fa-calendar-check",
+          "faIconColors": { "bg": "#4caf50", "fill": "#fff" },
+          "locales": {
+            "en": {
+              "title": "Consistent Attendance",
+              "text": "Maintained over 90% attendance throughout my academic years, showing my strong commitment, time management, and seriousness toward learning."
+            },
+            "es": {
+              "title": "Asistencia Constante",
+              "text": "Mantuve más del 90% de asistencia durante mis años académicos, demostrando mi compromiso y disciplina."
+            },
+            "fr": {
+              "title": "Présence Assidue",
+              "text": "J'ai maintenu une présence de plus de 90 % pendant mes années d'études, preuve de mon sérieux et de mon engagement."
+            },
+            "ko": {
+              "title": "꾸준한 출석",
+              "text": "학업 기간 동안 90% 이상의 출석률을 유지하며 학습에 대한 성실성과 헌신을 보여주었습니다."
+            },
+            "ar": {
+              "title": "الانضباط الأكاديمي",
+              "text": "حافظت على حضور يزيد عن 90٪ خلال سنواتي الأكاديمية، مما يدل على التزامي وجديتي."
+            },
+            "de": {
+              "title": "Hohe Anwesenheit",
+              "text": "Ich habe während meines Studiums über 90 % Anwesenheit beibehalten und damit Engagement und Disziplin gezeigt."
+            },
+            "hi": {
+              "title": "उच्च उपस्थिति",
+              "text": "मैंने अपने शैक्षणिक वर्षों के दौरान 90% से अधिक उपस्थिति बनाए रखी, जो मेरी प्रतिबद्धता और अनुशासन को दर्शाता है।"
+            },
+            "ur": {
+              "title": "تعلیمی حاضری",
+              "text": "میں نے اپنے تعلیمی سالوں میں 90٪ سے زائد حاضری کو برقرار رکھا، جو میری لگن اور سنجیدگی کو ظاہر کرتا ہے۔"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "component": "ArticleInfoList",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "locales": {
+        "en": { "title": "Personal {{interests}}" },
+        "es": { "title": "Intereses {{personales}}" },
+        "fr": { "title": "Intérêts {{personnels}}" },
+        "ko": { "title": "개인 {{관심사}}" },
+        "ar": { "title": "الاهتمامات {{الشخصية}}" },
+        "de": { "title": "Persönliche {{Interessen}}" },
+        "hi": { "title": "व्यक्तिगत {{रुचियां}}" },
+        "ur": { "title": "ذاتی {{دلچسپیاں}}" }
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-video",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "{{AI}} video editing",
+              "text": "Learning to use AI tools to enhance my videos."
+            },
+            "es": {
+              "title": "Edición de video con {{AI}}",
+              "text": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+            },
+            "fr": {
+              "title": "Édition vidéo avec {{IA}}",
+              "text": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+            },
+            "ko": {
+              "title": "{{AI}} 비디오 편집",
+              "text": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+            },
+            "ar": {
+              "title": "تحرير الفيديو باستخدام {{الذكاء الاصطناعي}}",
+              "text": "تعلم استخدام أدوات الذكاء الاصطناعي لتحسين مقاطع الفيديو الخاصة بي."
+            },
+            "de": {
+              "title": "{{KI}} Videobearbeitung",
+              "text": "Lernen, KI-Werkzeuge zur Verbesserung meiner Videos zu nutzen."
+            },
+            "hi": {
+              "title": "{{एआई}} वीडियो संपादन",
+              "text": "अपने वीडियो को बेहतर बनाने के लिए एआई टूल्स का उपयोग करना सीख रहा हूँ।"
+            },
+            "ur": {
+              "title": "{{اے آئی}} ویڈیو ایڈیٹنگ",
+              "text": "میں اپنے ویڈیوز کو بہتر بنانے کے لیے AI ٹولز کا استعمال سیکھ رہا ہوں۔"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "{{Web}} development",
+              "text": "Exploring new technologies and frameworks."
+            },
+            "es": {
+              "title": "{{Desarrollo}} web",
+              "text": "Explorando nuevas tecnologías y frameworks."
+            },
+            "fr": {
+              "title": "{{Développement}} web",
+              "text": "Explorer de nouvelles technologies et frameworks."
+            },
+            "ko": {
+              "title": "{{웹}} 개발",
+              "text": "새로운 기술과 프레임워크 탐색하기."
+            },
+            "ar": {
+              "title": "تطوير {{الويب}}",
+              "text": "استكشاف تقنيات وأُطر عمل جديدة."
+            },
+            "de": {
+              "title": "{{Web}}-Entwicklung",
+              "text": "Erkundung neuer Technologien und Frameworks."
+            },
+            "hi": {
+              "title": "{{वेब}} विकास",
+              "text": "नई तकनीकों और फ्रेमवर्क्स का अन्वेषण।"
+            },
+            "ur": {
+              "title": "{{ویب}} ڈویلپمنٹ",
+              "text": "نئی ٹیکنالوجیز اور فریم ورک دریافت کرنا۔"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-window-restore",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "{{UX}} design",
+              "text": "Studying user experience principles."
+            },
+            "es": {
+              "title": "Diseño {{UX}}",
+              "text": "Estudiando los principios de la experiencia del usuario."
+            },
+            "fr": {
+              "title": "Conception {{UX}}",
+              "text": "Étudier les principes de l'expérience utilisateur."
+            },
+            "ko": {
+              "title": "{{UX}} 디자인",
+              "text": "사용자 경험 원칙을 공부하기."
+            },
+            "ar": {
+              "title": "تصميم {{UX}}",
+              "text": "دراسة مبادئ تجربة المستخدم."
+            },
+            "de": {
+              "title": "{{UX}}-Design",
+              "text": "Studium der Prinzipien der Benutzererfahrung."
+            },
+            "hi": {
+              "title": "{{यूएक्स}} डिज़ाइन",
+              "text": "यूज़र एक्सपीरियंस सिद्धांतों का अध्ययन।"
+            },
+            "ur": {
+              "title": "{{UX}} ڈیزائن",
+              "text": "صارف کے تجربے کے اصولوں کا مطالعہ۔"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-camera-retro",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "{{Photography}} & Photoshop",
+              "text": "Enhancing photos through creative editing techniques."
+            },
+            "es": {
+              "title": "{{Fotografía}} y Photoshop",
+              "text": "Mejorando fotos a través de técnicas creativas de edición."
+            },
+            "fr": {
+              "title": "{{Photographie}} & Photoshop",
+              "text": "Améliorer des photos avec des techniques de montage créatives."
+            },
+            "ko": {
+              "title": "{{사진}} 및 포토샵",
+              "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
+            },
+            "ar": {
+              "title": "{{التصوير}} و Photoshop",
+              "text": "تحسين الصور من خلال تقنيات التحرير الإبداعية."
+            },
+            "de": {
+              "title": "{{Fotografie}} & Photoshop",
+              "text": "Fotos durch kreative Bearbeitungstechniken verbessern."
+            },
+            "hi": {
+              "title": "{{फोटोग्राफी}} और फ़ोटोशॉप",
+              "text": "रचनात्मक संपादन तकनीकों से फ़ोटो को बेहतर बनाना।"
+            },
+            "ur": {
+              "title": "{{فوٹوگرافی}} اور فوٹوشاپ",
+              "text": "تخلیقی ترمیمی تکنیکوں کے ذریعے تصاویر کو بہتر بنانا۔"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "faIcon": "fa-solid fa-gamepad",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "{{Gaming}}",
+              "text": "Exploring new games and gaming technologies."
+            },
+            "es": {
+              "title": "{{Videojuegos}}",
+              "text": "Explorando nuevos juegos y tecnologías de videojuegos."
+            },
+            "fr": {
+              "title": "{{Jeux vidéo}}",
+              "text": "Explorer de nouveaux jeux et technologies de jeu."
+            },
+            "ko": {
+              "title": "{{게임}}",
+              "text": "새로운 게임과 게임 기술 탐색하기."
+            },
+            "ar": {
+              "title": "{{ألعاب الفيديو}}",
+              "text": "استكشاف ألعاب وتقنيات جديدة."
+            },
+            "de": {
+              "title": "{{Gaming}}",
+              "text": "Erforschung neuer Spiele und Gaming-Technologien."
+            },
+            "hi": {
+              "title": "{{गेमिंग}}",
+              "text": "नए गेम्स और गेमिंग तकनीकों का अन्वेषण।"
+            },
+            "ur": {
+              "title": "{{گیمنگ}}",
+              "text": "نئے کھیلوں اور گیمنگ ٹیکنالوجیز کا جائزہ لینا۔"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "Watching {{Tech Tutorials}}",
+              "text": "Staying up-to-date with the latest technologies by learning from online tutorials."
+            },
+            "es": {
+              "title": "Ver {{tutoriales tecnológicos}}",
+              "text": "Mantenerse actualizado con las últimas tecnologías aprendiendo de tutoriales en línea."
+            },
+            "fr": {
+              "title": "Regarder des {{tutoriels tech}}",
+              "text": "Se tenir au courant des dernières technologies en apprenant via des tutoriels en ligne."
+            },
+            "ko": {
+              "title": "{{기술 튜토리얼}} 보기",
+              "text": "최신 기술을 배우기 위해 온라인 튜토리얼을 시청합니다."
+            },
+            "ar": {
+              "title": "مشاهدة {{الدروس التقنية}}",
+              "text": "البقاء على اطلاع بأحدث التقنيات من خلال التعلم عبر الإنترنت."
+            },
+            "de": {
+              "title": "{{Tech-Tutorials}} ansehen",
+              "text": "Durch Online-Tutorials auf dem neuesten Stand der Technik bleiben."
+            },
+            "hi": {
+              "title": "{{टेक ट्यूटोरियल्स}} देखना",
+              "text": "ऑनलाइन ट्यूटोरियल्स से सीखकर नवीनतम तकनीकों से अपडेट रहना।"
+            },
+            "ur": {
+              "title": "{{ٹیک ٹیوٹوریلز}} دیکھنا",
+              "text": "آن لائن ٹیوٹوریلز سے سیکھ کر جدید ٹیکنالوجی سے باخبر رہنا۔"
+            }
+          }
+        },
+
+        {
+          "id": 7,
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "{{Coding}}",
+              "text": "Creating digital solutions and building applications using programming languages."
+            },
+            "es": {
+              "title": "{{Programación}}",
+              "text": "Creando soluciones digitales y aplicaciones usando lenguajes de programación."
+            },
+            "fr": {
+              "title": "{{Codage}}",
+              "text": "Créer des solutions numériques et développer des applications avec des langages de programmation."
+            },
+            "ko": {
+              "title": "{{코딩}}",
+              "text": "프로그래밍 언어를 사용하여 디지털 솔루션과 애플리케이션을 개발합니다."
+            },
+            "ar": {
+              "title": "{{البرمجة}}",
+              "text": "إنشاء حلول رقمية وبناء التطبيقات باستخدام لغات البرمجة."
+            },
+            "de": {
+              "title": "{{Programmieren}}",
+              "text": "Digitale Lösungen und Anwendungen mit Programmiersprachen erstellen."
+            },
+            "hi": {
+              "title": "{{कोडिंग}}",
+              "text": "प्रोग्रामिंग भाषाओं का उपयोग करके डिजिटल समाधान और एप्लिकेशन बनाना।"
+            },
+            "ur": {
+              "title": "{{کوڈنگ}}",
+              "text": "پروگرامنگ زبانوں کے ذریعے ڈیجیٹل حل اور ایپلیکیشنز تیار کرنا۔"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

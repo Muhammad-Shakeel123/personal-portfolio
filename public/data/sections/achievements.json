@@ -1,0 +1,480 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Awards",
+        "title_short_nav": "Achievements",
+        "title_long_prefix": "Here are my",
+        "title_long": "Career {{Achievements}}"
+      },
+      "es": {
+        "title_short": "Logros",
+        "title_short_nav": "Logros",
+        "title_long_prefix": "Aquí están mis",
+        "title_long": "{{Logros}} Profesionales"
+      },
+      "fr": {
+        "title_short": "Réalis",
+        "title_short_nav": "Réalisations",
+        "title_long_prefix": "Voici",
+        "title_long": "Mes {{Réalisations}}"
+      },
+      "ko": {
+        "title_short": "경력 성과",
+        "title_short_nav": "경력 성과",
+        "title_long_prefix": "다음은",
+        "title_long": "{{경력 성과}}입니다"
+      },
+      "ar": {
+        "title_short": "الجوائز",
+        "title_short_nav": "الإنجازات",
+        "title_long_prefix": "هذه هي",
+        "title_long": "{{الإنجازات}} المهنية"
+      },
+      "de": {
+        "title_short": "Auszeichnungen",
+        "title_short_nav": "Erfolge",
+        "title_long_prefix": "Hier sind meine",
+        "title_long": "Berufliche {{Erfolge}}"
+      },
+      "hi": {
+        "title_short": "पुरस्कार",
+        "title_short_nav": "उपलब्धियाँ",
+        "title_long_prefix": "यहाँ मेरी",
+        "title_long": "पेशेवर {{उपलब्धियाँ}} हैं"
+      },
+      "ur": {
+        "title_short": "اعزازات",
+        "title_short_nav": "کامیابیاں",
+        "title_long_prefix": "یہ ہیں میری",
+        "title_long": "پیشہ ورانہ {{کامیابیاں}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleCards",
+      "locales": {
+        "en": { "title": "Certifications" },
+        "es": { "title": "Certificaciones" },
+        "fr": { "title": "Certifications" },
+        "ko": { "title": "인증서" },
+        "ar": { "title": "الشهادات" },
+        "de": { "title": "Zertifizierungen" },
+        "hi": { "title": "प्रमाण पत्र" },
+        "ur": { "title": "تصدیق نامے" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-solid fa-brain",
+          "faIconColors": { "bg": "#2A73CC", "fill": "#FFF" },
+          "date": { "year": 2025, "month": 7 },
+          "link": {
+            "href": "https://coursera.org/verify/WWXE4YLCUQLY",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "Coursera {{Certificate}}",
+              "text": "AI For Everyone – Instructor: Andrew Ng"
+            },
+            "es": {
+              "title": "Coursera {{Certificación}}",
+              "text": "IA para todos – Instructor: Andrew Ng"
+            },
+            "fr": {
+              "title": "Coursera {{Certificat}}",
+              "text": "L'IA pour tous – Instructeur : Andrew Ng"
+            },
+            "ko": {
+              "title": "Coursera {{자격증}}",
+              "text": "모두를 위한 인공지능 – 강사: 앤드류 응"
+            },
+            "ar": {
+              "title": "كورسيرا {{شهادة}}",
+              "text": "الذكاء الاصطناعي للجميع – المدرس: أندرو نغ"
+            },
+            "de": {
+              "title": "Coursera {{Zertifikat}}",
+              "text": "KI für alle – Dozent: Andrew Ng"
+            },
+            "hi": {
+              "title": "Coursera {{प्रमाणपत्र}}",
+              "text": "हर किसी के लिए एआई – प्रशिक्षक: एंड्रयू एनजी"
+            },
+            "ur": {
+              "title": "Coursera {{سرٹیفکیٹ}}",
+              "text": "سب کے لیے اے آئی – انسٹرکٹر: اینڈریو این جی"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-certificate",
+          "faIconColors": { "bg": "#0056D2", "fill": "#fff" },
+          "date": { "year": 2025, "month": 7 },
+          "link": {
+            "href": "https://coursera.org/verify/N3CJEFN5EH6Z",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "Coursera {{Certificate}}",
+              "text": "Programming with C++ – Simplilearn Instructor"
+            },
+            "es": {
+              "title": "Certificado de {{Coursera}}",
+              "text": "Programación con C++ – Instructor de Simplilearn"
+            },
+            "fr": {
+              "title": "Certificat {{Coursera}}",
+              "text": "Programmation en C++ – Instructeur Simplilearn"
+            },
+            "ko": {
+              "title": "{{Coursera}} 인증서",
+              "text": "C++ 프로그래밍 – Simplilearn 강사"
+            },
+            "ar": {
+              "title": "شهادة {{Coursera}}",
+              "text": "البرمجة باستخدام C++ – مدرب Simplilearn"
+            },
+            "de": {
+              "title": "{{Coursera}} Zertifikat",
+              "text": "Programmieren mit C++ – Simplilearn Ausbilder"
+            },
+            "hi": {
+              "title": "{{Coursera}} प्रमाणपत्र",
+              "text": "C++ के साथ प्रोग्रामिंग – Simplilearn प्रशिक्षक"
+            },
+            "ur": {
+              "title": "{{Coursera}} سرٹیفیکیٹ",
+              "text": "سی++ کے ساتھ پروگرامنگ – سمپلی لرن انسٹرکٹر"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-trophy",
+          "faIconColors": { "bg": "#DAA520", "fill": "#FFF" },
+          "date": { "year": 2017, "month": 1 },
+          "link": {
+            "href": "https://drive.google.com/file/d/12jaJ_S0oclUms7aDaviryoZ-9z6m7NKH/view?usp=drive_link",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "School {{Certificate}}",
+              "text": "Best Player – The Jamrud Model High School"
+            },
+            "es": {
+              "title": "Certificado {{Escolar}}",
+              "text": "Mejor Jugador – The Jamrud Model High School"
+            },
+            "fr": {
+              "title": "Certificat {{Scolaire}}",
+              "text": "Meilleur Joueur – The Jamrud Model High School"
+            },
+            "ko": {
+              "title": "학교 {{자격증}}",
+              "text": "최우수 선수 – The Jamrud Model High School"
+            },
+            "ar": {
+              "title": "شهادة {{مدرسية}}",
+              "text": "أفضل لاعب – The Jamrud Model High School"
+            },
+            "de": {
+              "title": "Schul{{Zertifikat}}",
+              "text": "Bester Spieler – The Jamrud Model High School"
+            },
+            "hi": {
+              "title": "स्कूल {{प्रमाणपत्र}}",
+              "text": "सर्वश्रेष्ठ खिलाड़ी – The Jamrud Model High School"
+            },
+            "ur": {
+              "title": "اسکول {{سرٹیفکیٹ}}",
+              "text": "بہترین کھلاڑی – The Jamrud Model High School"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-dove",
+          "faIconColors": { "bg": "#6DC9C8", "fill": "#fff" },
+          "date": { "year": 2020, "month": 1 },
+          "link": {
+            "href": "https://drive.google.com/file/d/1_GniC28oIpvIoy09nezMmcEfhILvJi5z/view?usp=drive_link",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "United States Institute of Peace {{Certificate}}",
+              "text": "Promoting Peace Through Critical Thinking -Khadim UL Khalaq Foundation (KKF)"
+            },
+            "es": {
+              "title": "Instituto de Paz de EE.UU. {{Certificado}}",
+              "text": "Promoviendo la paz mediante el pensamiento crítico -Khadim UL Khalaq Foundation (KKF)"
+            },
+            "fr": {
+              "title": "Institut Américain de la Paix {{Certificat}}",
+              "text": "Promouvoir la paix par la pensée critique -Khadim UL Khalaq Foundation (KKF)"
+            },
+            "ko": {
+              "title": "미국 평화 연구소 {{자격증}}",
+              "text": "비판적 사고를 통한 평화 증진 -Khadim UL Khalaq Foundation (KKF)"
+            },
+            "ar": {
+              "title": "معهد الولايات المتحدة للسلام {{شهادة}}",
+              "text": "تعزيز السلام من خلال التفكير النقدي -Khadim UL Khalaq Foundation (KKF)"
+            },
+            "de": {
+              "title": "US-Institut für Frieden {{Zertifikat}}",
+              "text": "Frieden durch kritisches Denken fördern -Khadim UL Khalaq Foundation (KKF)"
+            },
+            "hi": {
+              "title": "संयुक्त राज्य अमेरिका शांति संस्थान {{प्रमाणपत्र}}",
+              "text": "आलोचनात्मक सोच के माध्यम से शांति को बढ़ावा देना -Khadim UL Khalaq Foundation (KKF)"
+            },
+            "ur": {
+              "title": "امریکہ کے انسٹی ٹیوٹ آف پیس کا {{سرٹیفکیٹ}}",
+              "text": "تنقیدی سوچ کے ذریعے امن کو فروغ دینا -Khadim UL Khalaq Foundation (KKF)"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-solid fa-award",
+          "faIconColors": { "bg": "#F9A826", "fill": "#fff" },
+          "date": { "year": 2024, "month": 12 },
+          "link": {
+            "href": "https://drive.google.com/file/d/1QosKxAGX2ZMrjKwoh0J3So4I72AB89At/view?usp=drive_link",
+            "tooltipString": "see_certification"
+          },
+          "locales": {
+            "en": {
+              "title": "Southern Student Society UET Mardan {{Certificate}}",
+              "text": "Certificate of Appreciation For Active Member -Southern Student Society"
+            },
+            "es": {
+              "title": "Southern Student Society UET Mardan {{Certificado}}",
+              "text": "Certificado de Apreciación por ser Miembro Activo -Southern Student Society"
+            },
+            "fr": {
+              "title": "Southern Student Society UET Mardan {{Certificat}}",
+              "text": "Certificat d'Appréciation pour Membre Actif -Southern Student Society"
+            },
+            "ko": {
+              "title": "Southern Student Society UET 마르단 {{자격증}}",
+              "text": "활동적인 구성원에 대한 감사장 -Southern Student Society"
+            },
+            "ar": {
+              "title": "جمعية الطلاب الجنوبية، UET مردان {{شهادة}}",
+              "text": "شهادة تقدير لعضو نشط -Southern Student Society"
+            },
+            "de": {
+              "title": "Southern Student Society UET Mardan {{Zertifikat}}",
+              "text": "Anerkennungszertifikat für aktives Mitglied -Southern Student Society"
+            },
+            "hi": {
+              "title": "Southern Student Society UET मर्दान {{प्रमाणपत्र}}",
+              "text": "सक्रिय सदस्य के लिए प्रशंसा प्रमाणपत्र -Southern Student Society"
+            },
+            "ur": {
+              "title": "سدرن اسٹوڈنٹ سوسائٹی یو ای ٹی مردان {{سرٹیفکیٹ}}",
+              "text": "فعال رکن کے لیے تعریفی سند -Southern Student Society"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleThread",
+      "locales": {
+        "en": { "title": "Awards" },
+        "es": { "title": "Premios" },
+        "fr": { "title": "Récompenses" },
+        "ko": { "title": "수상 내역" },
+        "ar": { "title": "الجوائز" },
+        "de": { "title": "Auszeichnungen" },
+        "hi": { "title": "पुरस्कार" },
+        "ur": { "title": "ایوارڈز" }
+      },
+      "settings": {
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "date",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "date": { "year": 2021, "month": 12 },
+          "preview": {
+            "links": [
+              {
+                "href": "",
+                "tooltipString": "read",
+                "faIcon": "fa-solid fa-file-pdf"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/award1.png",
+              "images/pictures/award2.png"
+            ],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Best Student {{Award}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "Received the Best Student Award along with a cash prize of [[ PKR 20,000 ]] in 2021 for outstanding academic performance."
+            },
+            "es": {
+              "title": "Mejor {{Premio de Estudiante}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "Recibí el Premio al Mejor Estudiante junto con un premio en efectivo de [[ PKR 20,000 ]] en 2021 por un rendimiento académico sobresaliente."
+            },
+            "fr": {
+              "title": "Meilleur {{Prix d'Étudiant}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "Reçu le prix du Meilleur Étudiant avec une récompense en espèces de [[ PKR 20,000 ]] en 2021 pour performance académique exceptionnelle."
+            },
+            "ko": {
+              "title": "최우수 {{학생상}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "파키스탄",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "2021년 우수한 학업 성적으로 [[ PKR 20,000 ]]의 상금과 함께 최우수 학생상을 수상하였습니다."
+            },
+            "ar": {
+              "title": "أفضل {{جائزة طالب}}",
+              "province": "خيبر بختونخوا",
+              "country": "باكستان",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "حصلت على جائزة أفضل طالب مع جائزة نقدية قدرها [[ PKR 20,000 ]] في عام 2021 للأداء الأكاديمي المتميز."
+            },
+            "de": {
+              "title": "Bester {{Studentenpreis}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "Erhielt 2021 den Preis als bester Student zusammen mit einem Geldpreis von [[ PKR 20,000 ]] für herausragende akademische Leistungen."
+            },
+            "hi": {
+              "title": "सर्वश्रेष्ठ {{छात्र पुरस्कार}}",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "2021 में उत्कृष्ट अकादमिक प्रदर्शन के लिए [[ PKR 20,000 ]] की नकद राशि के साथ सर्वश्रेष्ठ छात्र पुरस्कार प्राप्त किया।"
+            },
+            "ur": {
+              "title": "بہترین {{طالب علم ایوارڈ}}",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "سال 2021 میں بہترین تعلیمی کارکردگی پر [[ PKR 20,000 ]] نقد انعام کے ساتھ بہترین طالب علم ایوارڈ حاصل کیا۔"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "date": { "year": 2022, "month": 11 },
+          "preview": {
+            "links": [
+              {
+                "href": "https://www.bisep.edu.pk/page-10092.html",
+                "tooltipString": "",
+                "faIcon": "fa-solid fa-award"
+              },
+              {
+                "href": "https://drive.google.com/file/d/1SD1UR_FcrTKEIj2ITc4AX6msBli5aPP1/view?usp=drive_link",
+                "tooltipString": "read",
+                "faIcon": "fa-solid fa-file-pdf"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Stoori Da Pakhtunkhwa Scholarship Program – {{Top 20 in HSSC}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "BISE Peshawar / Stoori Da Pakhtunkhwa",
+              "text": "I was selected among the [[Top 20]] position holders in Intermediate HSSC level. This honor was awarded through the prestigious [[Stoori Da Pakhtunkhwa scholarship]] program. The recognition reflects my consistent academic excellence. I am proud to have represented my province at such a competitive level."
+            },
+            "es": {
+              "title": "Programa de Becas Stoori Da Pakhtunkhwa – {{Top 20 en HSSC}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "BISE Peshawar / Stoori Da Pakhtunkhwa",
+              "text": "Fui seleccionado entre los [[Top 20]] mejores estudiantes a nivel Intermedio HSSC. Este honor fue otorgado por el prestigioso programa de [[Stoori Da Pakhtunkhwa scholarship]]. Este logro muestra mi excelencia académica continua. Estoy orgulloso de representar a mi provincia en este nivel competitivo."
+            },
+            "fr": {
+              "title": "Programme de Bourses Stoori Da Pakhtunkhwa – {{Top 20 en HSSC}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "BISE Peshawar / Stoori Da Pakhtunkhwa",
+              "text": "J'ai été sélectionné parmi les [[Top 20]] meilleurs étudiants au niveau HSSC Intermédiaire. Cette distinction m'a été décernée dans le cadre du prestigieux [[Stoori Da Pakhtunkhwa scholarship]]. Cette reconnaissance reflète mon excellence académique continue. Je suis fier de représenter ma province à ce niveau."
+            },
+            "ko": {
+              "title": "Stoori Da Pakhtunkhwa 장학금 프로그램 – {{HSSC 상위 20위}}",
+              "province": "카이버 파크툰크와",
+              "country": "파키스탄",
+              "institution": "BISE Peshawar / Stoori Da Pakhtunkhwa",
+              "text": "저는 HSSC 중등 교육에서 [[Top 20]]위 안에 선정되었습니다. 이 영예는 권위 있는 [[Stoori Da Pakhtunkhwa scholarship]] 프로그램을 통해 수여되었습니다. 이 성과는 저의 꾸준한 학업 우수성을 보여줍니다. 저는 이 경쟁적인 수준에서 제 주를 대표하게 되어 자랑스럽습니다."
+            },
+            "ar": {
+              "title": "برنامج منحة Stoori Da Pakhtunkhwa – {{أفضل 20 في HSSC}}",
+              "province": "خيبر بختونخوا",
+              "country": "باكستان",
+              "institution": "BISE بيشاور / Stoori Da Pakhtunkhwa",
+              "text": "تم اختياري ضمن [[Top 20]] الأوائل في المستوى المتوسط HSSC. تم منحي هذا الشرف من خلال [[Stoori Da Pakhtunkhwa scholarship]] المرموقة. هذا الإنجاز يعكس تفوقي الأكاديمي المستمر. وأنا فخور بتمثيل محافظتي على هذا المستوى التنافسي."
+            },
+            "de": {
+              "title": "Stoori Da Pakhtunkhwa Stipendienprogramm – {{Top 20 in HSSC}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "BISE Peshawar / Stoori Da Pakhtunkhwa",
+              "text": "Ich wurde unter die [[Top 20]] der HSSC-Schüler im Zwischenbereich gewählt. Diese Ehre wurde mir durch das angesehene [[Stoori Da Pakhtunkhwa scholarship]] Programm verliehen. Diese Auszeichnung zeigt meine anhaltende akademische Exzellenz. Ich bin stolz, meine Provinz auf diesem Niveau zu vertreten."
+            },
+            "hi": {
+              "title": "Stoori Da Pakhtunkhwa छात्रवृत्ति कार्यक्रम – {{HSSC में शीर्ष 20}}",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "BISE पेशावर / Stoori Da Pakhtunkhwa",
+              "text": "मुझे इंटरमीडिएट HSSC स्तर पर [[Top 20]] में स्थान प्राप्त हुआ। यह सम्मान प्रतिष्ठित [[Stoori Da Pakhtunkhwa scholarship]] कार्यक्रम के तहत मिला। यह उपलब्धि मेरी निरंतर शैक्षणिक उत्कृष्टता को दर्शाती है। मुझे गर्व है कि मैंने अपनी प्रांत का इस स्तर पर प्रतिनिधित्व किया।"
+            },
+            "ur": {
+              "title": "ستورئِ دا پختونخوا اسکالرشپ پروگرام – {{ایچ ایس ایس سی میں ٹاپ 20}}",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "BISE پشاور / Stoori Da Pakhtunkhwa",
+              "text": "مجھے انٹرمیڈیٹ HSSC کی سطح پر [[Top 20]] پوزیشن ہولڈرز میں شامل کیا گیا۔ یہ اعزاز معروف [[Stoori Da Pakhtunkhwa scholarship]] پروگرام کے تحت دیا گیا۔ یہ کامیابی میری مسلسل تعلیمی محنت کا ثبوت ہے۔ مجھے فخر ہے کہ میں نے اپنے صوبے کی نمائندگی کی۔"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

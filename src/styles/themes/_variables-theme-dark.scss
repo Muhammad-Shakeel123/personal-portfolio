@@ -1,0 +1,72 @@
+@import 'theme-variables-builder';
+
+$primary: #9dff8e;
+$secondary: #a4afb5;
+$dark: #161616;
+$danger: #fdd2d2;
+$muted: #6c757d;
+
+$base-bg: #0c0c0c;
+$base-bg-light: #161616;
+$base-bg-dark: #090909;
+
+$texts: #eeeeee;
+$texts-inverted: #111111;
+
+$base-container-bg: #181818;
+$base-popover-bg: #0e0e0e;
+$base-boards: lighten($base-container-bg, 3%);
+$base-info-badges: lighten($dark, 3%);
+$empty: darken($base-container-bg, 3%);
+$empty-accent: #131313;
+
+$borders: #1d1d1d;
+$scrollbar-track: #101010;
+$scrollbar-thumb: #32343a;
+
+:root {
+  @include build-theme(
+    // Theme Config...
+    /** DARK MODE: **/ true,
+
+    // Base Colors...
+    /** PRIMARY: **/ $primary,
+    /** SECONDARY: **/ $secondary,
+    /** DARK: **/ $dark,
+    /** DANGER: **/ $danger,
+    /** MUTED: **/ $muted,
+
+    // Main Layout Colors...
+    /** BG: **/ $base-bg,
+    /** BG CONTRAST: **/ $base-bg-light,
+    /** BG CONTRAST DARKEN:**/ $base-bg-dark,
+    /** TEXTS: **/ $texts,
+    /** TEXTS (INVERTED): **/ $texts-inverted,
+
+    // Nav
+    /** NAV MOBILE BG: **/ $empty-accent,
+    /** NAV MOBILE: **/ $texts,
+    /** NAV MOBILE BORDER: **/ $borders,
+
+    /** NAV MOBILE HOVER BG: **/ $empty-accent,
+    /** NAV MOBILE HOVER: **/ $primary,
+
+    /** NAV MOBILE SELECTED BG: **/ $borders,
+    /** NAV MOBILE SELECTED: **/ $primary,
+    /** NAV MOBILE SELECTED BORDER: **/ $primary,
+
+    // Main Layout Elements...
+    /** SECTION BG: **/ $base-container-bg,
+    /** CARD BG: **/ $base-container-bg,
+    /** POPUPS BG: **/ $base-popover-bg,
+    /** BOARDS: **/ $base-boards,
+    /** INFO BADGE BG: **/ $base-info-badges,
+    /** INFO BADGE **/ $texts,
+    /** EMPTY **/ $empty,
+
+    // Other Colors...
+    /** DEFAULT BORDERS: **/ $borders,
+    /** SCROLLBAR TRACK: **/ $scrollbar-track,
+    /** SCROLLBAR THUMB: **/ $scrollbar-thumb
+  );
+}

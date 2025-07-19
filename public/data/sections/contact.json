@@ -1,0 +1,255 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Contact",
+        "title_short_nav": "Contact",
+        "title_long_prefix": "Don't hesitate to",
+        "title_long": "{{Contact}} Me"
+      },
+      "es": {
+        "title_short": "Contacto",
+        "title_short_nav": "Contacto",
+        "title_long_prefix": "No dudes en",
+        "title_long": "{{Contácta}}me"
+      },
+      "fr": {
+        "title_short": "Contact",
+        "title_short_nav": "Contact",
+        "title_long_prefix": "N'hésitez pas à",
+        "title_long": "Me {{Contacter}}"
+      },
+      "ko": {
+        "title_short": "연락처",
+        "title_short_nav": "연락처",
+        "title_long_prefix": "주저하지 말고",
+        "title_long": "{{연락}} 주세요"
+      },
+      "ar": {
+        "title_short": "اتصال",
+        "title_short_nav": "اتصال",
+        "title_long_prefix": "لا تتردد في",
+        "title_long": "أن {{تتواصل}} معي"
+      },
+      "de": {
+        "title_short": "Kontakt",
+        "title_short_nav": "Kontakt",
+        "title_long_prefix": "Zögern Sie nicht",
+        "title_long": "Mich zu {{kontaktieren}}"
+      },
+      "hi": {
+        "title_short": "संपर्क",
+        "title_short_nav": "संपर्क",
+        "title_long_prefix": "बिलकुल संकोच न करें",
+        "title_long": "मुझसे {{संपर्क}} करें"
+      },
+      "ur": {
+        "title_short": "رابطہ",
+        "title_short_nav": "رابطہ",
+        "title_long_prefix": "بلا جھجک",
+        "title_long": "مجھ سے {{رابطہ}} کریں"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleContactForm",
+      "settings": {
+        "email_js_public_key": "cM1CV7RjL90l2imyO",
+        "email_js_service_id": "service_yaduddk",
+        "email_js_template_id": "template_cc4xpah"
+      },
+      "locales": {
+        "en": {
+          "contact_thank_you_title": "{{Thanks}} for the contact!",
+          "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+          "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
+          "title": "Send me a {{message}}"
+        },
+        "es": {
+          "contact_thank_you_title": "{{Gracias}} por el contacto!",
+          "contact_thank_you_body": "Tu mensaje ha sido recibido, y me pondré en contacto contigo pronto. Aprecio tu tiempo y espero conectarme contigo.",
+          "contact_thank_you_footer": "La respuesta se enviará a tu dirección de correo electrónico: {{$email}}",
+          "title": "Envíame un {{mensaje}}"
+        },
+        "fr": {
+          "contact_thank_you_title": "{{Merci}} pour le contact!",
+          "contact_thank_you_body": "Votre message a été reçu, et je vous contacterai bientôt. J'apprécie votre temps et j'ai hâte de me connecter avec vous!",
+          "contact_thank_you_footer": "La réponse sera envoyée à votre adresse e-mail: {{$email}}",
+          "title": "Envoyez-moi un {{message}}"
+        },
+        "ko": {
+          "contact_thank_you_title": "{{감사합니다}}!",
+          "contact_thank_you_body": "귀하의 메시지를 받았으며 곧 연락드리겠습니다. 귀하의 시간에 감사드리며 연결되기를 기대합니다!",
+          "contact_thank_you_footer": "답변은 귀하의 이메일 주소 {{$email}}로 전송됩니다.",
+          "title": "{{메시지를}} 보내주세요"
+        },
+        "ar": {
+          "contact_thank_you_title": "{{شكرًا}} على التواصل!",
+          "contact_thank_you_body": "تم استلام رسالتك وسأتواصل معك قريبًا. أقدر وقتك وأتطلع إلى التواصل معك!",
+          "contact_thank_you_footer": "سيتم إرسال الرد إلى عنوان بريدك الإلكتروني: {{$email}}",
+          "title": "أرسل لي {{رسالة}}"
+        },
+        "de": {
+          "contact_thank_you_title": "{{Danke}} für den Kontakt!",
+          "contact_thank_you_body": "Deine Nachricht wurde erhalten und ich werde mich bald bei dir melden. Ich schätze deine Zeit und freue mich auf die Verbindung!",
+          "contact_thank_you_footer": "Die Antwort wird an deine E-Mail-Adresse gesendet: {{$email}}",
+          "title": "Sende mir eine {{Nachricht}}"
+        },
+        "hi": {
+          "contact_thank_you_title": "संपर्क करने के लिए {{धन्यवाद}}!",
+          "contact_thank_you_body": "आपका संदेश प्राप्त हो गया है, मैं जल्द ही आपसे संपर्क करूंगा। आपके समय के लिए धन्यवाद और जल्द मिलने की आशा है!",
+          "contact_thank_you_footer": "उत्तर आपके ईमेल पते पर भेजा जाएगा: {{$email}}",
+          "title": "मुझे एक {{संदेश}} भेजें"
+        },
+        "ur": {
+          "contact_thank_you_title": "رابطہ کرنے کا {{شکریہ}}!",
+          "contact_thank_you_body": "آپ کا پیغام موصول ہو گیا ہے، میں جلد آپ سے رابطہ کروں گا۔ آپ کے وقت کی قدر کرتا ہوں اور آپ سے جڑنے کا منتظر ہوں۔",
+          "contact_thank_you_footer": "جواب آپ کے ای میل ایڈریس پر بھیجا جائے گا: {{$email}}",
+          "title": "مجھے ایک {{پیغام}} بھیجیں"
+        }
+      },
+      "items": null
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleInfoList",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "locales": {
+        "en": { "title": "Or if you {{prefer}}..." },
+        "es": { "title": "O si {{prefieres}}..." },
+        "fr": { "title": "Ou si vous {{préférez}}..." },
+        "ko": { "title": "또는 {{원하시면}}..." },
+        "ar": { "title": "أو إذا كنت {{تفضل}}..." },
+        "de": { "title": "Oder wenn Sie es {{vorziehen}}..." },
+        "hi": { "title": "या यदि आप {{पसंद}} करते हैं..." },
+        "ur": { "title": "یا اگر آپ {{پسند}} کرتے ہیں..." }
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-phone",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": "+92 307 5974287",
+          "link": { "href": "tel:+923075974287", "tooltipString": "call_me" },
+          "locales": {
+            "en": { "title": "Phone" },
+            "es": { "title": "Teléfono" },
+            "fr": { "title": "Téléphone" },
+            "ko": { "title": "전화" },
+            "ar": { "title": "الهاتف" },
+            "de": { "title": "Telefon" },
+            "hi": { "title": "फ़ोन" },
+            "ur": { "title": "فون" }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-envelope",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": "muhammadshakeelafd@gmail.com",
+          "link": {
+            "href": "mailto:muhammadshakeelafd@gmail.com",
+            "tooltipString": "email_me"
+          },
+          "locales": {
+            "en": { "title": "E-mail" },
+            "es": { "title": "Correo" },
+            "fr": { "title": "E-mail" },
+            "ko": { "title": "이메일" },
+            "ar": { "title": "البريد الإلكتروني" },
+            "de": { "title": "E-Mail" },
+            "hi": { "title": "ईमेल" },
+            "ur": { "title": "ای میل" }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-brands fa-linkedin",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": "@muhammad-shakeel",
+          "link": {
+            "href": "https://www.linkedin.com/in/muhammad-shakeel-658a6923a/",
+            "tooltipString": "open_website"
+          },
+          "locales": {
+            "en": { "title": "LinkedIn" },
+            "es": { "title": "LinkedIn" },
+            "fr": { "title": "LinkedIn" },
+            "ko": { "title": "링크드인" },
+            "ar": { "title": "لينكدإن" },
+            "de": { "title": "LinkedIn" },
+            "hi": { "title": "लिंक्डइन" },
+            "ur": { "title": "لنکڈ اِن" }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-brands fa-facebook",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": "Muhammad Shakeel",
+          "link": {
+            "href": "https://m.facebook.com/muhammad.shakeel.719140/",
+            "tooltipString": "open_website"
+          },
+          "locales": {
+            "en": { "title": "Facebook" },
+            "es": { "title": "Facebook" },
+            "fr": { "title": "Facebook" },
+            "ko": { "title": "페이스북" },
+            "ar": { "title": "فيسبوك" },
+            "de": { "title": "Facebook" },
+            "hi": { "title": "फेसबुक" },
+            "ur": { "title": "فیس بک" }
+          }
+        },
+        {
+          "id": 5,
+          "faIcon": "fa-brands fa-instagram",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": "@muhammadshakeel5826",
+          "link": {
+            "href": "https://www.instagram.com/muhammadshakeel5826?igsh=YjhndWFwbHdpdjV2",
+            "tooltipString": "open_website"
+          },
+          "locales": {
+            "en": { "title": "Instagram" },
+            "es": { "title": "Instagram" },
+            "fr": { "title": "Instagram" },
+            "ko": { "title": "인스타그램" },
+            "ar": { "title": "إنستغرام" },
+            "de": { "title": "Instagram" },
+            "hi": { "title": "इंस्टाग्राम" },
+            "ur": { "title": "انسٹاگرام" }
+          }
+        },
+        {
+          "id": 6,
+          "faIcon": "fa-brands fa-tiktok",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": "@muhammadshakeel12671",
+          "link": {
+            "href": "https://www.tiktok.com/@muhammadshakeel12671?_t=ZS-8y6gn1b5Z0j&_r=1",
+            "tooltipString": "open_website"
+          },
+          "locales": {
+            "en": { "title": "TikTok" },
+            "es": { "title": "TikTok" },
+            "fr": { "title": "TikTok" },
+            "ko": { "title": "틱톡" },
+            "ar": { "title": "تيك توك" },
+            "de": { "title": "TikTok" },
+            "hi": { "title": "टिकटोक" },
+            "ur": { "title": "ٹک ٹاک" }
+          }
+        }
+      ]
+    }
+  ]
+}

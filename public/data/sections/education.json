@@ -1,0 +1,532 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Education",
+        "title_short_nav": "Education",
+        "title_long_prefix": "This is my",
+        "title_long": "{{Education}} Background"
+      },
+      "es": {
+        "title_short": "Educación",
+        "title_short_nav": "Educación",
+        "title_long_prefix": "Esta es mi",
+        "title_long": "{{Formación}} Educativa"
+      },
+      "fr": {
+        "title_short": "Éducation",
+        "title_short_nav": "Éducation",
+        "title_long_prefix": "C'est mon",
+        "title_long": "{{Contexte}} Éducatif"
+      },
+      "ko": {
+        "title_short": "교육",
+        "title_short_nav": "교육",
+        "title_long_prefix": "이것은 내",
+        "title_long": "{{교육적}} 배경"
+      },
+      "ar": {
+        "title_short": "التعليم",
+        "title_short_nav": "التعليم",
+        "title_long_prefix": "هذا هو",
+        "title_long": "خلفيتي الـ{{تعليمية}}"
+      },
+      "hi": {
+        "title_short": "शिक्षा",
+        "title_short_nav": "शिक्षा",
+        "title_long_prefix": "यह मेरी",
+        "title_long": "{{शैक्षिक}} पृष्ठभूमि है"
+      },
+      "de": {
+        "title_short": "Bildung",
+        "title_short_nav": "Bildung",
+        "title_long_prefix": "Das ist mein",
+        "title_long": "{{Bildungs}} Hintergrund"
+      },
+      "ur": {
+        "title_short": "تعلیم",
+        "title_short_nav": "تعلیم",
+        "title_long_prefix": "یہ ہے میری",
+        "title_long": "{{تعلیمی}} پس منظر"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {},
+      "settings": {
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/edu1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2017, "month": 3 },
+          "dateEnd": { "year": 2019, "month": 6, "day": 25 },
+          "locales": {
+            "en": {
+              "title": "Secondary School Certification {{Metric}}",
+              "province": "KPK",
+              "country": "Pakistan",
+              "institution": "Ther Jamrud Model School Jamrud Khyber",
+              "text": "Completed my foundational education with a strong emphasis on science and analytical subjects. This certification provided the base for my academic journey. [[Matric-level]] studies helped me build discipline, logic, and reasoning skills.",
+              "list": ["<span class='font-semibold'>Group:</span> SCIENCE"],
+              "tags": [
+                "Mathematics",
+                "Chemistry",
+                "Biology",
+                "Physics",
+                "English",
+                "Urdu",
+                "Islamyat",
+                "Pak Study"
+              ]
+            },
+            "es": {
+              "title": "Certificación Escolar Secundaria {{Métrica}}",
+              "province": "KPK",
+              "country": "Pakistán",
+              "institution": "Ther Jamrud Model School Jamrud Khyber",
+              "text": "Completé mi educación básica con un enfoque en materias científicas y analíticas. Esta certificación fue la base de mi camino académico. [[Estudios de nivel matriculación]] ayudaron a desarrollar lógica y habilidades de razonamiento.",
+              "list": ["<span class='font-semibold'>Grupo:</span> CIENCIAS"],
+              "tags": [
+                "Matemáticas",
+                "Química",
+                "Biología",
+                "Física",
+                "Inglés",
+                "Urdu",
+                "Islamyat",
+                "Estudios de Pakistán"
+              ]
+            },
+            "fr": {
+              "title": "Certificat d'Études Secondaires {{Métrique}}",
+              "province": "KPK",
+              "country": "Pakistan",
+              "institution": "Ther Jamrud Model School Jamrud Khyber",
+              "text": "J'ai terminé ma scolarité fondamentale avec un fort accent sur les matières scientifiques et analytiques. Ce certificat a posé les bases de mon parcours académique. [[Études de niveau matricule]] ont renforcé ma logique et mon raisonnement.",
+              "list": ["<span class='font-semibold'>Groupe :</span> SCIENCES"],
+              "tags": [
+                "Mathématiques",
+                "Chimie",
+                "Biologie",
+                "Physique",
+                "Anglais",
+                "Urdu",
+                "Islamyat",
+                "Études pakistanaises"
+              ]
+            },
+            "ko": {
+              "title": "중등학교 졸업 인증서 {{매트릭}}",
+              "province": "KPK",
+              "country": "파키스탄",
+              "institution": "Ther Jamrud Model School Jamrud Khyber",
+              "text": "과학 및 분석 과목에 중점을 두고 기초 교육을 마쳤습니다. 이 인증은 제 학업 여정의 기초가 되었습니다. [[매트릭 수준의 학문]]은 논리 및 추리 능력을 개발하는 데 도움을 주었습니다.",
+              "list": ["<span class='font-semibold'>그룹:</span> 과학"],
+              "tags": [
+                "수학",
+                "화학",
+                "생물학",
+                "물리학",
+                "영어",
+                "우르두어",
+                "이슬람야트",
+                "파키스탄 연구"
+              ]
+            },
+            "ar": {
+              "title": "شهادة التعليم الثانوي {{المترك}}",
+              "province": "خیبر پختونخوا",
+              "country": "باكستان",
+              "institution": "مدرسة ثير جمرود النموذجية، جمرود خيبر",
+              "text": "أكملت تعليمي الأساسي مع التركيز على المواد العلمية والتحليلية. كانت هذه الشهادة أساس رحلتي الأكاديمية. [[الدراسة على مستوى المترك]] ساعدتني على تنمية المنطق ومهارات التحليل.",
+              "list": ["<span class='font-semibold'>المجموعة:</span> العلوم"],
+              "tags": [
+                "الرياضيات",
+                "الكيمياء",
+                "علم الأحياء",
+                "الفيزياء",
+                "الإنجليزية",
+                "الأردية",
+                "الدراسات الإسلامية",
+                "دراسات باكستانية"
+              ]
+            },
+            "hi": {
+              "title": "माध्यमिक विद्यालय प्रमाणपत्र {{मैट्रिक}}",
+              "province": "केपीके",
+              "country": "पाकिस्तान",
+              "institution": "थेर जमरूद मॉडल स्कूल, जमरूद खैबर",
+              "text": "विज्ञान और विश्लेषणात्मक विषयों पर जोर के साथ अपनी प्रारंभिक शिक्षा पूरी की। यह प्रमाणपत्र मेरी अकादमिक यात्रा की नींव बना। [[मैट्रिक स्तर की पढ़ाई]] ने मेरे तर्क और सोच कौशल को मजबूत किया।",
+              "list": ["<span class='font-semibold'>समूह:</span> विज्ञान"],
+              "tags": [
+                "गणित",
+                "रसायन विज्ञान",
+                "जीव विज्ञान",
+                "भौतिकी",
+                "अंग्रेज़ी",
+                "उर्दू",
+                "इस्लामियत",
+                "पाक अध्ययन"
+              ]
+            },
+            "de": {
+              "title": "Sekundarschulabschluss {{Metrik}}",
+              "province": "KPK",
+              "country": "Pakistan",
+              "institution": "Ther Jamrud Model School Jamrud Khyber",
+              "text": "Ich habe meine grundlegende Ausbildung mit einem starken Fokus auf naturwissenschaftliche und analytische Fächer abgeschlossen. Dieses Zertifikat war die Grundlage meines akademischen Werdegangs. [[Matric-Level-Studien]] halfen mir, logisches Denken zu entwickeln.",
+              "list": [
+                "<span class='font-semibold'>Gruppe:</span> NATURWISSENSCHAFTEN"
+              ],
+              "tags": [
+                "Mathematik",
+                "Chemie",
+                "Biologie",
+                "Physik",
+                "Englisch",
+                "Urdu",
+                "Islamiyat",
+                "Pakistan-Studien"
+              ]
+            },
+            "ur": {
+              "title": "ثانوی اسکول سرٹیفیکیشن {{میٹرک}}",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "تھر جمرود ماڈل اسکول جمرود خیبر",
+              "text": "سائنس اور تجزیاتی مضامین پر زور کے ساتھ بنیادی تعلیم مکمل کی۔ یہ سرٹیفیکیٹ میری تعلیمی سفر کی بنیاد تھا۔ [[میٹرک سطح]] کی تعلیم نے منطقی سوچ اور استدلال کی مہارتیں پیدا کیں۔",
+              "list": ["<span class='font-semibold'>گروپ:</span> سائنس"],
+              "tags": [
+                "ریاضی",
+                "کیمسٹری",
+                "بیالوجی",
+                "فزکس",
+                "انگلش",
+                "اردو",
+                "اسلامیات",
+                "مطالعہ پاکستان"
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "images/pictures/edu2.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2019, "month": 8 },
+          "dateEnd": { "year": 2021, "month": 7 },
+          "locales": {
+            "en": {
+              "title": "Intermediate {{F.Sc Pre-Computer}}",
+              "province": "KPK",
+              "country": "Pakistan",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "Completed [[F.Sc Pre-Computer]] with emphasis on Mathematics, Computer Science, and Physics, along with English, Urdu, Islamyat, and Pak Study.",
+              "list": [
+                "<b>Group:</b> Pre-Computer",
+                "<b>Subjects:</b> Mathematics, Computer Science, Physics, English, Urdu, Islamyat, Pak Study"
+              ],
+              "tags": ["F.Sc", "Pre-Computer", "Pakistan", "KPK"]
+            },
+            "es": {
+              "title": "Intermedio {{F.Sc Pre-Computer}}",
+              "province": "KPK",
+              "country": "Pakistán",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "Completado [[F.Sc Pre-Computer]] con énfasis en Matemáticas, Informática y Física, junto con Inglés, Urdu, Islamyat y Estudios de Pakistán.",
+              "list": [
+                "<b>Group:</b> Pre-Computer",
+                "<b>Subjects:</b> Mathematics, Computer Science, Physics, English, Urdu, Islamyat, Pak Study"
+              ],
+              "tags": ["F.Sc", "Pre-Computer", "Pakistan", "KPK"]
+            },
+            "fr": {
+              "title": "Intermédiaire {{F.Sc Pre-Computer}}",
+              "province": "KPK",
+              "country": "Pakistan",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "Terminé [[F.Sc Pre-Computer]] avec un accent sur les mathématiques, l'informatique et la physique, ainsi que l'anglais, l'ourdou, l'Islamyat et les études pakistanaises.",
+              "list": [
+                "<b>Group:</b> Pre-Computer",
+                "<b>Subjects:</b> Mathematics, Computer Science, Physics, English, Urdu, Islamyat, Pak Study"
+              ],
+              "tags": ["F.Sc", "Pre-Computer", "Pakistan", "KPK"]
+            },
+            "ko": {
+              "title": "중등 교육 {{F.Sc Pre-Computer}}",
+              "province": "KPK",
+              "country": "파키스탄",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "[[F.Sc Pre-Computer]]를 수료하였으며, 수학, 컴퓨터 과학, 물리를 중심으로 영어, 우르두어, 이슬람야트 및 파키스탄 학문을 공부했습니다.",
+              "list": [
+                "<b>Group:</b> Pre-Computer",
+                "<b>Subjects:</b> Mathematics, Computer Science, Physics, English, Urdu, Islamyat, Pak Study"
+              ],
+              "tags": ["F.Sc", "Pre-Computer", "Pakistan", "KPK"]
+            },
+            "ar": {
+              "title": "متوسط {{F.Sc Pre-Computer}}",
+              "province": "خيبر پختونخوا",
+              "country": "باكستان",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "أكملت [[F.Sc Pre-Computer]] مع التركيز على الرياضيات وعلوم الحاسوب والفيزياء، بالإضافة إلى الإنجليزية والأردية والإسلاميات ودراسة باكستان.",
+              "list": [
+                "<b>Group:</b> Pre-Computer",
+                "<b>Subjects:</b> Mathematics, Computer Science, Physics, English, Urdu, Islamyat, Pak Study"
+              ],
+              "tags": ["F.Sc", "Pre-Computer", "Pakistan", "KPK"]
+            },
+            "hi": {
+              "title": "इंटरमीडिएट {{F.Sc Pre-Computer}}",
+              "province": "केपीके",
+              "country": "पाकिस्तान",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "मैथ्स, कंप्यूटर साइंस और फिज़िक्स के साथ [[F.Sc Pre-Computer]] पूरा किया, जिसमें इंग्लिश, उर्दू, इस्लामियत और पाक अध्ययन भी शामिल थे।",
+              "list": [
+                "<b>Group:</b> Pre-Computer",
+                "<b>Subjects:</b> Mathematics, Computer Science, Physics, English, Urdu, Islamyat, Pak Study"
+              ],
+              "tags": ["F.Sc", "Pre-Computer", "Pakistan", "KPK"]
+            },
+            "de": {
+              "title": "Zwischenstufe {{F.Sc Pre-Computer}}",
+              "province": "KPK",
+              "country": "Pakistan",
+              "institution": "Govt Shaheed Abdul Azam Afridi Higher Secondary School NO 1 Jamrud Khyber",
+              "text": "Abschluss von [[F.Sc Pre-Computer]] mit Schwerpunkt auf Mathematik, Informatik und Physik sowie Englisch, Urdu, Islamyat und Pakistan-Studien.",
+              "list": [
+                "<b>Group:</b> Pre-Computer",
+                "<b>Subjects:</b> Mathematics, Computer Science, Physics, English, Urdu, Islamyat, Pak Study"
+              ],
+              "tags": ["F.Sc", "Pre-Computer", "Pakistan", "KPK"]
+            },
+            "ur": {
+              "title": "انٹرمیڈیٹ {{F.Sc Pre-Computer}}",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "گورنمنٹ شہید عبدالعظم آفریدی ہائیر سیکنڈری اسکول نمبر 1 جمرود خیبر",
+              "text": "[[F.Sc Pre-Computer]] مکمل کیا جس میں ریاضی، کمپیوٹر سائنس، فزکس، انگریزی، اردو، اسلامیات اور مطالعہ پاکستان شامل تھے۔",
+              "list": [
+                "<b>Group:</b> Pre-Computer",
+                "<b>Subjects:</b> Mathematics, Computer Science, Physics, English, Urdu, Islamyat, Pak Study"
+              ],
+              "tags": ["F.Sc", "Pre-Computer", "Pakistan", "KPK"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "images/pictures/edu3.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2021, "month": 8 },
+          "dateEnd": { "year": 2025, "month": 6 },
+          "locales": {
+            "en": {
+              "title": "B.Sc Computer {{Software Engineering}}",
+              "province": "KPK",
+              "country": "Pakistan",
+              "institution": "University of Engineering and Technology Mardan",
+              "text": "Pursued a comprehensive undergraduate program in [[Computer Software Engineering]] from fall 2021 to spring 2025, building a strong foundation in programming, systems, software development, and emerging technologies including AI and cloud computing.",
+              "list": [
+                "<b>Semester 1:</b> Basics of computing, physics, mathematics, and programming.",
+                "<b>Semester 2:</b> Core math and logic design concepts, OOP, and communication.",
+                "<b>Semester 3:</b> Data structures, operating systems, probability, and signals.",
+                "<b>Semester 4:</b> Databases, software design, networking, and psychology.",
+                "<b>Semester 5:</b> Advanced programming, AI, embedded systems, and ethics.",
+                "<b>Semester 6:</b> Project management, web and mobile development, HCI.",
+                "<b>Semester 7:</b> Formal methods, machine learning, and data analytics.",
+                "<b>Semester 8:</b> Final year project, IoT, deep learning, and cloud computing."
+              ],
+              "tags": [
+                "Software Engineering",
+                "AI",
+                "Cloud Computing",
+                "FYP",
+                "UET Mardan"
+              ]
+            },
+            "es": {
+              "title": "Licenciatura en {{Ingeniería de Software}}",
+              "province": "KPK",
+              "country": "Pakistán",
+              "institution": "Universidad de Ingeniería y Tecnología de Mardan",
+              "text": "Cursé un programa integral de licenciatura en [[Ingeniería de Software]] de 2021 a 2025, desarrollando una base sólida en programación, sistemas, desarrollo de software y tecnologías emergentes como IA y computación en la nube.",
+              "list": [
+                "<b>Semestre 1:</b> Fundamentos de computación, física, matemáticas y programación.",
+                "<b>Semestre 2:</b> Matemáticas básicas, diseño lógico, POO y comunicación.",
+                "<b>Semestre 3:</b> Estructuras de datos, sistemas operativos, probabilidad y señales.",
+                "<b>Semestre 4:</b> Bases de datos, diseño de software, redes y psicología.",
+                "<b>Semestre 5:</b> Programación avanzada, IA, sistemas embebidos y ética.",
+                "<b>Semestre 6:</b> Gestión de proyectos, desarrollo web y móvil, HCI.",
+                "<b>Semestre 7:</b> Métodos formales, aprendizaje automático y análisis de datos.",
+                "<b>Semestre 8:</b> Proyecto final, IoT, aprendizaje profundo y computación en la nube."
+              ],
+              "tags": [
+                "Ingeniería de Software",
+                "IA",
+                "Computación en la nube",
+                "Proyecto Final",
+                "UET Mardan"
+              ]
+            },
+            "fr": {
+              "title": "Licence en {{Génie Logiciel}}",
+              "province": "KPK",
+              "country": "Pakistan",
+              "institution": "Université de Génie et Technologie de Mardan",
+              "text": "J'ai suivi un programme complet de [[Génie Logiciel]] de 2021 à 2025, acquérant une base solide en programmation, systèmes, développement logiciel et technologies émergentes comme l’IA et le cloud computing.",
+              "list": [
+                "<b>Semestre 1:</b> Bases de l’informatique, physique, mathématiques et programmation.",
+                "<b>Semestre 2:</b> Mathématiques fondamentales, conception logique, POO et communication.",
+                "<b>Semestre 3:</b> Structures de données, systèmes d’exploitation, probabilité et signaux.",
+                "<b>Semestre 4:</b> Bases de données, conception logicielle, réseaux et psychologie.",
+                "<b>Semestre 5:</b> Programmation avancée, IA, systèmes embarqués et éthique.",
+                "<b>Semestre 6:</b> Gestion de projet, développement web/mobile, IHM.",
+                "<b>Semestre 7:</b> Méthodes formelles, apprentissage automatique, analyse de données.",
+                "<b>Semestre 8:</b> Projet de fin d'études, IoT, deep learning, cloud computing."
+              ],
+              "tags": [
+                "Génie Logiciel",
+                "IA",
+                "Cloud Computing",
+                "Projet Final",
+                "UET Mardan"
+              ]
+            },
+            "ko": {
+              "title": "학사 {{소프트웨어 공학}}",
+              "province": "KPK",
+              "country": "파키스탄",
+              "institution": "마르단 공과대학교",
+              "text": "2021년부터 2025년까지 [[소프트웨어 공학]] 학사 과정을 이수하며 프로그래밍, 시스템, 소프트웨어 개발, AI 및 클라우드 컴퓨팅과 같은 최신 기술에 대한 기초를 탄탄히 다졌습니다.",
+              "list": [
+                "<b>1학기:</b> 컴퓨팅, 물리학, 수학, 프로그래밍 기초.",
+                "<b>2학기:</b> 수학 기초, 논리 설계, OOP 및 커뮤니케이션.",
+                "<b>3학기:</b> 자료구조, 운영체제, 확률 및 신호.",
+                "<b>4학기:</b> 데이터베이스, 소프트웨어 설계, 네트워킹, 심리학.",
+                "<b>5학기:</b> 고급 프로그래밍, AI, 임베디드 시스템, 윤리.",
+                "<b>6학기:</b> 프로젝트 관리, 웹/모바일 개발, HCI.",
+                "<b>7학기:</b> 형식 기법, 머신러닝, 데이터 분석.",
+                "<b>8학기:</b> 졸업 프로젝트, IoT, 딥러닝, 클라우드 컴퓨팅."
+              ],
+              "tags": [
+                "소프트웨어 공학",
+                "AI",
+                "클라우드 컴퓨팅",
+                "졸업 프로젝트",
+                "UET 마르단"
+              ]
+            },
+            "ar": {
+              "title": "بكالوريوس في {{هندسة البرمجيات}}",
+              "province": "خيبر باختونخوا",
+              "country": "باكستان",
+              "institution": "جامعة الهندسة والتكنولوجيا مردان",
+              "text": "التحقت ببرنامج شامل في [[هندسة البرمجيات]] من 2021 إلى 2025، حيث بنيت أساسًا قويًا في البرمجة والأنظمة وتطوير البرمجيات والتقنيات الناشئة مثل الذكاء الاصطناعي والحوسبة السحابية.",
+              "list": [
+                "<b>الفصل 1:</b> أساسيات الحوسبة والفيزياء والرياضيات والبرمجة.",
+                "<b>الفصل 2:</b> الرياضيات الأساسية، التصميم المنطقي، OOP والاتصالات.",
+                "<b>الفصل 3:</b> هياكل البيانات، أنظمة التشغيل، الاحتمالات والإشارات.",
+                "<b>الفصل 4:</b> قواعد البيانات، تصميم البرمجيات، الشبكات، علم النفس.",
+                "<b>الفصل 5:</b> البرمجة المتقدمة، الذكاء الاصطناعي، الأنظمة المدمجة، الأخلاقيات.",
+                "<b>الفصل 6:</b> إدارة المشاريع، تطوير الويب والجوال، HCI.",
+                "<b>الفصل 7:</b> الأساليب الرسمية، تعلم الآلة، تحليل البيانات.",
+                "<b>الفصل 8:</b> مشروع التخرج، إنترنت الأشياء، التعلم العميق، الحوسبة السحابية."
+              ],
+              "tags": [
+                "هندسة البرمجيات",
+                "الذكاء الاصطناعي",
+                "الحوسبة السحابية",
+                "مشروع التخرج",
+                "جامعة مردان"
+              ]
+            },
+            "hi": {
+              "title": "बी.एससी {{कंप्यूटर सॉफ्टवेयर इंजीनियरिंग}}",
+              "province": "केपीके",
+              "country": "पाकिस्तान",
+              "institution": "यूईटी मर्दान",
+              "text": "2021 से 2025 तक [[कंप्यूटर सॉफ्टवेयर इंजीनियरिंग]] में स्नातक की पढ़ाई की, जिसमें प्रोग्रामिंग, सिस्टम्स, सॉफ्टवेयर विकास और AI और क्लाउड कंप्यूटिंग जैसी नई तकनीकों की मजबूत नींव बनी।",
+              "list": [
+                "<b>सेमेस्टर 1:</b> कंप्यूटर, भौतिकी, गणित और प्रोग्रामिंग की मूल बातें।",
+                "<b>सेमेस्टर 2:</b> गणित, लॉजिक डिज़ाइन, OOP और कम्युनिकेशन।",
+                "<b>सेमेस्टर 3:</b> डेटा स्ट्रक्चर, ऑपरेटिंग सिस्टम, प्रायिकता, सिग्नल्स।",
+                "<b>सेमेस्टर 4:</b> डेटाबेस, सॉफ्टवेयर डिज़ाइन, नेटवर्किंग, मनोविज्ञान।",
+                "<b>सेमेस्टर 5:</b> उन्नत प्रोग्रामिंग, एआई, एम्बेडेड सिस्टम, नैतिकता।",
+                "<b>सेमेस्टर 6:</b> प्रोजेक्ट प्रबंधन, वेब और मोबाइल विकास, HCI।",
+                "<b>सेमेस्टर 7:</b> औपचारिक विधियाँ, मशीन लर्निंग, डेटा एनालिटिक्स।",
+                "<b>सेमेस्टर 8:</b> अंतिम परियोजना, IoT, डीप लर्निंग, क्लाउड कंप्यूटिंग।"
+              ],
+              "tags": [
+                "सॉफ्टवेयर इंजीनियरिंग",
+                "AI",
+                "क्लाउड कंप्यूटिंग",
+                "FYP",
+                "UET मर्दान"
+              ]
+            },
+            "de": {
+              "title": "B.Sc {{Softwaretechnik}}",
+              "province": "KPK",
+              "country": "Pakistan",
+              "institution": "Universität für Ingenieurwesen und Technologie Mardan",
+              "text": "Ich absolvierte ein umfassendes Studium in [[Softwaretechnik]] von 2021 bis 2025 und erwarb fundierte Kenntnisse in Programmierung, Systemen, Softwareentwicklung sowie in modernen Technologien wie KI und Cloud Computing.",
+              "list": [
+                "<b>Semester 1:</b> Grundlagen der Informatik, Physik, Mathematik und Programmierung.",
+                "<b>Semester 2:</b> Mathematik, logisches Design, OOP, Kommunikation.",
+                "<b>Semester 3:</b> Datenstrukturen, Betriebssysteme, Wahrscheinlichkeit, Signale.",
+                "<b>Semester 4:</b> Datenbanken, Softwaredesign, Netzwerke, Psychologie.",
+                "<b>Semester 5:</b> Fortgeschrittene Programmierung, KI, eingebettete Systeme, Ethik.",
+                "<b>Semester 6:</b> Projektmanagement, Web- und Mobile-Entwicklung, HCI.",
+                "<b>Semester 7:</b> Formale Methoden, maschinelles Lernen, Datenanalyse.",
+                "<b>Semester 8:</b> Abschlussprojekt, IoT, Deep Learning, Cloud Computing."
+              ],
+              "tags": [
+                "Softwaretechnik",
+                "KI",
+                "Cloud Computing",
+                "Abschlussprojekt",
+                "UET Mardan"
+              ]
+            },
+            "ur": {
+              "title": "بی ایس سی {{کمپیوٹر سافٹ ویئر انجینئرنگ}}",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "یونیورسٹی آف انجینئرنگ اینڈ ٹیکنالوجی مردان",
+              "text": "میں نے 2021 سے 2025 تک [[کمپیوٹر سافٹ ویئر انجینئرنگ]] میں ایک جامع انڈرگریجویٹ پروگرام مکمل کیا، جس میں پروگرامنگ، سسٹمز، سافٹ ویئر ڈیولپمنٹ اور جدید ٹیکنالوجیز جیسے AI اور کلاؤڈ کمپیوٹنگ میں مضبوط بنیاد حاصل کی۔",
+              "list": [
+                "<b>سمسٹر 1:</b> کمپیوٹنگ، فزکس، ریاضی اور پروگرامنگ کی بنیادی باتیں۔",
+                "<b>سمسٹر 2:</b> ریاضی، لاجک ڈیزائن، OOP اور کمیونیکیشن۔",
+                "<b>سمسٹر 3:</b> ڈیٹا اسٹرکچر، آپریٹنگ سسٹمز، امکانیات، سگنلز۔",
+                "<b>سمسٹر 4:</b> ڈیٹابیس، سافٹ ویئر ڈیزائن، نیٹ ورکنگ، نفسیات۔",
+                "<b>سمسٹر 5:</b> ایڈوانسڈ پروگرامنگ، AI، ایمبیڈڈ سسٹمز، اخلاقیات۔",
+                "<b>سمسٹر 6:</b> پروجیکٹ مینجمنٹ، ویب و موبائل ڈیولپمنٹ، HCI۔",
+                "<b>سمسٹر 7:</b> رسمی طریقے، مشین لرننگ، ڈیٹا اینالٹکس۔",
+                "<b>سمسٹر 8:</b> فائنل ایئر پروجیکٹ، IoT، ڈیپ لرننگ، کلاؤڈ کمپیوٹنگ۔"
+              ],
+              "tags": [
+                "کمپیوٹر سافٹ ویئر انجینئرنگ",
+                "AI",
+                "کلاؤڈ کمپیوٹنگ",
+                "فائنل ایئر پروجیکٹ",
+                "UET مردان"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

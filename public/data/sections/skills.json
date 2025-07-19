@@ -1,0 +1,1627 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Skills",
+        "title_short_nav": "Skills",
+        "title_long_prefix": "Explore",
+        "title_long": "My {{Skill Set}}"
+      },
+      "es": {
+        "title_short": "Habilidades",
+        "title_short_nav": "Habilidades",
+        "title_long_prefix": "Explora",
+        "title_long": "Mis {{Habilidades}}"
+      },
+      "fr": {
+        "title_short": "Capacités",
+        "title_short_nav": "Capacités",
+        "title_long_prefix": "Explorez",
+        "title_long": "Mes {{Compétences}}"
+      },
+      "ko": {
+        "title_short": "스킬",
+        "title_short_nav": "스킬",
+        "title_long_prefix": "이것은 내",
+        "title_long": "{{스킬}}입니다"
+      },
+      "de": {
+        "title_short": "Fähigkeiten",
+        "title_short_nav": "Fähigkeiten",
+        "title_long_prefix": "Entdecke",
+        "title_long": "Meine {{Fähigkeiten}}"
+      },
+      "ur": {
+        "title_short": "مہارتیں",
+        "title_short_nav": "مہارتیں",
+        "title_long_prefix": "دریافت کریں",
+        "title_long": "میری {{مہارتوں}} کا سیٹ"
+      },
+      "hi": {
+        "title_short": "कौशल",
+        "title_short_nav": "कौशल",
+        "title_long_prefix": "अन्वेषण करें",
+        "title_long": "मेरा {{Skill Set}}"
+      },
+      "ar": {
+        "title_short": "المهارات",
+        "title_short_nav": "المهارات",
+        "title_long_prefix": "استكشاف",
+        "title_long": "مجموعة {{مهاراتي}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleCards",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-solid fa-table-columns",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{Website}} design",
+              "text": "I can bring your best ideas into life and make them a reality!"
+            },
+            "es": {
+              "title": "{{Diseño}} de websites",
+              "text": "¡Puedo hacer realidad tus mejores ideas y hacerlas reales!"
+            },
+            "fr": {
+              "title": "{{Conception}} de websites",
+              "text": "Je peux donner vie à vos meilleures idées et les rendre réelles !"
+            },
+            "ko": {
+              "title": "{{웹사이트}} 디자인",
+              "text": "당신의 최고의 아이디어를 실현하고 현실로 만들 수 있습니다!"
+            },
+            "de": {
+              "title": "{{Website}}-Design",
+              "text": "Ich kann deine besten Ideen zum Leben erwecken und sie realisieren!"
+            },
+            "ur": {
+              "title": "{{ویب سائٹ}} ڈیزائن",
+              "text": "میں آپ کے بہترین خیالات کو حقیقت میں بدل سکتا ہوں!"
+            },
+            "hi": {
+              "title": "{{वेबसाइट}} डिज़ाइन",
+              "text": "मैं आपके बेहतरीन विचारों को हकीकत में बदल सकता हूँ!"
+            },
+            "ar": {
+              "title": "تصميم {{مواقع إلكترونية}}",
+              "text": "يمكنني تحويل أفضل أفكارك إلى واقع!"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{Database}} management",
+              "text": "I can handle your data effectively and efficiently!"
+            },
+            "es": {
+              "title": "Gestión de {{bases de datos}}",
+              "text": "¡Puedo manejar sus datos de manera efectiva y eficiente!"
+            },
+            "fr": {
+              "title": "Gestion de {{bases de données}}",
+              "text": "Je peux gérer vos données de manière efficace et efficiente !"
+            },
+            "ko": {
+              "title": "{{데이터베이스}} 관리",
+              "text": "데이터를 효과적이고 효율적으로 처리할 수 있습니다!"
+            },
+            "de": {
+              "title": "{{Datenbank}}-Verwaltung",
+              "text": "Ich kann Ihre Daten effektiv und effizient verwalten!"
+            },
+            "ur": {
+              "title": "{{ڈیٹابیس}} مینجمنٹ",
+              "text": "میں آپ کے ڈیٹا کو مؤثر اور مؤثر طریقے سے سنبھال سکتا ہوں!"
+            },
+            "hi": {
+              "title": "{{डेटाबेस}} प्रबंधन",
+              "text": "मैं आपके डेटा को प्रभावी और कुशल तरीके से संभाल सकता हूँ!"
+            },
+            "ar": {
+              "title": "إدارة {{قواعد البيانات}}",
+              "text": "يمكنني التعامل مع بياناتك بشكل فعال وكفء!"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{Web}} development",
+              "text": "I build creative, responsive, and powerful web apps using MERN and Next.js!"
+            },
+            "es": {
+              "title": "Desarrollo {{web}}",
+              "text": "¡Construyo aplicaciones web creativas, receptivas y potentes con MERN y Next.js!"
+            },
+            "fr": {
+              "title": "Développement {{web}}",
+              "text": "Je crée des applications web créatives, réactives et puissantes avec MERN et Next.js !"
+            },
+            "ko": {
+              "title": "{{웹}} 개발",
+              "text": "MERN과 Next.js를 사용하여 창의적이고 반응형이며 강력한 웹 앱을 구축합니다!"
+            },
+            "de": {
+              "title": "{{Web}}-Entwicklung",
+              "text": "Ich entwickle kreative, responsive und leistungsstarke Web-Apps mit MERN und Next.js!"
+            },
+            "ur": {
+              "title": "{{ویب}} ڈویلپمنٹ",
+              "text": "میں MERN اور Next.js کا استعمال کرتے ہوئے تخلیقی، ریسپانسیو اور طاقتور ویب ایپس بناتا ہوں!"
+            },
+            "hi": {
+              "title": "{{वेब}} विकास",
+              "text": "मैं MERN और Next.js का उपयोग करके रचनात्मक, उत्तरदायी और शक्तिशाली वेब ऐप बनाता हूँ!"
+            },
+            "ar": {
+              "title": "تطوير {{الويب}}",
+              "text": "أقوم ببناء تطبيقات ويب إبداعية واستجابية وقوية باستخدام MERN و Next.js!"
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-window-restore",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{REST}} APIs",
+              "text": "I can build API services!"
+            },
+            "es": {
+              "title": "APIs {{REST}}",
+              "text": "¡Puedo construir servicios API!"
+            },
+            "fr": {
+              "title": "APIs {{REST}}",
+              "text": "Je peux créer des services API !"
+            },
+            "ko": {
+              "title": "{{REST}} API",
+              "text": "API 서비스를 구축할 수 있습니다!"
+            },
+            "de": {
+              "title": "{{REST}}-APIs",
+              "text": "Ich kann API-Dienste erstellen!"
+            },
+            "ur": {
+              "title": "{{REST}} APIز",
+              "text": "میں API سروسز بنا سکتا ہوں!"
+            },
+            "hi": {
+              "title": "{{REST}} APIs",
+              "text": "मैं API सेवाएँ बना सकता हूँ!"
+            },
+            "ar": {
+              "title": "{{REST}} APIs",
+              "text": "يمكنني إنشاء خدمات API!"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-solid fa-lock",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "Information {{Security}}",
+              "text": "Security is my middle name!"
+            },
+            "es": {
+              "title": "{{Seguridad}} Informática",
+              "text": "¡La seguridad es mi segundo nombre!"
+            },
+            "fr": {
+              "title": "{{Sécurité}} Informatique",
+              "text": "La sécurité est mon deuxième prénom !"
+            },
+            "ko": {
+              "title": "{{정보}} 보안",
+              "text": "보안은 내 중간 이름입니다!"
+            },
+            "de": {
+              "title": "Informations{{sicherheit}}",
+              "text": "Sicherheit ist mein zweiter Vorname!"
+            },
+            "ur": {
+              "title": "معلوماتی {{سیکیورٹی}}",
+              "text": "سیکیورٹی میرا دوسرا نام ہے!"
+            },
+            "hi": {
+              "title": "सूचना {{सुरक्षा}}",
+              "text": "सुरक्षा मेरा दूसरा नाम है!"
+            },
+            "ar": {
+              "title": "أمن {{المعلومات}}",
+              "text": "الأمن هو اسمي الأوسط!"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "img": "",
+          "faIcon": "fa-solid fa-user-shield",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{Authentication}} & Authorization",
+              "text": "I secure apps with robust login systems and token-based flows."
+            },
+            "es": {
+              "title": "{{Autenticación}} y Autorización",
+              "text": "Protejo aplicaciones con sistemas robustos de inicio de sesión y tokens."
+            },
+            "fr": {
+              "title": "{{Authentification}} & Autorisation",
+              "text": "Je sécurise les apps avec des systèmes robustes basés sur des tokens."
+            },
+            "ko": {
+              "title": "{{인증}} 및 권한 부여",
+              "text": "튼튼한 로그인 시스템과 토큰 기반 흐름으로 앱을 보호합니다."
+            },
+            "de": {
+              "title": "{{Authentifizierung}} & Autorisierung",
+              "text": "Ich sichere Apps mit robusten Login- und Token-Mechanismen."
+            },
+            "ur": {
+              "title": "{{تصدیق}} اور اجازت",
+              "text": "میں ایپس کو محفوظ لاگ ان اور ٹوکن سسٹمز کے ساتھ محفوظ بناتا ہوں۔"
+            },
+            "hi": {
+              "title": "{{प्रमाणीकरण}} और प्राधिकरण",
+              "text": "मैं मजबूत लॉगिन और टोकन आधारित सिस्टम से ऐप्स सुरक्षित करता हूँ।"
+            },
+            "ar": {
+              "title": "{{المصادقة}} والتفويض",
+              "text": "أقوم بتأمين التطبيقات بأنظمة تسجيل دخول قوية وتدفقات تعتمد على الرموز."
+            }
+          }
+        },
+        {
+          "id": 7,
+          "img": "",
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{Responsive}} UI Development",
+              "text": "Pixel-perfect design for all devices using Tailwind & CSS3."
+            },
+            "es": {
+              "title": "Desarrollo de UI {{Responsivo}}",
+              "text": "Diseño perfecto para todos los dispositivos con Tailwind y CSS3."
+            },
+            "fr": {
+              "title": "Développement d'UI {{Responsive}}",
+              "text": "Design parfait pour tous les écrans avec Tailwind et CSS3."
+            },
+            "ko": {
+              "title": "{{반응형}} UI 개발",
+              "text": "Tailwind와 CSS3를 사용한 모든 장치에 맞춘 픽셀 완벽한 디자인."
+            },
+            "de": {
+              "title": "{{Responsives}} UI-Design",
+              "text": "Pixelgenaues Design mit Tailwind und CSS3 für alle Geräte."
+            },
+            "ur": {
+              "title": "ریسپانسیو {{UI ڈویلپمنٹ}}",
+              "text": "ہر ڈیوائس کے لیے پرفیکٹ ڈیزائن Tailwind اور CSS3 کے ساتھ۔"
+            },
+            "hi": {
+              "title": "{{रिस्पॉन्सिव}} UI डेवलपमेंट",
+              "text": "हर डिवाइस के लिए पिक्सल परफेक्ट डिज़ाइन Tailwind और CSS3 से।"
+            },
+            "ar": {
+              "title": "تطوير {{واجهة متجاوبة}}",
+              "text": "تصميم مثالي لكل الأجهزة باستخدام Tailwind وCSS3."
+            }
+          }
+        },
+        {
+          "id": 8,
+          "img": "",
+          "faIcon": "fa-solid fa-cloud-arrow-up",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{Deployment}} & CI/CD",
+              "text": "I deploy scalable apps using GitHub, Vercel, and Railway."
+            },
+            "es": {
+              "title": "{{Despliegue}} y CI/CD",
+              "text": "Despliego apps escalables con GitHub, Vercel y Railway."
+            },
+            "fr": {
+              "title": "{{Déploiement}} & CI/CD",
+              "text": "Je déploie des apps évolutives avec GitHub, Vercel et Railway."
+            },
+            "ko": {
+              "title": "{{배포}} 및 CI/CD",
+              "text": "GitHub, Vercel, Railway를 활용한 확장 가능한 앱 배포."
+            },
+            "de": {
+              "title": "{{Bereitstellung}} & CI/CD",
+              "text": "Skalierbare Apps mit GitHub, Vercel und Railway bereitstellen."
+            },
+            "ur": {
+              "title": "{{ڈپلائمنٹ}} اور CI/CD",
+              "text": "GitHub، Vercel اور Railway کے ذریعے ایپلیکیشنز ڈپلائے کرتا ہوں۔"
+            },
+            "hi": {
+              "title": "{{डिप्लॉयमेंट}} और CI/CD",
+              "text": "GitHub, Vercel और Railway से स्केलेबल ऐप्स डिप्लॉय करता हूँ।"
+            },
+            "ar": {
+              "title": "{{النشر}} وCI/CD",
+              "text": "أنشر التطبيقات القابلة للتوسع باستخدام GitHub وVercel وRailway."
+            }
+          }
+        },
+        {
+          "id": 8,
+          "img": "",
+          "faIcon": "fa-solid fa-diagram-project",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": { "href": "", "tooltipString": "" },
+          "locales": {
+            "en": {
+              "title": "{{State}} Management",
+              "text": "I use Redux, Context API & Zustand for complex state logic."
+            },
+            "es": {
+              "title": "Gestión de {{Estado}}",
+              "text": "Uso Redux, Context API y Zustand para lógica de estado compleja."
+            },
+            "fr": {
+              "title": "Gestion d'{{état}}",
+              "text": "J'utilise Redux, Context API et Zustand pour une logique complexe."
+            },
+            "ko": {
+              "title": "{{상태}} 관리",
+              "text": "Redux, Context API, Zustand로 복잡한 상태 로직을 관리합니다."
+            },
+            "de": {
+              "title": "{{State}} Management",
+              "text": "Ich verwende Redux, Context API & Zustand für komplexe Logik."
+            },
+            "ur": {
+              "title": "{{ریاست}} کا نظم",
+              "text": "میں Redux، Context API اور Zustand استعمال کرتا ہوں۔"
+            },
+            "hi": {
+              "title": "{{स्टेट}} मैनेजमेंट",
+              "text": "मैं Redux, Context API और Zustand का उपयोग करता हूँ।"
+            },
+            "ar": {
+              "title": "إدارة {{الحالة}}",
+              "text": "أستخدم Redux وContext API وZustand للمنطق المعقد."
+            }
+          }
+        },
+        {
+          "id": 9,
+          "img": "",
+          "faIcon": "fa-brands fa-github",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": {
+            "href": "https://github.com/Muhammad-Shakeel123",
+            "tooltipString": "View my GitHub"
+          },
+          "locales": {
+            "en": {
+              "title": "{{Git & GitHub}}",
+              "text": "I collaborate and manage projects with Git & GitHub!"
+            },
+            "es": {
+              "title": "{{Git y GitHub}}",
+              "text": "¡Colaboro y gestiono proyectos con Git y GitHub!"
+            },
+            "fr": {
+              "title": "{{Git & GitHub}}",
+              "text": "Je collabore et gère des projets avec Git & GitHub !"
+            },
+            "ko": {
+              "title": "{{Git 및 GitHub}}",
+              "text": "Git 및 GitHub로 프로젝트를 관리하고 협업합니다!"
+            },
+            "de": {
+              "title": "{{Git & GitHub}}",
+              "text": "Ich verwalte Projekte mit Git & GitHub!"
+            },
+            "ur": {
+              "title": "{{Git اور GitHub}}",
+              "text": "میں Git اور GitHub سے پراجیکٹس کو منظم اور تعاون کرتا ہوں!"
+            },
+            "hi": {
+              "title": "{{Git और GitHub}}",
+              "text": "मैं Git और GitHub से प्रोजेक्ट्स को मैनेज और कोलैबोरेट करता हूँ!"
+            },
+            "ar": {
+              "title": "{{Git و GitHub}}",
+              "text": "أدير المشاريع وأتعاون باستخدام Git و GitHub!"
+            }
+          }
+        },
+        {
+          "id": 10,
+          "img": "",
+          "faIcon": "fa-solid fa-vials",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": {
+            "href": "https://www.postman.com/",
+            "tooltipString": "Open Postman"
+          },
+          "locales": {
+            "en": {
+              "title": "{{API Testing}} with Postman",
+              "text": "I test, debug, and document APIs efficiently using Postman."
+            },
+            "es": {
+              "title": "{{Pruebas de API}} con Postman",
+              "text": "Pruebo, depuro y documento APIs de manera eficiente con Postman."
+            },
+            "fr": {
+              "title": "Tests {{d’API}} avec Postman",
+              "text": "Je teste, débogue et documente des API avec efficacité grâce à Postman."
+            },
+            "ko": {
+              "title": "Postman을 통한 {{API 테스트}}",
+              "text": "Postman을 사용하여 API를 효율적으로 테스트하고 디버그합니다."
+            },
+            "de": {
+              "title": "{{API-Tests}} mit Postman",
+              "text": "Ich teste, debugge und dokumentiere APIs effizient mit Postman."
+            },
+            "ur": {
+              "title": "Postman کے ساتھ {{API ٹیسٹنگ}}",
+              "text": "میں Postman کے ذریعے APIs کی جانچ، ڈیبگنگ اور دستاویزات کرتا ہوں۔"
+            },
+            "hi": {
+              "title": "Postman के साथ {{API परीक्षण}}",
+              "text": "मैं Postman का उपयोग करके APIs को टेस्ट, डिबग और डाक्यूमेंट करता हूँ।"
+            },
+            "ar": {
+              "title": "اختبار {{واجهات API}} باستخدام Postman",
+              "text": "أقوم باختبار وتصحيح وتوثيق واجهات API بكفاءة باستخدام Postman."
+            }
+          }
+        },
+        {
+          "id": 12,
+          "img": "",
+          "faIcon": "fa-solid fa-cloud-arrow-up",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "link": {
+            "href": "https://cloudinary.com/",
+            "tooltipString": "Visit Cloudinary"
+          },
+          "locales": {
+            "en": {
+              "title": "Media Upload with {{Cloudinary}}",
+              "text": "I use Cloudinary to manage, transform, and deliver images and videos at scale."
+            },
+            "es": {
+              "title": "Carga de medios con {{Cloudinary}}",
+              "text": "Uso Cloudinary para gestionar, transformar y entregar imágenes y videos a gran escala."
+            },
+            "fr": {
+              "title": "Téléversement média avec {{Cloudinary}}",
+              "text": "J’utilise Cloudinary pour gérer, transformer et diffuser des images/vidéos à grande échelle."
+            },
+            "ko": {
+              "title": "{{Cloudinary}}를 통한 미디어 업로드",
+              "text": "Cloudinary를 사용하여 이미지를 관리, 변환, 제공합니다."
+            },
+            "de": {
+              "title": "Medien-Upload mit {{Cloudinary}}",
+              "text": "Ich nutze Cloudinary zur Verwaltung, Transformation und Auslieferung von Medieninhalten."
+            },
+            "ur": {
+              "title": "{{Cloudinary}} کے ساتھ میڈیا اپلوڈ",
+              "text": "میں Cloudinary کا استعمال تصاویر اور ویڈیوز کو منظم، تبدیل اور فراہم کرنے کے لیے کرتا ہوں۔"
+            },
+            "hi": {
+              "title": "{{Cloudinary}} के साथ मीडिया अपलोड",
+              "text": "मैं Cloudinary का उपयोग इमेज और वीडियो को मैनेज, ट्रांसफॉर्म और डिलीवर करने के लिए करता हूँ।"
+            },
+            "ar": {
+              "title": "رفع الوسائط باستخدام {{Cloudinary}}",
+              "text": "أستخدم Cloudinary لإدارة وتحويل وتوصيل الصور ومقاطع الفيديو بكفاءة عالية."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": { "title": "Backend Stack" },
+        "es": { "title": "Stack de Backend" },
+        "fr": { "title": "Stack Backend" },
+        "ko": { "title": "백엔드 스택" },
+        "de": { "title": "Backend-Technologien" },
+        "ur": { "title": "بیک اینڈ اسٹیک" },
+        "hi": { "title": "बैकएंड स्टैक" },
+        "ar": { "title": "تقنيات الخلفية" }
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-brands fa-node-js",
+          "faIconColors": { "fill": "#339933" },
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "Node.js",
+              "text": "Experienced in building scalable backend APIs using Node.js."
+            },
+            "es": {
+              "title": "Node.js",
+              "text": "Experiencia en la creación de APIs backend escalables con Node.js."
+            },
+            "fr": {
+              "title": "Node.js",
+              "text": "Expérience dans la création d'APIs backend évolutives avec Node.js."
+            },
+            "ko": {
+              "title": "Node.js",
+              "text": "Node.js를 사용한 확장 가능한 백엔드 API 구축 경험."
+            },
+            "de": {
+              "title": "Node.js",
+              "text": "Erfahrung im Aufbau skalierbarer Backend-APIs mit Node.js."
+            },
+            "ur": {
+              "title": "Node.js",
+              "text": "Node.js کے ساتھ قابل توسیع بیک اینڈ APIs بنانے کا تجربہ۔"
+            },
+            "hi": {
+              "title": "Node.js",
+              "text": "Node.js का उपयोग करके स्केलेबल बैकएंड APIs बनाने का अनुभव।"
+            },
+            "ar": {
+              "title": "Node.js",
+              "text": "خبرة في إنشاء واجهات برمجة التطبيقات الخلفية القابلة للتوسيع باستخدام Node.js."
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "fill": "#47A248" },
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "MongoDB",
+              "text": "Working with NoSQL databases for high-performance data modeling."
+            },
+            "es": {
+              "title": "MongoDB",
+              "text": "Uso de bases de datos NoSQL para modelado de datos de alto rendimiento."
+            },
+            "fr": {
+              "title": "MongoDB",
+              "text": "Utilisation de bases NoSQL pour un modèle de données performant."
+            },
+            "ko": {
+              "title": "MongoDB",
+              "text": "고성능 데이터 모델링을 위한 NoSQL 데이터베이스 사용."
+            },
+            "de": {
+              "title": "MongoDB",
+              "text": "Arbeiten mit NoSQL-Datenbanken für leistungsstarkes Datenmodellieren."
+            },
+            "ur": {
+              "title": "MongoDB",
+              "text": "اعلی کارکرد ڈیٹا ماڈلنگ کے لیے NoSQL ڈیٹا بیس کے ساتھ کام کرنا۔"
+            },
+            "hi": {
+              "title": "MongoDB",
+              "text": "उच्च प्रदर्शन डेटा मॉडलिंग के लिए NoSQL डेटाबेस का उपयोग।"
+            },
+            "ar": {
+              "title": "MongoDB",
+              "text": "العمل مع قواعد بيانات NoSQL لنمذجة بيانات عالية الأداء."
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-plug",
+          "faIconColors": { "fill": "#000000" },
+          "percentage": 75,
+          "locales": {
+            "en": {
+              "title": "Express.js",
+              "text": "Efficient middleware handling and RESTful routing with Express.js."
+            },
+            "es": {
+              "title": "Express.js",
+              "text": "Manejo eficiente de middleware y enrutamiento REST con Express.js."
+            },
+            "fr": {
+              "title": "Express.js",
+              "text": "Gestion efficace des middlewares et des routes REST avec Express.js."
+            },
+            "ko": {
+              "title": "Express.js",
+              "text": "Express.js로 효율적인 미들웨어 처리 및 RESTful 라우팅."
+            },
+            "de": {
+              "title": "Express.js",
+              "text": "Effiziente Middleware-Verwaltung und RESTful-Routing mit Express.js."
+            },
+            "ur": {
+              "title": "Express.js",
+              "text": "ایکسپریس جے ایس کے ساتھ موثر مڈل ویئر ہینڈلنگ اور RESTful روٹنگ۔"
+            },
+            "hi": {
+              "title": "Express.js",
+              "text": "Express.js के साथ कुशल मिडलवेयर हैंडलिंग और RESTful रूटिंग।"
+            },
+            "ar": {
+              "title": "Express.js",
+              "text": "معالجة فعّالة للوسيط ومسارات REST باستخدام Express.js."
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "faIcon": "fa-solid fa-code-branch",
+          "faIconColors": { "fill": "#F05032" },
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "Git",
+              "text": "Solid Git knowledge for version control and collaboration."
+            },
+            "es": {
+              "title": "Git",
+              "text": "Sólido conocimiento de Git para control de versiones y colaboración."
+            },
+            "fr": {
+              "title": "Git",
+              "text": "Connaissance approfondie de Git pour le contrôle de version."
+            },
+            "ko": {
+              "title": "Git",
+              "text": "버전 관리 및 협업을 위한 Git에 대한 탄탄한 지식."
+            },
+            "de": {
+              "title": "Git",
+              "text": "Fundiertes Wissen über Git für Versionskontrolle und Zusammenarbeit."
+            },
+            "ur": {
+              "title": "Git",
+              "text": "ورژن کنٹرول اور تعاون کے لیے Git کا مکمل علم۔"
+            },
+            "hi": {
+              "title": "Git",
+              "text": "वर्ज़न कंट्रोल और सहयोग के लिए Git का ठोस ज्ञान।"
+            },
+            "ar": {
+              "title": "Git",
+              "text": "معرفة قوية بـ Git للتحكم في الإصدارات والتعاون."
+            }
+          }
+        },
+
+        {
+          "id": 5,
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "fill": "#880ED4" },
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "Mongoose",
+              "text": "Object modeling and schema design in MongoDB using Mongoose."
+            },
+            "es": {
+              "title": "Mongoose",
+              "text": "Modelado de objetos y diseño de esquemas con Mongoose en MongoDB."
+            },
+            "fr": {
+              "title": "Mongoose",
+              "text": "Modélisation d’objets et schémas MongoDB avec Mongoose."
+            },
+            "ko": {
+              "title": "Mongoose",
+              "text": "MongoDB 스키마 설계 및 모델링을 위한 Mongoose 사용."
+            },
+            "de": {
+              "title": "Mongoose",
+              "text": "Objektmodellierung und Schema-Design in MongoDB mit Mongoose."
+            },
+            "ur": {
+              "title": "Mongoose",
+              "text": "MongoDB میں Mongoose کے ذریعے آبجیکٹ ماڈلنگ اور اسکیمہ ڈیزائن۔"
+            },
+            "hi": {
+              "title": "Mongoose",
+              "text": "MongoDB में Mongoose का उपयोग करके ऑब्जेक्ट मॉडलिंग और स्कीमा डिज़ाइन।"
+            },
+            "ar": {
+              "title": "Mongoose",
+              "text": "نمذجة الكائنات وتصميم المخططات في MongoDB باستخدام Mongoose."
+            }
+          }
+        },
+        {
+          "id": 6,
+          "faIcon": "fa-solid fa-shield-halved",
+          "faIconColors": { "fill": "#17A2B8" },
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "JWT Auth",
+              "text": "Secure token-based authentication using JSON Web Tokens."
+            },
+            "es": {
+              "title": "Autenticación JWT",
+              "text": "Autenticación segura basada en tokens con JWT."
+            },
+            "fr": {
+              "title": "Authentification JWT",
+              "text": "Authentification sécurisée avec tokens JWT."
+            },
+            "ko": {
+              "title": "JWT 인증",
+              "text": "JWT를 사용한 안전한 토큰 기반 인증."
+            },
+            "de": {
+              "title": "JWT-Authentifizierung",
+              "text": "Sichere tokenbasierte Authentifizierung mit JWT."
+            },
+            "ur": {
+              "title": "JWT تصدیق",
+              "text": "JWT کے ذریعے محفوظ ٹوکن پر مبنی تصدیق۔"
+            },
+            "hi": {
+              "title": "JWT प्रमाणीकरण",
+              "text": "JSON Web Tokens का उपयोग करके सुरक्षित टोकन आधारित प्रमाणीकरण।"
+            },
+            "ar": {
+              "title": "مصادقة JWT",
+              "text": "مصادقة آمنة تعتمد على الرموز باستخدام JWT."
+            }
+          }
+        },
+
+        {
+          "id": 7,
+          "faIcon": "fa-solid fa-cloud-arrow-up",
+          "faIconColors": { "fill": "#3448C5" },
+          "percentage": 70,
+          "locales": {
+            "en": {
+              "title": "Cloudinary",
+              "text": "Image upload, transformation, and optimization via Cloudinary API."
+            },
+            "es": {
+              "title": "Cloudinary",
+              "text": "Carga, transformación y optimización de imágenes con Cloudinary."
+            },
+            "fr": {
+              "title": "Cloudinary",
+              "text": "Téléchargement et transformation d’images via Cloudinary."
+            },
+            "ko": {
+              "title": "Cloudinary",
+              "text": "Cloudinary API를 사용한 이미지 업로드 및 최적화."
+            },
+            "de": {
+              "title": "Cloudinary",
+              "text": "Hochladen, Transformieren und Optimieren von Bildern mit der Cloudinary API."
+            },
+            "ur": {
+              "title": "Cloudinary",
+              "text": "Cloudinary API کے ذریعے تصویر اپلوڈ، تبدیلی، اور اصلاح۔"
+            },
+            "hi": {
+              "title": "Cloudinary",
+              "text": "Cloudinary API के माध्यम से छवियों को अपलोड, रूपांतरित और अनुकूलित करें।"
+            },
+            "ar": {
+              "title": "Cloudinary",
+              "text": "رفع الصور وتحويلها وتحسينها عبر Cloudinary API."
+            }
+          }
+        },
+
+        {
+          "id": 8,
+          "faIcon": "fa-solid fa-gear",
+          "faIconColors": { "fill": "#5865F2" },
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "REST APIs",
+              "text": "Designing clean and scalable REST API services."
+            },
+            "es": {
+              "title": "APIs REST",
+              "text": "Diseño de servicios REST escalables y limpios."
+            },
+            "fr": {
+              "title": "APIs REST",
+              "text": "Conception d’APIs REST évolutives et propres."
+            },
+            "ko": {
+              "title": "REST API",
+              "text": "깔끔하고 확장 가능한 REST API 서비스 설계."
+            },
+            "de": {
+              "title": "REST-APIs",
+              "text": "Entwurf sauberer und skalierbarer REST-API-Dienste."
+            },
+            "ur": {
+              "title": "REST APIs",
+              "text": "صاف اور قابل توسیع REST API سروسز کا ڈیزائن۔"
+            },
+            "hi": {
+              "title": "REST APIs",
+              "text": "साफ और स्केलेबल REST API सेवाओं का डिज़ाइन।"
+            },
+            "ar": {
+              "title": "واجهات REST",
+              "text": "تصميم خدمات REST نظيفة وقابلة للتوسعة."
+            }
+          }
+        },
+
+        {
+          "id": 9,
+          "faIcon": "fa-solid fa-paper-plane",
+          "faIconColors": { "fill": "#E94E1B" },
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "Postman",
+              "text": "Testing, documenting, and debugging REST APIs with Postman."
+            },
+            "es": {
+              "title": "Postman",
+              "text": "Prueba, documentación y depuración de APIs REST con Postman."
+            },
+            "fr": {
+              "title": "Postman",
+              "text": "Test, documentation et débogage des APIs REST avec Postman."
+            },
+            "ko": {
+              "title": "Postman",
+              "text": "Postman을 사용한 REST API 테스트, 문서화 및 디버깅."
+            },
+            "de": {
+              "title": "Postman",
+              "text": "Testen, Dokumentieren und Debuggen von REST-APIs mit Postman."
+            },
+            "ur": {
+              "title": "Postman",
+              "text": "Postman کے ساتھ REST APIs کی جانچ، دستاویزات اور ڈیبگنگ۔"
+            },
+            "hi": {
+              "title": "Postman",
+              "text": "Postman के साथ REST APIs का परीक्षण, दस्तावेज़ीकरण और डिबगिंग।"
+            },
+            "ar": {
+              "title": "Postman",
+              "text": "اختبار وتوثيق وتصحيح أخطاء REST APIs باستخدام Postman."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": { "title": "Frontend Stack" },
+        "es": { "title": "Stack de Frontend" },
+        "fr": { "title": "Stack Frontend" },
+        "ko": { "title": "프론트엔드 스택" },
+        "de": { "title": "Frontend-Stack" },
+        "ur": { "title": "فرنٹ اینڈ اسٹیک" },
+        "hi": { "title": "फ्रंटएंड स्टैक" },
+        "ar": { "title": "مجموعة الواجهة الأمامية" }
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-brands fa-html5",
+          "faIconColors": { "bg": "", "fill": "#E34F26" },
+          "date": { "year": 2022, "month": 9 },
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "HTML",
+              "text": "I am proficient in HTML5 for building structured web pages."
+            },
+            "es": {
+              "text": "Soy competente en HTML5 para construir páginas web estructuradas."
+            },
+            "fr": {
+              "text": "Je suis compétent en HTML5 pour créer des pages web structurées."
+            },
+            "ko": {
+              "text": "HTML5를 사용하여 구조화된 웹 페이지를 구축할 수 있습니다."
+            },
+            "de": {
+              "text": "Ich beherrsche HTML5 zur Erstellung strukturierter Webseiten."
+            },
+            "ur": {
+              "text": "میں HTML5 میں مہارت رکھتا ہوں تاکہ ساختہ ویب صفحات بنا سکوں۔"
+            },
+            "hi": {
+              "text": "मैं HTML5 में कुशल हूँ, जो संरचित वेब पेज बनाने में मदद करता है।"
+            },
+            "ar": { "text": "أنا ماهر في HTML5 لإنشاء صفحات ويب منظمة." }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-brands fa-css3-alt",
+          "faIconColors": { "bg": "", "fill": "#1572B6" },
+          "date": { "year": 2022, "month": 10 },
+          "percentage": 70,
+          "locales": {
+            "en": {
+              "title": "CSS",
+              "text": "I can create responsive and visually appealing designs using CSS3."
+            },
+            "es": {
+              "text": "Puedo crear diseños receptivos y atractivos usando CSS3."
+            },
+            "fr": {
+              "text": "Je peux créer des designs réactifs et attrayants avec CSS3."
+            },
+            "ko": {
+              "text": "CSS3를 사용하여 반응형 디자인을 만들 수 있습니다."
+            },
+            "de": {
+              "text": "Ich kann mit CSS3 ansprechende, responsive Designs erstellen."
+            },
+            "ur": {
+              "text": "میں CSS3 کے ساتھ خوبصورت اور ریسپانسیو ڈیزائن بنا سکتا ہوں۔"
+            },
+            "hi": {
+              "text": "मैं CSS3 के ज़रिए आकर्षक और उत्तरदायी डिज़ाइन बना सकता हूँ।"
+            },
+            "ar": {
+              "text": "أستطيع إنشاء تصميمات جذابة ومتجاوبة باستخدام CSS3."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-brands fa-js",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#F7DF1E",
+            "fillLight": "#a69617"
+          },
+          "date": { "year": 2023, "month": 8 },
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "JavaScript",
+              "text": "Mastered JavaScript ES6+ for dynamic and interactive web applications."
+            },
+            "es": {
+              "text": "Dominio de JavaScript ES6+ para aplicaciones web dinámicas."
+            },
+            "fr": {
+              "text": "Maîtrise de JavaScript ES6+ pour des applications interactives."
+            },
+            "ko": {
+              "text": "동적인 웹 애플리케이션을 위한 JavaScript ES6+ 숙련자."
+            },
+            "de": {
+              "text": "JavaScript ES6+ für dynamische Webanwendungen gemeistert."
+            },
+            "ur": {
+              "text": "میں JavaScript ES6+ میں مہارت رکھتا ہوں برائے متحرک ویب ایپلی کیشنز۔"
+            },
+            "hi": {
+              "text": "मैंने JavaScript ES6+ में महारत हासिल की है इंटरएक्टिव वेब ऐप्स के लिए।"
+            },
+            "ar": { "text": "أتقنت JavaScript ES6+ لتطبيقات الويب التفاعلية." }
+          }
+        },
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-brands fa-react",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#61DAFB",
+            "fillLight": "#317385"
+          },
+          "date": { "year": 2023, "month": 10 },
+          "percentage": 60,
+          "locales": {
+            "en": {
+              "title": "React",
+              "text": "Complete understanding of React for building modern web applications."
+            },
+            "es": {
+              "text": "Conocimiento completo de React para aplicaciones modernas."
+            },
+            "fr": {
+              "text": "Compréhension complète de React pour applications web modernes."
+            },
+            "ko": {
+              "text": "최신 웹 애플리케이션 구축을 위한 React 완전 이해."
+            },
+            "de": {
+              "text": "Vollständiges Verständnis von React für moderne Anwendungen."
+            },
+            "ur": {
+              "text": "React کا مکمل فہم جدید ویب ایپلی کیشنز بنانے کے لیے۔"
+            },
+            "hi": {
+              "text": "React का पूर्ण ज्ञान आधुनिक वेब ऐप्स बनाने के लिए।"
+            },
+            "ar": { "text": "فهم كامل لـ React لبناء تطبيقات ويب حديثة." }
+          }
+        },
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-brands fa-nextjs",
+          "faIconColors": { "bg": "", "fill": "#000000" },
+          "date": { "year": 2025, "month": 1 },
+          "percentage": 60,
+          "locales": {
+            "en": {
+              "title": "Next.js",
+              "text": "Skilled in server-side rendering and full stack apps using Next.js."
+            },
+            "es": {
+              "text": "Experto en renderizado del lado del servidor con Next.js."
+            },
+            "fr": {
+              "text": "Compétent en SSR avec Next.js pour des apps complètes."
+            },
+            "ko": {
+              "text": "Next.js를 이용한 서버사이드 렌더링 및 풀스택 개발 가능."
+            },
+            "de": { "text": "Erfahren in SSR und Fullstack-Apps mit Next.js." },
+            "ur": { "text": "Next.js کے ساتھ سرور سائیڈ رینڈرنگ میں مہارت۔" },
+            "hi": {
+              "text": "Next.js के साथ सर्वर-साइड रेंडरिंग और फुल-स्टैक ऐप्स में निपुण।"
+            },
+            "ar": {
+              "text": "ماهر في تقديم الخادم وتطبيقات الويب الكاملة باستخدام Next.js."
+            }
+          }
+        },
+        {
+          "id": 6,
+          "img": "",
+          "faIcon": "fa-brands fa-css3",
+          "faIconColors": { "bg": "", "fill": "#38BDF8" },
+          "date": { "year": 2024, "month": 1 },
+          "percentage": 70,
+          "locales": {
+            "en": {
+              "title": "Tailwind CSS",
+              "text": "Skilled in building utility-first responsive designs with Tailwind CSS."
+            },
+            "es": {
+              "text": "Experto en diseños responsivos con Tailwind CSS."
+            },
+            "fr": {
+              "text": "Compétent dans les designs responsives avec Tailwind CSS."
+            },
+            "ko": {
+              "text": "Tailwind CSS로 유틸리티 중심의 반응형 디자인 개발에 능숙합니다."
+            },
+            "de": {
+              "text": "Kompetent in responsiven Designs mit Tailwind CSS."
+            },
+            "ur": {
+              "text": "Tailwind CSS کے ساتھ ریسپانسیو ڈیزائنز بنانے میں مہارت۔"
+            },
+            "hi": {
+              "text": "Tailwind CSS से उत्तरदायी डिज़ाइन बनाने में कुशल।"
+            },
+            "ar": {
+              "text": "ماهر في إنشاء تصميمات متجاوبة باستخدام Tailwind CSS."
+            }
+          }
+        },
+        {
+          "id": 7,
+          "img": "",
+          "faIcon": "fa-solid fa-layer-group",
+          "faIconColors": { "bg": "", "fill": "#6366F1" },
+          "date": { "year": 2025, "month": 1 },
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "shadcn/ui",
+              "text": "Experienced in using shadcn/ui for building accessible and customizable React components."
+            },
+            "es": {
+              "text": "Uso de shadcn/ui para componentes accesibles y personalizables en React."
+            },
+            "fr": {
+              "text": "Utilisation de shadcn/ui pour des composants React accessibles et personnalisables."
+            },
+            "ko": {
+              "text": "접근 가능하고 사용자 정의 가능한 React 컴포넌트를 위해 shadcn/ui 사용 경험 있음."
+            },
+            "de": {
+              "text": "Erfahrung mit shadcn/ui für barrierefreie React-Komponenten."
+            },
+            "ur": {
+              "text": "shadcn/ui کے ساتھ قابل رسائی اور حسب ضرورت React کمپوننٹس بنانے کا تجربہ۔"
+            },
+            "hi": {
+              "text": "shadcn/ui का उपयोग करके एक्सेसिबल और कस्टमाइजेबल React कॉम्पोनेंट्स बनाए।"
+            },
+            "ar": {
+              "text": "خبرة في استخدام shadcn/ui لبناء مكونات React قابلة للتخصيص."
+            }
+          }
+        },
+        {
+          "id": 8,
+          "img": "",
+          "faIcon": "fa-solid fa-wand-magic-sparkles",
+          "faIconColors": { "bg": "", "fill": "#8b5cf6" },
+          "date": { "year": 2025, "month": 3 },
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "Aesteternity UI",
+              "text": "Used Aesteternity UI for building beautiful, responsive user interfaces."
+            },
+            "es": {
+              "text": "Uso de Aesteternity UI para interfaces de usuario hermosas y responsivas."
+            },
+            "fr": {
+              "text": "Utilisé Aesteternity UI pour des interfaces élégantes et responsives."
+            },
+            "ko": {
+              "text": "아름답고 반응형 UI 생성을 위한 Aesteternity UI 사용."
+            },
+            "de": {
+              "text": "Nutzung von Aesteternity UI für schöne, reaktionsfähige UIs."
+            },
+            "ur": {
+              "text": "Aesteternity UI کے ساتھ خوبصورت اور ریسپانسیو یوزر انٹرفیس تیار کیے۔"
+            },
+            "hi": { "text": "Aesteternity UI से सुंदर और उत्तरदायी UI बनाए।" },
+            "ar": {
+              "text": "تم استخدام Aesteternity UI لبناء واجهات مستخدم جذابة ومتجاوبة."
+            }
+          }
+        },
+        {
+          "id": 9,
+          "img": "",
+          "faIcon": "fa-solid fa-shield-check",
+          "faIconColors": { "bg": "", "fill": "#10B981" },
+          "date": { "year": 2025, "month": 2 },
+          "percentage": 60,
+          "locales": {
+            "en": {
+              "title": "Zod",
+              "text": "Proficient in using Zod for TypeScript schema validation and parsing."
+            },
+            "es": {
+              "text": "Competente en validación de esquemas TypeScript con Zod."
+            },
+            "fr": {
+              "text": "Compétent en validation de schémas TypeScript avec Zod."
+            },
+            "ko": {
+              "text": "Zod를 사용한 TypeScript 스키마 검증에 능숙합니다."
+            },
+            "de": { "text": "Kompetent in TypeScript-Validierung mit Zod." },
+            "ur": {
+              "text": "TypeScript اسکیمہ ویلیڈیشن کے لیے Zod کے استعمال میں مہارت۔"
+            },
+            "hi": {
+              "text": "TypeScript स्कीमा वेलिडेशन में Zod का उपयोग करता हूँ।"
+            },
+            "ar": { "text": "بارع في استخدام Zod للتحقق من مخططات TypeScript." }
+          }
+        },
+        {
+          "id": 10,
+          "img": "",
+          "faIcon": "fa-solid fa-diagram-project",
+          "faIconColors": { "bg": "", "fill": "#764ABC" },
+          "date": { "year": 2023, "month": 12 },
+          "percentage": 50,
+          "locales": {
+            "en": {
+              "title": "Redux Toolkit",
+              "text": "Experienced in Redux Toolkit for scalable and maintainable state management."
+            },
+            "es": {
+              "text": "Experiencia en Redux Toolkit para gestión de estado escalable."
+            },
+            "fr": {
+              "text": "Expérience avec Redux Toolkit pour la gestion d’état évolutive."
+            },
+            "ko": {
+              "text": "확장 가능한 상태 관리를 위한 Redux Toolkit 사용 경험 있음."
+            },
+            "de": {
+              "text": "Erfahren im Einsatz von Redux Toolkit für State Management."
+            },
+            "ur": {
+              "text": "Redux Toolkit کے ساتھ مؤثر سٹیٹ مینجمنٹ کا تجربہ۔"
+            },
+            "hi": {
+              "text": "Redux Toolkit के साथ स्केलेबल स्टेट मैनेजमेंट में अनुभव।"
+            },
+            "ar": { "text": "خبرة في إدارة الحالة باستخدام Redux Toolkit." }
+          }
+        },
+        {
+          "id": 11,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "", "fill": "#f59e0b" },
+          "date": { "year": 2024, "month": 11 },
+          "percentage": 70,
+          "locales": {
+            "en": {
+              "title": "JSON",
+              "text": "Fluent in using JSON for APIs, configuration, and data exchange."
+            },
+            "es": {
+              "text": "Dominio de JSON para APIs, configuración e intercambio de datos."
+            },
+            "fr": {
+              "text": "Maîtrise de JSON pour APIs, configurations et données."
+            },
+            "ko": {
+              "text": "API, 설정, 데이터 교환을 위한 JSON 사용에 능숙합니다."
+            },
+            "de": {
+              "text": "JSON für APIs, Konfiguration und Datenaustausch sicher verwendet."
+            },
+            "ur": {
+              "text": "JSON کا استعمال APIs، ترتیب اور ڈیٹا کے تبادلے کے لیے بخوبی جانتا ہوں۔"
+            },
+            "hi": {
+              "text": "JSON का उपयोग APIs, कॉन्फ़िगरेशन और डेटा ट्रांसफर के लिए दक्षता से करता हूँ।"
+            },
+            "ar": {
+              "text": "بارع في استخدام JSON لواجهات API وتبادل البيانات."
+            }
+          }
+        },
+        {
+          "id": 12,
+          "img": "",
+          "faIcon": "fa-brands fa-figma",
+          "faIconColors": { "bg": "", "fill": "#F24E1E" },
+          "date": { "year": 2024, "month": 1 },
+          "percentage": 50,
+          "locales": {
+            "en": {
+              "title": "Figma",
+              "text": "Skilled in using Figma for UI/UX design, prototyping, and collaborative workflows."
+            },
+            "es": {
+              "text": "Habilidad en Figma para diseño UI/UX, prototipos y colaboración en equipo."
+            },
+            "fr": {
+              "text": "Compétent en Figma pour la conception UI/UX, le prototypage et le travail collaboratif."
+            },
+            "ko": {
+              "text": "Figma를 활용한 UI/UX 디자인, 프로토타이핑, 협업에 능숙합니다."
+            },
+            "de": {
+              "text": "Versiert in Figma für UI/UX-Design, Prototyping und Zusammenarbeit."
+            },
+            "ur": {
+              "text": "Figma میں UI/UX ڈیزائن، پروٹوٹائپنگ، اور ٹیم کے ساتھ تعاون کرنے میں مہارت۔"
+            },
+            "hi": {
+              "text": "Figma का उपयोग UI/UX डिज़ाइन, प्रोटोटाइप और टीम सहयोग के लिए कुशलता से करता हूँ।"
+            },
+            "ar": {
+              "text": "ماهر في استخدام Figma لتصميم UI/UX والنماذج الأولية والعمل الجماعي."
+            }
+          }
+        },
+        {
+          "id": 13,
+          "img": "",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#3178C6"
+          },
+          "date": { "year": 2025, "month": 1 },
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "TypeScript",
+              "text": "Strong knowledge of TypeScript for building scalable and type-safe frontend applications."
+            },
+            "es": {
+              "title": "TypeScript",
+              "text": "Sólido conocimiento de TypeScript para crear aplicaciones frontend escalables y con tipado seguro."
+            },
+            "fr": {
+              "title": "TypeScript",
+              "text": "Bonne maîtrise de TypeScript pour développer des applications frontend évolutives et typées."
+            },
+            "ko": {
+              "title": "타입스크립트",
+              "text": "확장 가능하고 타입 안정성이 뛰어난 프론트엔드 애플리케이션을 위한 TypeScript에 대한 강한 지식."
+            },
+            "de": {
+              "title": "TypeScript",
+              "text": "Gute Kenntnisse in TypeScript für skalierbare und typensichere Frontend-Anwendungen."
+            },
+            "ur": {
+              "title": "ٹائپ اسکرپٹ",
+              "text": "اسکیل ایبل اور محفوظ فرنٹ اینڈ ایپلیکیشنز بنانے کے لیے TypeScript میں مہارت۔"
+            },
+            "hi": {
+              "title": "टाइपस्क्रिप्ट",
+              "text": "स्केलेबल और टाइप-सुरक्षित फ्रंटएंड एप्लिकेशन बनाने के लिए TypeScript का मजबूत ज्ञान।"
+            },
+            "ar": {
+              "title": "تايب سكريبت ",
+              "text": "معرفة قوية بـ TypeScript لبناء تطبيقات واجهة أمامية قابلة للتطوير وآمنة النوع."
+            }
+          }
+        }
+
+      ]
+    },
+    {
+      "id": 4,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": { "title": "Languages" },
+        "es": { "title": "Idiomas" },
+        "fr": { "title": "Langues" },
+        "ko": { "title": "언어" },
+        "de": { "title": "Sprachen" },
+        "ur": { "title": "زبانیں" },
+        "hi": { "title": "भाषाएं" },
+        "ar": { "title": "اللغات" }
+      },
+      "settings": {
+        "max_items_per_row": 1,
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "round_icons": true
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/flags/en-us.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "English",
+              "text": "Native speaker with excellent communication and writing skills.",
+              "level": "Native"
+            },
+            "es": {
+              "title": "Inglés",
+              "text": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
+              "level": "Nativo"
+            },
+            "fr": {
+              "title": "Anglais",
+              "text": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
+              "level": "Natif"
+            },
+            "ko": {
+              "title": "영어",
+              "text": "탁월한 의사소통 및 작문 능력을 갖춘 원어민.",
+              "level": "원어민"
+            },
+            "de": {
+              "title": "Englisch",
+              "text": "Muttersprachler mit exzellenten Kommunikations- und Schreibfähigkeiten.",
+              "level": "Muttersprachler"
+            },
+            "ur": {
+              "title": "انگریزی",
+              "text": "مقامی بولنے والا، بہترین بات چیت اور تحریری صلاحیتوں کے ساتھ۔",
+              "level": "مادری زبان"
+            },
+            "hi": {
+              "title": "अंग्रेज़ी",
+              "text": "मूल वक्ता, उत्कृष्ट संचार और लेखन कौशल के साथ।",
+              "level": "मूल भाषा"
+            },
+            "ar": {
+              "title": "الإنجليزية",
+              "text": "متحدث أصلي يجيد التواصل والكتابة بشكل ممتاز.",
+              "level": "اللغة الأم"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "images/flags/urdu.webp",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Urdu",
+              "text": "Fluent in Urdu with strong verbal and written skills.",
+              "level": "Fluent"
+            },
+            "es": {
+              "title": "Urdu",
+              "text": "Fluido en urdu con sólidas habilidades verbales y escritas.",
+              "level": "Fluido"
+            },
+            "fr": {
+              "title": "Ourdou",
+              "text": "Fluide en ourdou avec de solides compétences orales et écrites.",
+              "level": "Courant"
+            },
+            "ko": {
+              "title": "우르두어",
+              "text": "말하기와 쓰기에 능숙한 우르두어 유창함.",
+              "level": "유창함"
+            },
+            "de": {
+              "title": "Urdu",
+              "text": "Fließend in Urdu mit guten Sprach- und Schreibfähigkeiten.",
+              "level": "Fließend"
+            },
+            "ur": {
+              "title": "اردو",
+              "text": "اردو زبان میں روانی، زبانی اور تحریری دونوں مہارتوں کے ساتھ۔",
+              "level": "روانی"
+            },
+            "hi": {
+              "title": "उर्दू",
+              "text": "उर्दू भाषा में धाराप्रवाह, बोलने और लिखने में सक्षम।",
+              "level": "धाराप्रवाह"
+            },
+            "ar": {
+              "title": "الأردية",
+              "text": "يجيد اللغة الأردية بطلاقة، تحدثًا وكتابة.",
+              "level": "بطلاقة"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "images/flags/pashto.jpg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "date": { "year": null, "month": null },
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Pashto",
+              "text": "Good command of spoken Pashto and cultural understanding.",
+              "level": "Good"
+            },
+            "es": {
+              "title": "Pastún",
+              "text": "Buen dominio del pastún hablado y comprensión cultural.",
+              "level": "Bueno"
+            },
+            "fr": {
+              "title": "Pachto",
+              "text": "Bonne maîtrise du pachto parlé et compréhension culturelle.",
+              "level": "Bon"
+            },
+            "ko": {
+              "title": "파슈토어",
+              "text": "파슈토어 구사 능력 및 문화적 이해도 보유.",
+              "level": "양호"
+            },
+            "de": {
+              "title": "Paschtu",
+              "text": "Gute Kenntnisse in gesprochener Paschtu und Kulturverständnis.",
+              "level": "Gut"
+            },
+            "ur": {
+              "title": "پشتو",
+              "text": "پشتو زبان بولنے میں مہارت اور ثقافتی فہم۔",
+              "level": "اچھی"
+            },
+            "hi": {
+              "title": "पश्तो",
+              "text": "पश्तो भाषा बोलने और सांस्कृतिक समझ में अच्छा ज्ञान।",
+              "level": "अच्छा"
+            },
+            "ar": {
+              "title": "البشتو",
+              "text": "إجادة جيدة للغة البشتو المنطوقة وفهم ثقافي جيد.",
+              "level": "جيد"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

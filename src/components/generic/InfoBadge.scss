@@ -1,0 +1,20 @@
+@import '/src/styles/extend.scss';
+
+div.info-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--theme-info-badge-background);
+  border: 2px solid var(--theme-standard-borders-accent);
+  color: var(--theme-info-badge);
+  padding: 5px 15px;
+  border-radius: 30px;
+
+  i.fa-icon {
+    margin-right: 10px;
+    opacity: 0.75;
+    scale: 0.9;
+    margin-bottom: 2px;
+  }
+}

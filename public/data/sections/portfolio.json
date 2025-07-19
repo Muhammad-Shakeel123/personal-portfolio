@@ -1,0 +1,717 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My {{Portfolio}}"
+      },
+      "es": {
+        "title_short": "Portafolio",
+        "title_short_nav": "Portafolio",
+        "title_long_prefix": "Explora",
+        "title_long": "Mi {{Portafolio}}"
+      },
+      "fr": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Découvrez",
+        "title_long": "Mon {{Portfolio}}"
+      },
+      "ko": {
+        "title_short": "포트폴리오",
+        "title_short_nav": "포트폴리오",
+        "title_long_prefix": "이것은 내",
+        "title_long": "{{포트폴리오}}입니다"
+      },
+      "ar": {
+        "title_short": "المعرض",
+        "title_short_nav": "المعرض",
+        "title_long_prefix": "اطلع على",
+        "title_long": "معرض أعمالي {{Portfolio}}"
+      },
+      "hi": {
+        "title_short": "पोर्टफोलियो",
+        "title_short_nav": "पोर्टफोलियो",
+        "title_long_prefix": "देखिए",
+        "title_long": "मेरा {{पोर्टफोलियो}}"
+      },
+      "de": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Werfen Sie einen Blick auf",
+        "title_long": "Mein {{Portfolio}}"
+      },
+      "ur": {
+        "title_short": "پورٹ فولیو",
+        "title_short_nav": "پورٹ فولیو",
+        "title_long_prefix": "ایک نظر ڈالیں",
+        "title_long": "میرا {{پورٹ فولیو}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+        "en": {
+          "category_all": "All",
+          "category_frontend": "Frontend",
+          "category_backend": "Backend",
+          "category_fullstack": "Full Stack"
+        },
+        "es": {
+          "category_all": "Todo",
+          "category_frontend": "Frontend",
+          "category_backend": "Backend",
+          "category_fullstack": "Full Stack"
+        },
+        "fr": {
+          "category_all": "Tout",
+          "category_frontend": "Frontend",
+          "category_backend": "Backend",
+          "category_fullstack": "Full Stack"
+        },
+        "ko": {
+          "category_all": "모두",
+          "category_frontend": "프론트엔드",
+          "category_backend": "백엔드",
+          "category_fullstack": "풀스택"
+        },
+        "ar": {
+          "category_all": "الكل",
+          "category_frontend": "الواجهة الأمامية",
+          "category_backend": "الخلفية",
+          "category_fullstack": "فل ستاك"
+        },
+        "hi": {
+          "category_all": "सभी",
+          "category_frontend": "फ्रंटएंड",
+          "category_backend": "बैकएंड",
+          "category_fullstack": "फुल स्टैक"
+        },
+        "de": {
+          "category_all": "Alle",
+          "category_frontend": "Frontend",
+          "category_backend": "Backend",
+          "category_fullstack": "Full Stack"
+        },
+        "ur": {
+          "category_all": "تمام",
+          "category_frontend": "فرنٹ اینڈ",
+          "category_backend": "بیک اینڈ",
+          "category_fullstack": "فل اسٹیک"
+        }
+      },
+      "settings": {
+        "categorize_by": [
+          "category_frontend",
+          "category_backend",
+          "category_fullstack"
+        ],
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "categoryId": "category_fullstack",
+          "img": "images/pictures/L9.png",
+          "faIcon": "fa-solid fa-shirt",
+          "faIconColors": { "bg": "#fbbf24", "fill": "#000000" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Muhammad-Shakeel123/Virtual-TryOn-FYP",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/p92.png",
+              "images/pictures/p93.png",
+              "images/pictures/p94.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Virtual Try-On Outfit Assistant",
+              "text": "An advanced <b>AI-powered fashion assistant</b> built with <b>Streamlit</b> and <b>Python</b>. Allows users to upload clothing images, get personalized outfit recommendations using deep learning, and generate realistic virtual try-on previews.",
+              "tags": ["Full Stack", "AI", "Fashion"]
+            },
+            "es": {
+              "title": "Asistente Virtual de Ropa",
+              "text": "Un avanzado <b>asistente de moda impulsado por IA</b> creado con <b>Streamlit</b> y <b>Python</b>. Permite subir imágenes de ropa, obtener recomendaciones personalizadas y visualizar pruebas virtuales realistas.",
+              "tags": ["Full Stack", "IA", "Moda"]
+            },
+            "fr": {
+              "title": "Assistant d'Essayage Virtuel",
+              "text": "Un <b>assistant de mode intelligent</b> basé sur l’IA, développé avec <b>Streamlit</b> et <b>Python</b>. Propose des recommandations personnalisées et un essayage virtuel réaliste à partir d’une image de vêtement.",
+              "tags": ["Full Stack", "IA", "Mode"]
+            },
+            "ko": {
+              "title": "가상 피팅 어시스턴트",
+              "text": "<b>Streamlit</b>과 <b>Python</b>으로 제작된 <b>AI 기반 패션 추천 시스템</b>. 사용자 업로드 옷 이미지로 추천 및 가상 피팅 이미지를 생성합니다.",
+              "tags": ["풀스택", "AI", "패션"]
+            },
+            "ar": {
+              "title": "مساعد تجربة الملابس الافتراضي",
+              "text": "مساعد أزياء متطور <b>مدعوم بالذكاء الاصطناعي</b> مبني باستخدام <b>Streamlit</b> و<b>Python</b>. يتيح رفع صور الملابس، ويوفر توصيات وتجربة افتراضية واقعية.",
+              "tags": ["فل ستاك", "الذكاء الاصطناعي", "موضة"]
+            },
+            "hi": {
+              "title": "वर्चुअल ट्राय-ऑन आउटफिट असिस्टेंट",
+              "text": "<b>Streamlit</b> और <b>Python</b> से बना एक <b>AI-आधारित फैशन असिस्टेंट</b>, जो कपड़ों की छवियों के आधार पर सुझाव देता है और रियलिस्टिक ट्राय-ऑन इमेजेज बनाता है।",
+              "tags": ["फुलस्टैक", "AI", "फैशन"]
+            },
+            "de": {
+              "title": "Virtueller Ankleideassistent",
+              "text": "Ein <b>KI-gestützter Modeassistent</b> mit <b>Streamlit</b> und <b>Python</b>. Nutzer können Kleidung hochladen, Empfehlungen erhalten und virtuelle Anproben ansehen.",
+              "tags": ["Full Stack", "KI", "Mode"]
+            },
+            "ur": {
+              "title": "ورچوئل ٹرائی آن آؤٹفٹ اسسٹنٹ",
+              "text": "<b>Streamlit</b> اور <b>Python</b> سے تیار کردہ ایک <b>AI پر مبنی فیشن اسسٹنٹ</b>۔ صارف کپڑوں کی تصاویر اپ لوڈ کر سکتے ہیں، سفارشات حاصل کریں، اور ورچوئل ٹرائی آن تصویریں دیکھ سکتے ہیں۔",
+              "tags": ["فل اسٹیک", "AI", "فیشن"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "categoryId": "category_fullstack",
+          "img": "images/pictures/L1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Muhammad-Shakeel123/NextJS-Auth-Application",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": ["images/pictures/p1.png"],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "SecureAuth Next.js",
+              "text": "A modern, secure, and scalable authentication app built with <b>Next.js</b> featuring registration, login, email verification, session management, and user profile with <b>TypeScript</b> and <b>Tailwind CSS</b>.",
+              "tags": ["Authentication", "Full Stack", "Next.js"]
+            },
+            "es": {
+              "title": "SecureAuth Next.js",
+              "text": "Una aplicación moderna, segura y escalable de autenticación desarrollada con <b>Next.js</b> que incluye registro, inicio de sesión, verificación por correo, gestión de sesiones y perfil de usuario con <b>TypeScript</b> y <b>Tailwind CSS</b>.",
+              "tags": ["Autenticación", "Full Stack", "Next.js"]
+            },
+            "fr": {
+              "title": "SecureAuth Next.js",
+              "text": "Une application d'authentification moderne, sécurisée et évolutive construite avec <b>Next.js</b> incluant l'inscription, la connexion, la vérification par e-mail, la gestion des sessions et le profil utilisateur avec <b>TypeScript</b> et <b>Tailwind CSS</b>.",
+              "tags": ["Authentification", "Full Stack", "Next.js"]
+            },
+            "ko": {
+              "title": "SecureAuth Next.js",
+              "text": "<b>Next.js</b>로 구축된 최신의 안전하고 확장 가능한 인증 앱으로, 회원가입, 로그인, 이메일 인증, 세션 및 프로필 관리 기능을 <b>TypeScript</b>와 <b>Tailwind CSS</b>로 제공합니다.",
+              "tags": ["인증", "풀스택", "Next.js"]
+            },
+            "ar": {
+              "title": "SecureAuth Next.js",
+              "text": "تطبيق حديث وآمن وقابل للتوسع مبني باستخدام <b>Next.js</b>، يحتوي على تسجيل مستخدمين، تسجيل دخول، تحقق من البريد، إدارة الجلسات والملف الشخصي باستخدام <b>TypeScript</b> و<b>Tailwind CSS</b>.",
+              "tags": ["المصادقة", "فل ستاك", "Next.js"]
+            },
+            "hi": {
+              "title": "SecureAuth Next.js",
+              "text": "<b>Next.js</b> के साथ बनाया गया एक आधुनिक, सुरक्षित और स्केलेबल प्रमाणीकरण ऐप जिसमें रजिस्ट्रेशन, लॉगिन, ईमेल सत्यापन, सेशन प्रबंधन और प्रोफाइल फीचर्स शामिल हैं, साथ में <b>TypeScript</b> और <b>Tailwind CSS</b>।",
+              "tags": ["प्रमाणीकरण", "फुल स्टैक", "Next.js"]
+            },
+            "de": {
+              "title": "SecureAuth Next.js",
+              "text": "Eine moderne, sichere und skalierbare Authentifizierungs-App mit <b>Next.js</b>, die Registrierung, Login, E-Mail-Verifizierung, Sitzungsverwaltung und Nutzerprofil mit <b>TypeScript</b> und <b>Tailwind CSS</b> bietet.",
+              "tags": ["Authentifizierung", "Full Stack", "Next.js"]
+            },
+            "ur": {
+              "title": "SecureAuth Next.js",
+              "text": "<b>Next.js</b> کے ساتھ بنایا گیا ایک جدید، محفوظ اور اسکیل ایبل توثیق ایپ، جو رجسٹریشن، لاگ ان، ای میل تصدیق، سیشن مینجمنٹ اور پروفائل مینجمنٹ فراہم کرتا ہے، ساتھ ہی <b>TypeScript</b> اور <b>Tailwind CSS</b> استعمال کرتا ہے۔",
+              "tags": ["توثیق", "فل اسٹیک", "Next.js"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "categoryId": "category_frontend",
+          "img": "images/pictures/L2.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Muhammad-Shakeel123/Nextjs-Music-Acadamy",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/p21.png",
+              "images/pictures/p22.png",
+              "images/pictures/p23.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "MusicAcademy",
+              "text": "An interactive online music academy built with <b>Next.js</b> and <b>TypeScript</b>, offering diverse courses, expert instructors, live sessions, and a responsive UI powered by <b>Tailwind CSS</b>.",
+              "tags": ["Frontend", "Music", "Next.js"]
+            },
+            "es": {
+              "title": "MusicAcademy",
+              "text": "Una academia de música interactiva en línea construida con <b>Next.js</b> y <b>TypeScript</b>, que ofrece cursos variados, instructores expertos, sesiones en vivo y una interfaz responsiva con <b>Tailwind CSS</b>.",
+              "tags": ["Frontend", "Música", "Next.js"]
+            },
+            "fr": {
+              "title": "MusicAcademy",
+              "text": "Une académie de musique en ligne interactive créée avec <b>Next.js</b> et <b>TypeScript</b>, proposant des cours variés, des experts, des sessions en direct, et une interface responsive via <b>Tailwind CSS</b>.",
+              "tags": ["Frontend", "Musique", "Next.js"]
+            },
+            "ko": {
+              "title": "MusicAcademy",
+              "text": "<b>Next.js</b>와 <b>TypeScript</b>로 제작된 인터랙티브 온라인 음악 아카데미로, 다양한 강좌, 전문가 강사, 라이브 세션 및 <b>Tailwind CSS</b> 기반 반응형 UI를 제공합니다.",
+              "tags": ["프론트엔드", "음악", "Next.js"]
+            },
+            "ar": {
+              "title": "MusicAcademy",
+              "text": "أكاديمية موسيقى تفاعلية حديثة عبر الإنترنت تم إنشاؤها باستخدام <b>Next.js</b> و<b>TypeScript</b>، وتقدم دورات موسيقية متنوعة، ومدربين خبراء، وجلسات مباشرة، وتصميم متجاوب باستخدام <b>Tailwind CSS</b>.",
+              "tags": ["الواجهة الأمامية", "موسيقى", "Next.js"]
+            },
+            "hi": {
+              "title": "MusicAcademy",
+              "text": "<b>Next.js</b> और <b>TypeScript</b> के साथ बनाई गई एक इंटरएक्टिव ऑनलाइन म्यूजिक अकादमी, जो विभिन्न कोर्स, विशेषज्ञ प्रशिक्षक, लाइव सेशन्स और <b>Tailwind CSS</b> आधारित उत्तरदायी यूआई प्रदान करती है।",
+              "tags": ["फ्रंटएंड", "संगीत", "Next.js"]
+            },
+            "de": {
+              "title": "MusicAcademy",
+              "text": "Eine interaktive Online-Musikakademie mit <b>Next.js</b> und <b>TypeScript</b>, die vielfältige Kurse, Expertenlehrer, Live-Sessions und ein responsives Design mit <b>Tailwind CSS</b> bietet.",
+              "tags": ["Frontend", "Musik", "Next.js"]
+            },
+            "ur": {
+              "title": "MusicAcademy",
+              "text": "<b>Next.js</b> اور <b>TypeScript</b> کے ساتھ بنائی گئی ایک جدید اور انٹرایکٹو آن لائن میوزک اکیڈمی جو مختلف کورسز، ماہر اساتذہ، لائیو سیشنز، اور <b>Tailwind CSS</b> پر مبنی ریسپانسیو UI فراہم کرتی ہے۔",
+              "tags": ["فرنٹ اینڈ", "موسیقی", "Next.js"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "categoryId": "category_backend",
+          "img": "images/pictures/L3.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Muhammad-Shakeel123/chat-app",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/p31.png",
+              "images/pictures/p32.png",
+              "images/pictures/p33.png",
+              "images/pictures/p34.png",
+              "images/pictures/p35.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Omegle Backend",
+              "text": "A secure backend for an Omegle-like app using <b>Node.js</b>, <b>WebSockets</b>, and <b>MongoDB</b>. Features include real-time chat signaling, user matchmaking, JWT authentication, and strong security practices.",
+              "tags": ["Backend", "WebSockets", "Node.js"]
+            },
+            "es": {
+              "title": "Omegle Backend",
+              "text": "Un backend seguro para una aplicación tipo Omegle usando <b>Node.js</b>, <b>WebSockets</b> y <b>MongoDB</b>. Incluye señalización en tiempo real, emparejamiento de usuarios, autenticación con JWT y medidas de seguridad avanzadas.",
+              "tags": ["Backend", "WebSockets", "Node.js"]
+            },
+            "fr": {
+              "title": "Omegle Backend",
+              "text": "Un backend sécurisé pour une app type Omegle avec <b>Node.js</b>, <b>WebSockets</b> et <b>MongoDB</b>. Comprend la signalisation en temps réel, l'appariement des utilisateurs, l'authentification JWT et la sécurité renforcée.",
+              "tags": ["Backend", "WebSockets", "Node.js"]
+            },
+            "ko": {
+              "title": "Omegle 백엔드",
+              "text": "<b>Node.js</b>, <b>WebSockets</b>, <b>MongoDB</b>를 사용한 Omegle 유사 앱의 보안 백엔드. 실시간 시그널링, 사용자 매칭, JWT 인증, 강력한 보안 기능을 제공합니다.",
+              "tags": ["백엔드", "웹소켓", "Node.js"]
+            },
+            "ar": {
+              "title": "خلفية Omegle",
+              "text": "نظام خلفي آمن لتطبيق شبيه بـ Omegle باستخدام <b>Node.js</b> و<b>WebSockets</b> و<b>MongoDB</b>. يتضمن إشارات الدردشة الفورية، مطابقة المستخدمين، مصادقة JWT، وتدابير أمان قوية.",
+              "tags": ["الخلفية", "WebSockets", "Node.js"]
+            },
+            "hi": {
+              "title": "Omegle बैकएंड",
+              "text": "<b>Node.js</b>, <b>WebSockets</b>, और <b>MongoDB</b> का उपयोग करके एक सुरक्षित Omegle-जैसा बैकएंड। इसमें रीयल-टाइम सिग्नलिंग, यूज़र मैचमेकिंग, JWT प्रमाणीकरण और मजबूत सुरक्षा शामिल है।",
+              "tags": ["बैकएंड", "WebSockets", "Node.js"]
+            },
+            "de": {
+              "title": "Omegle Backend",
+              "text": "Ein sicheres Backend für eine Omegle-ähnliche App mit <b>Node.js</b>, <b>WebSockets</b> und <b>MongoDB</b>. Enthält Echtzeit-Signalisierung, Nutzer-Matching, JWT-Authentifizierung und starke Sicherheitsmaßnahmen.",
+              "tags": ["Backend", "WebSockets", "Node.js"]
+            },
+            "ur": {
+              "title": "Omegle بیک اینڈ",
+              "text": "<b>Node.js</b>، <b>WebSockets</b>، اور <b>MongoDB</b> پر مبنی Omegle جیسی ایپ کے لیے ایک محفوظ بیک اینڈ۔ اس میں حقیقی وقت کی سگنلنگ، صارف میچنگ، JWT توثیق، اور مضبوط حفاظتی اقدامات شامل ہیں۔",
+              "tags": ["بیک اینڈ", "WebSockets", "Node.js"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "categoryId": "category_fullstack",
+          "img": "images/pictures/L4.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Muhammad-Shakeel123/Social-media-app",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/p41.png",
+              "images/pictures/p42.png",
+              "images/pictures/p43.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Social Media Web App",
+              "text": "A full-featured social media platform built with <b>Node.js</b>, <b>Express</b>, <b>React</b>, and <b>MongoDB</b>. Users can create accounts, post content, interact via likes/comments/shares, and manage profiles in a vibrant, responsive web environment powered by <b>Vite</b>.",
+              "tags": ["Full Stack", "Social", "React"]
+            },
+            "es": {
+              "title": "Aplicación de Red Social",
+              "text": "Una plataforma de redes sociales construida con <b>Node.js</b>, <b>Express</b>, <b>React</b> y <b>MongoDB</b>. Los usuarios pueden crear cuentas, compartir contenido, interactuar con likes/comentarios/compartidos y gestionar sus perfiles en una experiencia web responsiva impulsada por <b>Vite</b>.",
+              "tags": ["Full Stack", "Social", "React"]
+            },
+            "fr": {
+              "title": "Application de Réseau Social",
+              "text": "Une application de réseau social complète construite avec <b>Node.js</b>, <b>Express</b>, <b>React</b> et <b>MongoDB</b>. Les utilisateurs peuvent créer un compte, publier du contenu, interagir via des likes/commentaires/partages et gérer leur profil avec une interface responsive alimentée par <b>Vite</b>.",
+              "tags": ["Full Stack", "Social", "React"]
+            },
+            "ko": {
+              "title": "소셜 미디어 웹 앱",
+              "text": "<b>Node.js</b>, <b>Express</b>, <b>React</b>, <b>MongoDB</b>로 구축된 소셜 미디어 웹 앱입니다. 사용자들은 계정을 만들고, 게시글을 공유하고, 좋아요/댓글/공유로 상호작용하며 <b>Vite</b>로 개발된 반응형 UI에서 원활하게 이용할 수 있습니다.",
+              "tags": ["풀스택", "소셜", "React"]
+            },
+            "ar": {
+              "title": "تطبيق الوسائط الاجتماعية",
+              "text": "تطبيق وسائط اجتماعية متكامل مبني باستخدام <b>Node.js</b> و<b>Express</b> و<b>React</b> و<b>MongoDB</b>. يمكن للمستخدمين إنشاء حسابات، نشر المحتوى، التفاعل من خلال الإعجابات/التعليقات/المشاركات، وإدارة ملفاتهم الشخصية في واجهة سريعة الاستجابة مدعومة بـ<b>Vite</b>.",
+              "tags": ["فل ستاك", "اجتماعي", "React"]
+            },
+            "hi": {
+              "title": "सोशल मीडिया वेब ऐप",
+              "text": "<b>Node.js</b>, <b>Express</b>, <b>React</b>, और <b>MongoDB</b> के साथ बनाया गया एक फुल-स्टैक सोशल मीडिया प्लेटफ़ॉर्म। यूज़र अकाउंट बना सकते हैं, पोस्ट कर सकते हैं, लाइक/कमेंट/शेयर के ज़रिए इंटरैक्ट कर सकते हैं, और <b>Vite</b> द्वारा बनाए गए तेज़ रेस्पॉन्सिव डिज़ाइन में प्रोफ़ाइल मैनेज कर सकते हैं।",
+              "tags": ["फुल स्टैक", "सोशल", "React"]
+            },
+            "de": {
+              "title": "Soziale Medien Web-App",
+              "text": "Eine vollständige Social-Media-Plattform mit <b>Node.js</b>, <b>Express</b>, <b>React</b> und <b>MongoDB</b>. Nutzer können Konten erstellen, Inhalte teilen, mit Likes/Kommentaren/Teilen interagieren und ihre Profile in einer reaktionsschnellen Oberfläche verwalten – entwickelt mit <b>Vite</b>.",
+              "tags": ["Full Stack", "Sozial", "React"]
+            },
+            "ur": {
+              "title": "سوشل میڈیا ویب ایپ",
+              "text": "<b>Node.js</b>، <b>Express</b>، <b>React</b>، اور <b>MongoDB</b> کے ساتھ بنایا گیا ایک مکمل سوشل میڈیا پلیٹ فارم۔ صارفین اکاؤنٹس بنا سکتے ہیں، پوسٹس شیئر کر سکتے ہیں، لائکس/کمنٹس/شیئرز کے ذریعے بات چیت کر سکتے ہیں، اور <b>Vite</b> پر مبنی ایک تیز اور ریسپانسیو انٹرفیس کے ساتھ اپنی پروفائلز کا انتظام کر سکتے ہیں۔",
+              "tags": ["فل اسٹیک", "سوشل", "React"]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "categoryId": "category_backend",
+          "img": "images/pictures/L5.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Muhammad-Shakeel123/Full-Stack-Video-Hosting-Platform",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/p51.png",
+              "images/pictures/p52.png",
+              "images/pictures/p53.png",
+              "images/pictures/p54.png",
+              "images/pictures/p55.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Video Hosting Backend",
+              "text": "A scalable and secure <b>video hosting backend</b> built with <b>Node.js</b>, <b>Express.js</b>, and <b>MongoDB</b>. Features include JWT auth, video upload APIs, comments, likes/dislikes, subscriptions, and cloud storage support.",
+              "tags": ["Backend", "Video", "Node.js"]
+            },
+            "es": {
+              "title": "Backend de Plataforma de Video",
+              "text": "Un backend escalable y seguro para una plataforma de videos, desarrollado con <b>Node.js</b>, <b>Express.js</b> y <b>MongoDB</b>. Incluye autenticación JWT, APIs para subir videos, comentarios, likes/dislikes, suscripciones y almacenamiento en la nube.",
+              "tags": ["Backend", "Video", "Node.js"]
+            },
+            "fr": {
+              "title": "Backend de Vidéo",
+              "text": "Un backend sécurisé et évolutif pour l’hébergement vidéo, construit avec <b>Node.js</b>, <b>Express.js</b> et <b>MongoDB</b>. Il propose l’authentification JWT, le téléversement de vidéos, commentaires, mentions j’aime/pas, abonnements et stockage cloud.",
+              "tags": ["Backend", "Vidéo", "Node.js"]
+            },
+            "ko": {
+              "title": "비디오 호스팅 백엔드",
+              "text": "<b>Node.js</b>, <b>Express.js</b>, <b>MongoDB</b>로 개발된 확장 가능하고 안전한 <b>비디오 호스팅 백엔드</b>. JWT 인증, 동영상 업로드 API, 댓글, 좋아요/싫어요, 구독, 클라우드 저장소 기능 포함.",
+              "tags": ["백엔드", "비디오", "Node.js"]
+            },
+            "ar": {
+              "title": "خلفية منصة الفيديو",
+              "text": "خلفية قوية وآمنة لمنصة استضافة الفيديو تم تطويرها باستخدام <b>Node.js</b> و<b>Express.js</b> و<b>MongoDB</b>. تشمل التوثيق باستخدام JWT، تحميل الفيديوهات، التعليقات، الإعجابات/عدم الإعجاب، الاشتراكات، ودعم التخزين السحابي.",
+              "tags": ["الخلفية", "فيديو", "Node.js"]
+            },
+            "hi": {
+              "title": "वीडियो होस्टिंग बैकएंड",
+              "text": "<b>Node.js</b>, <b>Express.js</b>, और <b>MongoDB</b> के साथ बनाया गया एक स्केलेबल और सुरक्षित <b>वीडियो होस्टिंग बैकएंड</b>. इसमें JWT प्रमाणीकरण, वीडियो अपलोड API, कमेंट्स, लाइक/डिसलाइक, सब्सक्रिप्शन, और क्लाउड स्टोरेज शामिल हैं।",
+              "tags": ["बैकएंड", "वीडियो", "Node.js"]
+            },
+            "de": {
+              "title": "Video-Hosting Backend",
+              "text": "Ein skalierbares und sicheres <b>Video-Hosting-Backend</b> mit <b>Node.js</b>, <b>Express.js</b> und <b>MongoDB</b>. Enthält JWT-Authentifizierung, Video-Upload-APIs, Kommentare, Likes/Dislikes, Abonnements und Cloud-Speicher.",
+              "tags": ["Backend", "Video", "Node.js"]
+            },
+            "ur": {
+              "title": "ویڈیو ہوسٹنگ بیک اینڈ",
+              "text": "<b>Node.js</b>، <b>Express.js</b>، اور <b>MongoDB</b> کے ساتھ بنایا گیا ایک محفوظ اور قابل توسیع <b>ویڈیو ہوسٹنگ بیک اینڈ</b>۔ اس میں JWT توثیق، ویڈیو اپلوڈ API، تبصرے، لائکس/ڈس لائکس، سبسکرپشنز، اور کلاؤڈ اسٹوریج کی خصوصیات شامل ہیں۔",
+              "tags": ["بیک اینڈ", "ویڈیو", "Node.js"]
+            }
+          }
+        },
+        {
+          "id": 7,
+          "categoryId": "category_frontend",
+          "img": "images/pictures/L6.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Muhammad-Shakeel123/React-todoList-project",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              },
+              {
+                "href": "https://react-todo-list-project-five.vercel.app/",
+                "tooltipString": "visit_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": ["images/pictures/p61.png"],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Todo with Context API",
+              "text": "An elegant and responsive <b>Todo List app</b> built with <b>React</b>, <b>Context API</b>, and <b>Tailwind CSS</b>. Supports adding, editing, deleting tasks, marking completion, persistent storage via <b>LocalStorage</b>, and mobile-friendly UI.",
+              "tags": ["Frontend", "React", "Context API"]
+            },
+            "es": {
+              "title": "Todo con Context API",
+              "text": "Una elegante y responsiva <b>aplicación de tareas</b> creada con <b>React</b>, <b>Context API</b> y <b>Tailwind CSS</b>. Permite agregar, editar, eliminar tareas, marcarlas como completadas y guardar en <b>LocalStorage</b>.",
+              "tags": ["Frontend", "React", "Context API"]
+            },
+            "fr": {
+              "title": "Todo avec Context API",
+              "text": "Une application <b>Todo List</b> élégante et responsive créée avec <b>React</b>, <b>Context API</b> et <b>Tailwind CSS</b>. Inclut l’ajout, modification, suppression, marquage des tâches et stockage via <b>LocalStorage</b>.",
+              "tags": ["Frontend", "React", "Context API"]
+            },
+            "ko": {
+              "title": "Context API 기반 할 일 앱",
+              "text": "<b>React</b>, <b>Context API</b>, <b>Tailwind CSS</b>로 만든 우아하고 반응형 <b>Todo 앱</b>. 작업 추가/수정/삭제, 완료 표시, <b>LocalStorage</b> 저장 기능 포함.",
+              "tags": ["프론트엔드", "React", "Context API"]
+            },
+            "ar": {
+              "title": "تودو باستخدام Context API",
+              "text": "تطبيق <b>قائمة المهام</b> أنيق ومتجاوب تم بناؤه باستخدام <b>React</b> و<b>Context API</b> و<b>Tailwind CSS</b>. يتيح إضافة، تعديل، حذف المهام وتخزينها محلياً باستخدام <b>LocalStorage</b>.",
+              "tags": ["الواجهة الأمامية", "React", "Context API"]
+            },
+            "hi": {
+              "title": "Context API के साथ Todo",
+              "text": "<b>React</b>, <b>Context API</b>, और <b>Tailwind CSS</b> के साथ बनाया गया एक सुंदर और उत्तरदायी <b>Todo ऐप</b>। इसमें कार्य जोड़ना, संपादित करना, हटाना, पूरा करना और <b>LocalStorage</b> के ज़रिए सहेजना शामिल है।",
+              "tags": ["फ्रंटएंड", "React", "Context API"]
+            },
+            "de": {
+              "title": "Todo mit Context API",
+              "text": "Eine elegante, responsive <b>To-do-App</b> mit <b>React</b>, <b>Context API</b> und <b>Tailwind CSS</b>. Unterstützt Aufgaben hinzufügen, bearbeiten, löschen, als erledigt markieren und speichert Daten im <b>LocalStorage</b>.",
+              "tags": ["Frontend", "React", "Context API"]
+            },
+            "ur": {
+              "title": "Context API کے ساتھ ٹوڈو",
+              "text": "<b>React</b>، <b>Context API</b>، اور <b>Tailwind CSS</b> سے تیار کردہ ایک خوبصورت اور مکمل ردعمل دینے والی <b>Todo ایپ</b>۔ اس میں ٹاسک شامل کرنا، ترمیم، حذف، مکمل مارک کرنا، اور <b>LocalStorage</b> کے ذریعے محفوظ کرنے کی سہولت موجود ہے۔",
+              "tags": ["فرنٹ اینڈ", "React", "Context API"]
+            }
+          }
+        },
+        {
+          "id": 8,
+          "categoryId": "category_frontend",
+          "img": "images/pictures/L7.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Muhammad-Shakeel123/React-Router-Project",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              },
+              {
+                "href": "https://react-router-project-19mgwuhn8.vercel.app/",
+                "tooltipString": "visit_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/p71.png",
+              "images/pictures/p72.png",
+              "images/pictures/p73.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "React Router Project",
+              "text": "A modern web app built with <b>React</b> and <b>React Router</b>, using <b>Tailwind CSS</b> for styling. Supports smooth multi-page navigation with pages like Home, About, Contact, Discord, Login, Signup, GitHub, Footer, Terms, and Privacy Policy.",
+              "tags": ["Frontend", "React", "Routing"]
+            },
+            "es": {
+              "title": "Proyecto React Router",
+              "text": "Una moderna aplicación web creada con <b>React</b> y <b>React Router</b>, estilizada con <b>Tailwind CSS</b>. Navegación fluida entre páginas como Inicio, Acerca de, Contacto, Discord, Iniciar Sesión, Registrarse, GitHub, Footer, Términos y Política de Privacidad.",
+              "tags": ["Frontend", "React", "Routing"]
+            },
+            "fr": {
+              "title": "Projet React Router",
+              "text": "Une application web moderne construite avec <b>React</b> et <b>React Router</b>, stylisée avec <b>Tailwind CSS</b>. Navigation fluide entre les pages : Accueil, À propos, Contact, Discord, Connexion, Inscription, GitHub, Pied de page, Conditions et Politique de confidentialité.",
+              "tags": ["Frontend", "React", "Routing"]
+            },
+            "ko": {
+              "title": "React 라우터 프로젝트",
+              "text": "<b>React</b>와 <b>React Router</b>로 제작된 현대적인 웹 앱입니다. <b>Tailwind CSS</b>로 스타일링되었으며, 홈, 소개, 연락처, 디스코드, 로그인, 회원가입, 깃허브, 푸터, 약관, 개인정보 처리방침 등의 페이지 간 부드러운 전환을 지원합니다.",
+              "tags": ["프론트엔드", "React", "라우팅"]
+            },
+            "ar": {
+              "title": "مشروع React Router",
+              "text": "تطبيق ويب عصري تم تطويره باستخدام <b>React</b> و<b>React Router</b>، مع تنسيقات بواسطة <b>Tailwind CSS</b>. يدعم تنقلًا سلسًا بين صفحات مثل الرئيسية، من نحن، اتصل بنا، ديسكورد، تسجيل الدخول، التسجيل، جيت هب، الفوتر، الشروط وسياسة الخصوصية.",
+              "tags": ["الواجهة الأمامية", "React", "Routing"]
+            },
+            "hi": {
+              "title": "React राउटर प्रोजेक्ट",
+              "text": "<b>React</b> और <b>React Router</b> के साथ बनाया गया एक आधुनिक वेब ऐप, <b>Tailwind CSS</b> से स्टाइल किया गया। होम, अबाउट, संपर्क, डिस्कॉर्ड, लॉगिन, साइनअप, GitHub, फ़ुटर, नियम और गोपनीयता नीति जैसे पृष्ठों के बीच स्मूद नेविगेशन करता है।",
+              "tags": ["फ्रंटएंड", "React", "Routing"]
+            },
+            "de": {
+              "title": "React Router Projekt",
+              "text": "Eine moderne Web-App mit <b>React</b> und <b>React Router</b>, gestaltet mit <b>Tailwind CSS</b>. Unterstützt flüssige Navigation zwischen Seiten wie Startseite, Über uns, Kontakt, Discord, Login, Registrierung, GitHub, Footer, AGB und Datenschutz.",
+              "tags": ["Frontend", "React", "Routing"]
+            },
+            "ur": {
+              "title": "React Router پروجیکٹ",
+              "text": "<b>React</b> اور <b>React Router</b> پر مبنی ایک جدید ویب ایپ، <b>Tailwind CSS</b> کے ساتھ خوبصورتی سے ڈیزائن کی گئی۔ ہوم، ہمارے بارے میں، رابطہ، Discord، لاگ ان، سائن اپ، GitHub، فُٹر، شرائط و ضوابط، اور پرائیویسی پالیسی جیسے صفحات کے درمیان روانی سے نیویگیٹ کرتی ہے۔",
+              "tags": ["فرنٹ اینڈ", "React", "Routing"]
+            }
+          }
+        },
+        {
+          "id": 9,
+          "categoryId": "category_frontend",
+          "img": "images/pictures/L8.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Muhammad-Shakeel123/React-Password-Generator-Project",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              },
+              {
+                "href": "https://react-password-generator-project-5eqc3umb6.vercel.app/",
+                "tooltipString": "visit_website",
+                "faIcon": "fa-solid fa-link"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/p81.png",
+              "images/pictures/p82.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "React Password Generator",
+              "text": "A secure and elegant <b>password generator</b> app built with <b>React</b> and <b>Tailwind CSS</b>. Users can set password length, include numbers/special characters, and copy the result easily. Features smooth transitions and full responsiveness.",
+              "tags": ["Frontend", "React", "Security"]
+            },
+            "es": {
+              "title": "Generador de Contraseñas React",
+              "text": "Una aplicación <b>segura y moderna</b> para generar contraseñas, construida con <b>React</b> y <b>Tailwind CSS</b>. Permite establecer la longitud de la contraseña, incluir números/caracteres especiales y copiar fácilmente el resultado.",
+              "tags": ["Frontend", "React", "Seguridad"]
+            },
+            "fr": {
+              "title": "Générateur de Mots de Passe React",
+              "text": "Une application <b>sécurisée</b> et <b>élégante</b> construite avec <b>React</b> et <b>Tailwind CSS</b>. Personnalisez la longueur du mot de passe, ajoutez des chiffres/caractères spéciaux et copiez-le d’un clic.",
+              "tags": ["Frontend", "React", "Sécurité"]
+            },
+            "ko": {
+              "title": "React 비밀번호 생성기",
+              "text": "<b>React</b>와 <b>Tailwind CSS</b>로 제작된 <b>보안 비밀번호 생성기</b>입니다. 길이 설정, 숫자/특수문자 포함, 복사 기능, 부드러운 전환 및 반응형 UI를 제공합니다.",
+              "tags": ["프론트엔드", "React", "보안"]
+            },
+            "ar": {
+              "title": "مولد كلمات المرور بـ React",
+              "text": "تطبيق <b>آمن وأنيق</b> لبناء كلمات المرور باستخدام <b>React</b> و<b>Tailwind CSS</b>. يمكن تخصيص الطول، إضافة أرقام/رموز، ونسخ النتيجة بضغطة واحدة.",
+              "tags": ["الواجهة الأمامية", "React", "الأمان"]
+            },
+            "hi": {
+              "title": "React पासवर्ड जेनरेटर",
+              "text": "<b>React</b> और <b>Tailwind CSS</b> के साथ बनाया गया <b>सुरक्षित और स्टाइलिश</b> पासवर्ड जेनरेटर ऐप। पासवर्ड की लंबाई सेट करें, नंबर और स्पेशल कैरेक्टर्स जोड़ें, और एक क्लिक में कॉपी करें।",
+              "tags": ["फ्रंटएंड", "React", "सुरक्षा"]
+            },
+            "de": {
+              "title": "React Passwort Generator",
+              "text": "Eine <b>sichere</b> und <b>moderne</b> App zur Passwortgenerierung mit <b>React</b> und <b>Tailwind CSS</b>. Erlaubt Längenanpassung, Zahlen/Sonderzeichen-Auswahl und Ein-Klick-Kopieren.",
+              "tags": ["Frontend", "React", "Sicherheit"]
+            },
+            "ur": {
+              "title": "React پاسورڈ جنریٹر",
+              "text": "<b>React</b> اور <b>Tailwind CSS</b> کے ساتھ بنایا گیا ایک <b>محفوظ اور خوبصورت</b> پاسورڈ جنریٹر۔ پاسورڈ کی لمبائی منتخب کریں، نمبرز/اسپیشل کریکٹرز شامل کریں اور آسانی سے کاپی کریں۔",
+              "tags": ["فرنٹ اینڈ", "React", "سیکیورٹی"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

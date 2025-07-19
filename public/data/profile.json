@@ -1,0 +1,149 @@
+{
+  "name": "Muhammad Shakeel",
+
+  "profilePictureUrl": "images/pictures/shakeel5.png",
+  "resumePdfUrl": "https://drive.google.com/file/d/1dw49QZ26yb9gnjlOtiJNu1GDPcbZufVi/view?usp=drive_link",
+
+  "statusCircleVisible": true,
+  "statusCircleVariant": "available",
+  "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+  "locales": {
+    "en": {
+      "localized_name": "Muhammad Shakeel",
+      "localized_name_stylized": "[[Muhammad {{Shakeel}}]]",
+      "status_message_available_for_freelance": "Available for Work!",
+      "roles": [
+        "Full Stack MERN Developer",
+        "Next.js Developer",
+        "React.js Expert",
+        "Node.js Backend Engineer",
+        "MongoDB Database Architect",
+        "Express.js API Developer",
+        "RESTful API Specialist",
+        "Tailwind CSS Expert"
+      ],
+      "name_pronunciation_ipa": "Muhammad Shakeel",
+      "name_pronunciation_audio_url": "audio/adio.mp3"
+    },
+    "es": {
+      "localized_name": "Muhammad Shakeel",
+      "localized_name_stylized": "[[Muhammad {{Shakeel}}]]",
+      "status_message_available_for_freelance": "¡Disponible para trabajar!",
+      "roles": [
+        "Desarrollador MERN Full Stack",
+        "Desarrollador de Next.js",
+        "Experto en React.js",
+        "Ingeniero Backend en Node.js",
+        "Arquitecto de Base de Datos MongoDB",
+        "Desarrollador de APIs con Express.js",
+        "Especialista en APIs RESTful",
+        "Especialista en Tailwind CSS"
+      ],
+      "name_pronunciation_ipa": "Muhammad Shakeel",
+      "name_pronunciation_audio_url": "audio/adio.mp3"
+    },
+    "fr": {
+      "localized_name": "Muhammad Shakeel",
+      "localized_name_stylized": "[[Muhammad {{Shakeel}}]]",
+      "status_message_available_for_freelance": "Disponible pour travailler !",
+      "roles": [
+        "Développeur MERN Full Stack",
+        "Développeur Next.js",
+        "Expert React.js",
+        "Ingénieur Backend Node.js",
+        "Architecte Base de Données MongoDB",
+        "Développeur API Express.js",
+        "Spécialiste API RESTful",
+        "Spécialiste Tailwind CSS"
+      ],
+      "name_pronunciation_ipa": "Muhammad Shakeel",
+      "name_pronunciation_audio_url": "audio/adio.mp3"
+    },
+    "ko": {
+      "localized_name": "무함마드 샤킬",
+      "localized_name_stylized": "{{무함마드}} 샤킬",
+      "status_message_available_for_freelance": "작업 가능합니다!",
+      "roles": [
+        "MERN 풀스택 개발자",
+        "Next.js 개발자",
+        "React.js 전문가",
+        "Node.js 백엔드 엔지니어",
+        "MongoDB 데이터베이스 아키텍트",
+        "Express.js API 개발자",
+        "RESTful API 전문가",
+        "Tailwind CSS 전문가"
+      ],
+      "name_pronunciation_ipa": "Muhammad Shakeel",
+      "name_pronunciation_audio_url": "audio/adio.mp3"
+    },
+    "ur": {
+      "localized_name": "محمد شکیل",
+      "localized_name_stylized": "{{محمد}} شکیل",
+      "status_message_available_for_freelance": "کام کے لیے دستیاب ہوں!",
+      "roles": [
+        "فل اسٹیک MERN ڈویلپر",
+        "Next.js ڈویلپر",
+        "React.js ماہر",
+        "Node.js بیک اینڈ انجینئر",
+        "MongoDB ڈیٹا بیس آرکیٹیکٹ",
+        "Express.js API ڈویلپر",
+        "RESTful API ماہر",
+        "Tailwind CSS ماہر"
+      ],
+      "name_pronunciation_ipa": "Muhammad Shakeel",
+      "name_pronunciation_audio_url": "audio/adio.mp3"
+    },
+    "ar": {
+      "localized_name": "محمد شكيل",
+      "localized_name_stylized": "{{محمد}} شكيل",
+      "status_message_available_for_freelance": "متاح للعمل!",
+      "roles": [
+        "مطور MERN فل ستاك",
+        "مطور Next.js",
+        "خبير React.js",
+        "مهندس Backend بـ Node.js",
+        "مهندس قاعدة بيانات MongoDB",
+        "مطور API باستخدام Express.js",
+        "أخصائي RESTful API",
+        "خبير Tailwind CSS"
+      ],
+      "name_pronunciation_ipa": "Muhammad Shakeel",
+      "name_pronunciation_audio_url": "audio/adio.mp3"
+    },
+    "de": {
+      "localized_name": "Muhammad Shakeel",
+      "localized_name_stylized": "[[Muhammad {{Shakeel}}]]",
+      "status_message_available_for_freelance": "Verfügbar für Projekte!",
+      "roles": [
+        "Full Stack MERN Entwickler",
+        "Next.js Entwickler",
+        "React.js Experte",
+        "Node.js Backend-Ingenieur",
+        "MongoDB Datenbankarchitekt",
+        "Express.js API Entwickler",
+        "RESTful API Spezialist",
+        "Tailwind CSS Experte"
+      ],
+      "name_pronunciation_ipa": "Muhammad Shakeel",
+      "name_pronunciation_audio_url": "audio/adio.mp3"
+    },
+    "hi": {
+      "localized_name": "मुहम्मद शकील",
+      "localized_name_stylized": "{{मुहम्मद}} शकील",
+      "status_message_available_for_freelance": "काम के लिए उपलब्ध!",
+      "roles": [
+        "फुल स्टैक MERN डेवलपर",
+        "Next.js डेवलपर",
+        "React.js विशेषज्ञ",
+        "Node.js बैकएंड इंजीनियर",
+        "MongoDB डेटाबेस आर्किटेक्ट",
+        "Express.js API डेवलपर",
+        "RESTful API विशेषज्ञ",
+        "Tailwind CSS विशेषज्ञ"
+      ],
+      "name_pronunciation_ipa": "Muhammad Shakeel",
+      "name_pronunciation_audio_url": "audio/adio.mp3"
+    }
+  }
+}

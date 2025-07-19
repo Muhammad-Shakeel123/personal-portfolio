@@ -1,0 +1,64 @@
+@import '/src/styles/extend.scss';
+
+div.scrollable-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+div.scrollable {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+  outline: none;
+}
+
+/** Plugin customization **/
+div.scrollable-with-plugin {
+  --scrollbar-width: 32px;
+  --scrollbar-track-width: 4px;
+  --scrollbar-track-offset: calc(
+    var(--scrollbar-track-width) - var(--scrollbar-track-width)
+  );
+  --scrollbar-thumb-width: 4px;
+  --scrollbar-thumb-offset: calc(
+    var(--scrollbar-width) - var(--scrollbar-thumb-width)
+  );
+
+  .scrollbar-thumb-x,
+  .scrollbar-track-x {
+    display: none !important;
+  }
+
+  .scrollbar-track-y {
+    width: var(--scrollbar-width);
+    background-color: transparent;
+  }
+
+  .scrollbar-thumb-y {
+    position: relative;
+    width: var(--scrollbar-width);
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  &:before,
+  .scrollbar-thumb-y:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+  }
+
+  &:before {
+    background-color: var(--theme-scrollbar-track);
+    width: var(--scrollbar-track-width);
+    right: var(--scrollbar-track-offset);
+  }
+
+  .scrollbar-thumb-y:before {
+    background-color: var(--theme-scrollbar-thumb);
+    width: var(--scrollbar-thumb-width);
+    left: var(--scrollbar-thumb-offset);
+  }
+}

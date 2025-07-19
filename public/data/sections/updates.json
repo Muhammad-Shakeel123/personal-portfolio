@@ -1,0 +1,808 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Life recently",
+        "title_short_nav": "Updates",
+        "title_long_prefix": "Take a look at my",
+        "title_long": "Recent {{Updates}}"
+      },
+      "es": {
+        "title_short": "Vida Reciente",
+        "title_short_nav": "Actualizaciones",
+        "title_long_prefix": "Consulta mis",
+        "title_long": "Actualizaciones {{Recientes}}"
+      },
+      "fr": {
+        "title_short": "Vie Récente",
+        "title_short_nav": "Mises à Jour",
+        "title_long_prefix": "Découvrez mes",
+        "title_long": "Dernières {{Mises à Jour}}"
+      },
+      "ko": {
+        "title_short": "최근의 삶",
+        "title_short_nav": "업데이트",
+        "title_long_prefix": "내 최근",
+        "title_long": "{{업데이트}}를 확인해 보세요"
+      },
+      "de": {
+        "title_short": "Kürzliches Leben",
+        "title_short_nav": "Aktuelles",
+        "title_long_prefix": "Schau dir meine",
+        "title_long": "Letzten {{Aktualisierungen}} an"
+      },
+      "ur": {
+        "title_short": "حالیہ زندگی",
+        "title_short_nav": "تازہ ترین معلومات",
+        "title_long_prefix": "میری",
+        "title_long": "تازہ ترین {{اپ ڈیٹس}} دیکھیں"
+      },
+      "hi": {
+        "title_short": "हाल की ज़िंदगी",
+        "title_short_nav": "अपडेट्स",
+        "title_long_prefix": "मेरे",
+        "title_long": "हाल के {{अपडेट्स}} देखें"
+      },
+      "ar": {
+        "title_short": "الحياة مؤخرًا",
+        "title_short_nav": "التحديثات",
+        "title_long_prefix": "اطّلع على",
+        "title_long": "آخر {{التحديثات}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleFacts",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": null,
+          "faIcon": "fa-solid fa-check-double",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": { "title": "5+", "text": "Full-Stack Projects Completed" },
+            "es": { "text": "Proyectos Full-Stack Completados" },
+            "fr": { "text": "Projets Full-Stack Terminés" },
+            "ko": { "text": "완료된 풀스택 프로젝트" },
+            "de": { "text": "Abgeschlossene Full-Stack-Projekte" },
+            "ur": { "text": "مکمل شدہ فل اسٹیک پراجیکٹس" },
+            "hi": { "text": "पूर्ण फुल-स्टैक प्रोजेक्ट्स" },
+            "ar": { "text": "مشاريع كاملة من الطرفين" }
+          }
+        },
+        {
+          "id": 2,
+          "img": null,
+          "faIcon": "fa-solid fa-rocket",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": { "title": "5+", "text": "MERN Stack Web Apps Deployed" },
+            "es": { "text": "Apps MERN Deployadas" },
+            "fr": { "text": "Apps MERN Déployées" },
+            "ko": { "text": "배포된 MERN 웹 앱" },
+            "de": { "text": "Bereitgestellte MERN-Web-Apps" },
+            "ur": { "text": "MERN ویب ایپس کی تعیناتی" },
+            "hi": { "text": "MERN वेब ऐप्स परिनियोजित" },
+            "ar": { "text": "تطبيقات MERN منشورة" }
+          }
+        },
+        {
+          "id": 3,
+          "img": null,
+          "faIcon": "fa-solid fa-server",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "20+",
+              "text": "APIs Built with Node.js & Express"
+            },
+            "es": { "text": "APIs con Node.js y Express" },
+            "fr": { "text": "APIs avec Node.js et Express" },
+            "ko": { "text": "Node.js 및 Express API 제작" },
+            "de": { "text": "APIs mit Node.js & Express" },
+            "ur": { "text": "Node.js اور Express سے بنائی گئی APIs" },
+            "hi": { "text": "Node.js और Express से बने API" },
+            "ar": { "text": "واجهات برمجة بـ Node.js و Express" }
+          }
+        },
+        {
+          "id": 4,
+          "img": null,
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": { "title": "5+", "text": "MongoDB Databases Designed" },
+            "es": { "text": "Bases de datos MongoDB Diseñadas" },
+            "fr": { "text": "Bases MongoDB Conçues" },
+            "ko": { "text": "MongoDB 데이터베이스 설계" },
+            "de": { "text": "MongoDB-Datenbanken Entworfen" },
+            "ur": { "text": "MongoDB ڈیٹابیسز ڈیزائن کیں" },
+            "hi": { "text": "MongoDB डेटाबेस डिज़ाइन किए" },
+            "ar": { "text": "تصميم قواعد بيانات MongoDB" }
+          }
+        },
+        {
+          "id": 5,
+          "img": null,
+          "faIcon": "fa-solid fa-code-branch",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": { "title": "100+", "text": "GitHub Commits" },
+            "es": { "text": "Commits en GitHub" },
+            "fr": { "text": "Commits GitHub" },
+            "ko": { "text": "GitHub 커밋" },
+            "de": { "text": "Commits auf GitHub" },
+            "ur": { "text": "GitHub کمٹس" },
+            "hi": { "text": "GitHub कमिट्स" },
+            "ar": { "text": "الالتزامات على GitHub" }
+          }
+        },
+        {
+          "id": 6,
+          "img": null,
+          "faIcon": "fa-solid fa-layer-group",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": { "title": "8", "text": "Next.js SSR Pages Created" },
+            "es": { "text": "Páginas SSR de Next.js Creadas" },
+            "fr": { "text": "Pages SSR Next.js Créées" },
+            "ko": { "text": "Next.js SSR 페이지 제작" },
+            "de": { "text": "Next.js SSR-Seiten Erstellt" },
+            "ur": { "text": "Next.js SSR صفحات بنائے گئے" },
+            "hi": { "text": "Next.js SSR पेज बनाए गए" },
+            "ar": { "text": "صفحات SSR بـ Next.js" }
+          }
+        },
+        {
+          "id": 7,
+          "img": null,
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": { "title": "1M+", "text": "Lines of Code Written" },
+            "es": { "text": "Líneas de Código Escritas" },
+            "fr": { "text": "Lignes de Code Écrites" },
+            "ko": { "text": "작성된 코드 라인 수" },
+            "de": { "text": "Geschriebene Codezeilen" },
+            "ur": { "text": "لکھی گئی کوڈ کی لائنز" },
+            "hi": { "text": "लिखी गई कोड लाइनें" },
+            "ar": { "text": "أسطر كود مكتوبة" }
+          }
+        },
+        {
+          "id": 8,
+          "img": null,
+          "faIcon": "fa-solid fa-signal",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "95.9%",
+              "text": "Uptime Achieved on Deployments"
+            },
+            "es": { "text": "Disponibilidad Lograda en Despliegues" },
+            "fr": { "text": "Uptime sur Déploiements" },
+            "ko": { "text": "배포된 앱의 가동 시간" },
+            "de": { "text": "Verfügbarkeitszeit erreicht" },
+            "ur": { "text": "ڈپلائمنٹ پر حاصل کردہ اپ ٹائم" },
+            "hi": { "text": "परिनियोजन पर अपटाइम" },
+            "ar": { "text": "الجهوزية في عمليات النشر" }
+          }
+        },
+        {
+          "id": 9,
+          "img": null,
+          "faIcon": "fa-solid fa-heart",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Infinite",
+              "text": "Passion for Clean Code & UI/UX"
+            },
+            "es": { "text": "Pasión por el Código Limpio y UI/UX" },
+            "fr": { "text": "Passion pour le Code Propre et le Design" },
+            "ko": { "text": "깔끔한 코드와 UI/UX에 대한 열정" },
+            "de": { "text": "Leidenschaft für sauberen Code & UI/UX" },
+            "ur": { "text": "صاف کوڈ اور UI/UX کا جذبہ" },
+            "hi": { "text": "स्वच्छ कोड और UI/UX के लिए जुनून" },
+            "ar": { "text": "شغف بالكود النظيف وواجهة المستخدم" }
+          }
+        },
+        {
+          "id": 10,
+          "img": null,
+          "faIcon": "fa-solid fa-graduation-cap",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "2025",
+              "text": "Graduated in Computer Software Engineering"
+            },
+            "es": {
+              "text": "Graduado en Ingeniería de Software de Computadoras"
+            },
+            "fr": { "text": "Diplômé en Génie Logiciel Informatique" },
+            "ko": { "text": "컴퓨터 소프트웨어 공학 졸업" },
+            "de": { "text": "Abschluss in Computer Software Engineering" },
+            "ur": { "text": "کمپیوٹر سافٹ ویئر انجینئرنگ میں گریجویشن" },
+            "hi": { "text": "कंप्यूटर सॉफ्टवेयर इंजीनियरिंग में स्नातक" },
+            "ar": { "text": "خريج هندسة برمجيات الحاسوب" }
+          }
+        },
+        {
+          "id": 11,
+          "img": null,
+          "faIcon": "fa-solid fa-pen-ruler",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": { "title": "Figma", "text": "UI/UX Skills with Figma" },
+            "es": { "text": "Habilidades UI/UX con Figma" },
+            "fr": { "text": "Compétences UI/UX avec Figma" },
+            "ko": { "text": "Figma로 UI/UX 역량" },
+            "de": { "text": "UI/UX-Fähigkeiten mit Figma" },
+            "ur": { "text": "Figma کے ساتھ UI/UX مہارت" },
+            "hi": { "text": "Figma के साथ UI/UX कौशल" },
+            "ar": { "text": "مهارات UI/UX باستخدام Figma" }
+          }
+        },
+        {
+          "id": 12,
+          "img": null,
+          "faIcon": "fa-solid fa-globe",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": { "title": "Remote", "text": "Ready for Remote Work" },
+            "es": { "text": "Listo para Trabajo Remoto" },
+            "fr": { "text": "Prêt pour le Télétravail" },
+            "ko": { "text": "원격 근무 가능" },
+            "de": { "text": "Bereit für Remote-Arbeit" },
+            "ur": { "text": "ریموٹ ورک کے لیے تیار" },
+            "hi": { "text": "दूरस्थ कार्य के लिए तैयार" },
+            "ar": { "text": "جاهز للعمل عن بُعد" }
+          }
+        },
+        {
+          "id": 13,
+          "img": null,
+          "faIcon": "fa-solid fa-users",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": { "title": "Team", "text": "Great Team Collaboration" },
+            "es": { "text": "Gran Colaboración en Equipo" },
+            "fr": { "text": "Bonne Collaboration en Équipe" },
+            "ko": { "text": "훌륭한 팀 협업" },
+            "de": { "text": "Gute Teamarbeit" },
+            "ur": { "text": "بہترین ٹیم تعاون" },
+            "hi": { "text": "अच्छा टीम सहयोग" },
+            "ar": { "text": "تعاون ممتاز مع الفريق" }
+          }
+        },
+        {
+          "id": 14,
+          "img": null,
+          "faIcon": "fa-solid fa-award",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Self-Taught",
+              "text": "Self-Taught Developer Mindset"
+            },
+            "es": { "text": "Mentalidad de Desarrollador Autodidacta" },
+            "fr": { "text": "Mentalité d'Auto-apprenant" },
+            "ko": { "text": "자기주도 개발자 마인드셋" },
+            "de": { "text": "Selbstlernende Entwickler-Mentalität" },
+            "ur": { "text": "خود سیکھنے والا ڈویلپر مائنڈسیٹ" },
+            "hi": { "text": "स्व-शिक्षित डेवलपर मानसिकता" },
+            "ar": { "text": "عقلية مطور ذاتي التعلم" }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleThread",
+      "locales": {
+        "en": { "title": "Quick {{Facts}}" },
+        "es": { "title": "Feed de {{Noticias}}" },
+        "fr": { "title": "Fil d'{{Actualités}}" },
+        "ko": { "title": "{{뉴스}} 피드" },
+        "de": { "title": "Schnelle {{Fakten}}" },
+        "ur": { "title": "فوری {{حقائق}}" },
+        "hi": { "title": "त्वरित {{तथ्य}}" },
+        "ar": { "title": "حقائق {{سريعة}}" }
+      },
+      "settings": {
+        "max_rows_collapse_threshold": 3,
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "date": { "year": 2025, "month": 7 },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Graduated from {{UET Mardan!}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "I’m proud to have graduated in Computer Software Engineering from UET Mardan, Pakistan. This marks the beginning of my professional journey as a full-stack developer. I'm passionate about building modern, efficient web applications and excited to contribute to the tech industry both locally and globally. Stay tuned for my upcoming projects and collaborations!"
+            },
+            "es": {
+              "title": "Graduado de {{UET Mardan!}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "UET Mardan",
+              "text": "Estoy orgulloso de haberme graduado en Ingeniería de Software de la Computación en UET Mardan, Pakistán. Esto marca el comienzo de mi carrera profesional como desarrollador full-stack. Me apasiona crear aplicaciones web modernas y eficientes, y estoy emocionado de contribuir a la industria tecnológica tanto a nivel local como global. ¡Mantente atento a mis próximos proyectos y colaboraciones!"
+            },
+            "fr": {
+              "title": "Diplômé de la {{UET Mardan!}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Je suis fier d'avoir obtenu mon diplôme en ingénierie des logiciels informatiques à l'UET Mardan, au Pakistan. Cela marque le début de mon parcours professionnel en tant que développeur full-stack. Je suis passionné par la création d'applications web modernes et efficaces, et enthousiaste à l'idée de contribuer à l'industrie technologique au niveau local et mondial. Restez à l'écoute pour mes prochains projets et collaborations !"
+            },
+            "ko": {
+              "title": "{{UET 마르단}}에서 졸업!",
+              "province": "카이버 파크툰크화",
+              "country": "파키스탄",
+              "institution": "UET 마르단",
+              "text": "저는 파키스탄의 UET 마르단에서 컴퓨터 소프트웨어 공학을 전공하고 졸업한 것을 자랑스럽게 생각합니다. 이것은 저의 풀스택 개발자로서의 전문 경력의 시작입니다. 저는 현대적이고 효율적인 웹 애플리케이션을 구축하는 데 열정을 가지고 있으며, 지역 및 글로벌 기술 산업에 기여하게 되어 기쁩니다. 앞으로의 프로젝트와 협업을 기대해 주세요!"
+            },
+            "de": {
+              "title": "Abschluss von der {{UET Mardan!}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan",
+              "text": "Ich bin stolz darauf, meinen Abschluss in Computer Software Engineering an der UET Mardan in Pakistan gemacht zu haben. Dies ist der Beginn meiner beruflichen Laufbahn als Full-Stack-Entwickler. Ich liebe es, moderne und effiziente Webanwendungen zu entwickeln und freue mich darauf, zur Technologiebranche sowohl lokal als auch global beizutragen. Bleiben Sie dran für kommende Projekte und Kooperationen!"
+            },
+            "ur": {
+              "title": "{{UET مردان}} سے گریجویشن مکمل کی!",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "UET مردان",
+              "text": "میں نے UET مردان، پاکستان سے کمپیوٹر سافٹ ویئر انجینئرنگ میں گریجویشن مکمل کی ہے۔ یہ میری پیشہ ورانہ زندگی کی شروعات ہے بطور فل اسٹیک ڈویلپر۔ مجھے جدید اور مؤثر ویب ایپلیکیشنز بنانا بہت پسند ہے اور میں ٹیکنالوجی کے شعبے میں مقامی و عالمی سطح پر کردار ادا کرنے کے لیے پُرجوش ہوں۔ میرے نئے منصوبوں اور تعاون کے لیے جڑے رہیے!"
+            },
+            "hi": {
+              "title": "{{UET मर्दान}} से स्नातक किया!",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "UET मर्दान",
+              "text": "मैंने UET मर्दान, पाकिस्तान से कंप्यूटर सॉफ्टवेयर इंजीनियरिंग में स्नातक किया है। यह मेरी पेशेवर यात्रा की शुरुआत है एक Full Stack डेवलपर के रूप में। मुझे आधुनिक और प्रभावी वेब एप्लिकेशन बनाना पसंद है और मैं तकनीकी उद्योग में स्थानीय और वैश्विक स्तर पर योगदान देने के लिए उत्साहित हूं। मेरे आगामी प्रोजेक्ट्स के लिए जुड़े रहें!"
+            },
+            "ar": {
+              "title": "تخرّجت من {{UET مردان!}}",
+              "province": "خيبر بختونخوا",
+              "country": "باكستان",
+              "institution": "جامعة UET مردان",
+              "text": "أنا فخور بتخرّجي في هندسة البرمجيات من جامعة UET مردان، باكستان. هذه هي بداية رحلتي المهنية كمطوّر Full Stack. لدي شغف ببناء تطبيقات ويب حديثة وفعالة، ومتحمّس للمساهمة في صناعة التكنولوجيا محليًا وعالميًا. تابعوني لمزيد من المشاريع والتعاونات القادمة!"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "date": { "year": 2025, "month": 3 },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Muhammad-Shakeel123/Social-media-app",
+                "tooltipString": "View on GitHub",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Built My First {{Full-Stack Project!}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Personal Project",
+              "text": "I completed my first real-world full-stack application using the MERN stack. It was a social media app where users could post, comment, and interact in real time. This project allowed me to apply what I learned in software engineering — from frontend design to backend API development and MongoDB integration. It was a major step forward in my journey as a developer."
+            },
+            "es": {
+              "title": "Creé mi primer {{Proyecto Full-Stack!}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "Proyecto personal",
+              "text": "Completé mi primera aplicación full-stack del mundo real usando el stack MERN. Fue una aplicación de redes sociales donde los usuarios podían publicar, comentar e interactuar en tiempo real. Este proyecto me permitió aplicar mis conocimientos en ingeniería de software, desde el diseño frontend hasta el desarrollo de APIs y la integración con MongoDB. Un gran paso en mi camino como desarrollador."
+            },
+            "fr": {
+              "title": "Création de mon premier {{Projet Full-Stack!}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Projet personnel",
+              "text": "J'ai réalisé ma toute première application full-stack en utilisant le stack MERN. Il s'agissait d'une application de réseau social permettant aux utilisateurs de publier, commenter et interagir en temps réel. Ce projet m'a permis de mettre en pratique mes compétences en génie logiciel — du design frontend au développement d’API backend avec MongoDB. Une étape importante dans mon parcours de développeur."
+            },
+            "ko": {
+              "title": "첫 번째 {{풀스택 프로젝트}} 완료!",
+              "province": "카이버 파크툰크화",
+              "country": "파키스탄",
+              "institution": "개인 프로젝트",
+              "text": "저는 MERN 스택을 사용하여 첫 번째 실제 풀스택 애플리케이션을 개발했습니다. 이 소셜 미디어 앱은 사용자가 게시물 작성, 댓글 작성, 실시간 상호작용을 할 수 있게 설계되었습니다. 이 프로젝트는 프론트엔드 디자인부터 백엔드 API 및 MongoDB 연동까지 소프트웨어 엔지니어링에서 배운 모든 것을 실습할 수 있는 기회였습니다."
+            },
+            "de": {
+              "title": "Mein erstes {{Full-Stack-Projekt}} erstellt!",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Eigenes Projekt",
+              "text": "Ich habe meine erste vollständige Full-Stack-Anwendung mit dem MERN-Stack entwickelt. Es war eine Social-Media-App, bei der Nutzer Beiträge erstellen, kommentieren und in Echtzeit interagieren konnten. Dieses Projekt ermöglichte es mir, mein Wissen aus dem Studium praktisch umzusetzen – vom Frontend-Design über Backend-APIs bis hin zur MongoDB-Integration."
+            },
+            "ur": {
+              "title": "میرا پہلا {{فل اسٹیک پروجیکٹ}} مکمل!",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "ذاتی پروجیکٹ",
+              "text": "میں نے MERN اسٹیک کا استعمال کرتے ہوئے اپنی پہلی مکمل فل اسٹیک ایپلی کیشن تیار کی۔ یہ ایک سوشل میڈیا ایپ تھی جہاں صارفین پوسٹ، تبصرہ اور ریئل ٹائم میں ایک دوسرے سے بات چیت کر سکتے تھے۔ اس منصوبے نے مجھے سافٹ ویئر انجینئرنگ میں سیکھے گئے تمام تصورات کو عملی طور پر نافذ کرنے کا موقع دیا۔"
+            },
+            "hi": {
+              "title": "अपना पहला {{Full-Stack प्रोजेक्ट}} बनाया!",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "व्यक्तिगत प्रोजेक्ट",
+              "text": "मैंने MERN स्टैक का उपयोग करके अपना पहला पूर्ण Full-Stack प्रोजेक्ट बनाया। यह एक सोशल मीडिया ऐप था जहाँ उपयोगकर्ता पोस्ट कर सकते थे, कमेंट कर सकते थे और रियल-टाइम में इंटरैक्ट कर सकते थे। यह प्रोजेक्ट मेरे लिए सॉफ्टवेयर इंजीनियरिंग के सिद्धांतों को व्यावहारिक रूप से लागू करने का एक शानदार मौका था।"
+            },
+            "ar": {
+              "title": "أنجزت أول {{مشروع Full-Stack}} لي!",
+              "province": "خيبر بختونخوا",
+              "country": "باكستان",
+              "institution": "مشروع شخصي",
+              "text": "أنجزت أول تطبيق Full-Stack لي باستخدام MERN Stack. كان عبارة عن تطبيق تواصل اجتماعي يتيح للمستخدمين النشر والتعليق والتفاعل في الوقت الفعلي. هذا المشروع أتاح لي تطبيق ما تعلمته في هندسة البرمجيات من الواجهة الأمامية إلى تطوير واجهات API وربط قاعدة بيانات MongoDB. كانت خطوة كبيرة في مسيرتي كمطور."
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "date": { "year": 2025, "month": 2 },
+          "preview": {
+            "links": [
+              {
+                "href": "https://milkar.com/activities/dawn-fest-2025-kpks-grand-tech-gathering",
+                "tooltipString": "Official Event Page",
+                "faIcon": "fa-solid fa-bolt"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Attended {{Dawn Fest 2025}} – KPK's Grand Tech Gathering",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Dawn Tech Expo",
+              "text": "On February 19th, 2025, I attended Dawn Fest — KPK’s largest tech event held at Alhamra Hotel, Mardan. With over 5,000 attendees, the event included a tech conference, startup competition, IT skills expo, gaming arena, and more. It was an amazing opportunity to network and get inspired by the local tech community."
+            },
+            "es": {
+              "title": "Asistí a {{Dawn Fest 2025}} – El gran evento tecnológico de KPK",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "Dawn Tech Expo",
+              "text": "El 19 de febrero de 2025, asistí a Dawn Fest, el evento tecnológico más grande de KPK, celebrado en el Hotel Alhamra, Mardan. Con más de 5,000 asistentes, el evento incluyó una conferencia tecnológica, competencia de startups, exposición de habilidades en TI, zona de juegos y más. Fue una gran oportunidad para conectarme con la comunidad tecnológica local."
+            },
+            "fr": {
+              "title": "Participation au {{Dawn Fest 2025}} – Grand rassemblement tech du KPK",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Dawn Tech Expo",
+              "text": "Le 19 février 2025, j'ai assisté au Dawn Fest, le plus grand événement technologique du KPK, tenu à l'hôtel Alhamra de Mardan. Avec plus de 5 000 participants, l'événement comprenait une conférence tech, un concours de startups, une expo IT, un espace gaming et bien plus. Une belle occasion de réseauter et de s'inspirer !"
+            },
+            "ko": {
+              "title": "{{Dawn Fest 2025}} 참석 – KPK 최대 기술 행사",
+              "province": "카이버 파크툰크화",
+              "country": "파키스탄",
+              "institution": "Dawn Tech Expo",
+              "text": "2025년 2월 19일, 저는 Mardan의 알함라 호텔에서 열린 KPK의 최대 기술 행사인 Dawn Fest에 참석했습니다. 5,000명 이상의 참가자가 모인 이번 행사는 기술 컨퍼런스, 스타트업 경연, IT 전시, 게임 아레나 등 다채로운 활동으로 가득했습니다. 지역 커뮤니티와 교류할 수 있는 멋진 기회였습니다."
+            },
+            "de": {
+              "title": "Teilnahme am {{Dawn Fest 2025}} – KPKs großes Tech-Event",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Dawn Tech Expo",
+              "text": "Am 19. Februar 2025 nahm ich am Dawn Fest teil – dem größten Technologie-Event in KPK, das im Alhamra Hotel in Mardan stattfand. Über 5.000 Teilnehmer erlebten eine Tech-Konferenz, einen Startup-Wettbewerb, eine IT-Expo, ein Gaming-Areal und mehr. Eine großartige Gelegenheit zum Netzwerken!"
+            },
+            "ur": {
+              "title": "شرکت کی {{Dawn Fest 2025}} – خیبر پختونخوا کا سب سے بڑا ٹیک ایونٹ",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "ڈان ٹیک ایکسپو",
+              "text": "19 فروری 2025 کو میں نے ڈان فیسٹ میں شرکت کی، جو مردان کے الحمراء ہوٹل میں منعقد ہوا۔ یہ خیبر پختونخوا کا سب سے بڑا ٹیک ایونٹ تھا جس میں 5000+ افراد نے شرکت کی۔ اس میں ٹیک کانفرنس، اسٹارٹ اپ مقابلہ، آئی ٹی نمائش، گیمنگ ایریا اور بہت کچھ شامل تھا۔ یہ مقامی ٹیک کمیونٹی کے ساتھ جڑنے کا بہترین موقع تھا۔"
+            },
+            "hi": {
+              "title": "{{Dawn Fest 2025}} में भाग लिया – केपीके का सबसे बड़ा टेक इवेंट",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "डॉन टेक एक्सपो",
+              "text": "19 फरवरी 2025 को मैंने Dawn Fest में भाग लिया, जो मर्दान के अलहमरा होटल में आयोजित केपीके का सबसे बड़ा टेक इवेंट था। 5000+ प्रतिभागियों के साथ इसमें टेक कॉन्फ्रेंस, स्टार्टअप प्रतियोगिता, IT एक्सपो, गेमिंग ज़ोन और बहुत कुछ शामिल था। यह स्थानीय टेक समुदाय से जुड़ने और प्रेरणा पाने का एक शानदार अवसर था।"
+            },
+            "ar": {
+              "title": "حضرت {{Dawn Fest 2025}} – أكبر تجمع تقني في KPK",
+              "province": "خيبر بختونخوا",
+              "country": "باكستان",
+              "institution": "معرض Dawn Tech",
+              "text": "في 19 فبراير 2025، حضرت مهرجان Dawn Fest، وهو أكبر حدث تقني في KPK، الذي أقيم في فندق الحمرا، مردان. حضر أكثر من 5000 شخص، وتضمّن الحدث مؤتمرًا تقنيًا، مسابقة للشركات الناشئة، معرض مهارات وتقنية، ساحة ألعاب، والمزيد. كانت فرصة رائعة للتواصل والإلهام من المجتمع التقني المحلي."
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "date": { "year": 2025, "month": 3 },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/bilalsxadad1231231/FASHION-RECOMMENDATION-WITH-VIRTUAL-TRY-ON",
+                "tooltipString": "View on GitHub",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Built my {{Fashion Recommender + Virtual Try‑On System}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan (FYP)",
+              "text": "For my Final Year Project, I developed an advanced fashion recommendation and virtual try-on system using deep learning and computer vision. Inspired by VITON-HD, it synthesizes high-resolution 1024x768 try-on images using segmentation maps and alignment-aware architecture.",
+              "list": [
+                "ResNet50 + Nearest Neighbors for visual similarity",
+                "High-resolution outputs using VITON-HD (1024x768)",
+                "ALIAS normalization to handle misalignments and preserve texture",
+                "Streamlit-based UI for uploading and trying garments",
+                "TensorFlow/Keras backend for deep learning tasks"
+              ]
+            },
+            "es": {
+              "title": "Creé mi {{Sistema de Recomendación de Moda + Prueba Virtual}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "UET Mardan (TFG)",
+              "text": "Para mi proyecto final, desarrollé un sistema avanzado de recomendación de moda y prueba virtual utilizando deep learning y visión por computadora. Inspirado en VITON-HD, genera imágenes de prueba en alta resolución (1024x768) usando mapas de segmentación y arquitectura ALIAS.",
+              "list": [
+                "ResNet50 + vecinos más cercanos para similitud visual",
+                "Imágenes en alta resolución con VITON-HD (1024x768)",
+                "Normalización ALIAS para alinear y preservar texturas",
+                "Interfaz Streamlit para cargar y probar ropa",
+                "Backend en TensorFlow/Keras para aprendizaje profundo"
+              ]
+            },
+            "fr": {
+              "title": "Créé mon {{Système de Recommandation de Mode + Essai Virtuel}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan (PFE)",
+              "text": "Pour mon projet de fin d’études, j’ai développé un système de recommandation de mode et d’essayage virtuel en combinant deep learning et vision par ordinateur. Inspiré par VITON-HD, il génère des images d’essai haute résolution (1024x768) avec des cartes de segmentation et ALIAS.",
+              "list": [
+                "ResNet50 + plus proches voisins pour similarité visuelle",
+                "Résultats haute résolution avec VITON-HD (1024x768)",
+                "Normalisation ALIAS pour alignement et textures",
+                "Interface Streamlit pour essayer les vêtements",
+                "Backend TensorFlow/Keras pour le deep learning"
+              ]
+            },
+            "ko": {
+              "title": "{{패션 추천 + 가상 착용 시스템}} 개발",
+              "province": "카이버 파크툰크화",
+              "country": "파키스탄",
+              "institution": "UET 마르단 (졸업 프로젝트)",
+              "text": "졸업 프로젝트로 딥러닝과 컴퓨터 비전을 활용한 패션 추천 및 가상 착용 시스템을 개발했습니다. VITON-HD 기반으로 1024x768 고해상도 가상 착용 이미지를 생성합니다.",
+              "list": [
+                "ResNet50 + 최근접 이웃 알고리즘으로 유사한 옷 추천",
+                "VITON-HD 기반 고해상도 이미지 출력 (1024x768)",
+                "ALIAS 정규화를 통한 정렬 및 텍스처 보존",
+                "Streamlit UI로 이미지 업로드 및 착용 체험",
+                "TensorFlow/Keras 백엔드로 모델 학습 처리"
+              ]
+            },
+            "de": {
+              "title": "Entwickelte mein {{Mode-Empfehlungs- + Virtuelles Anprobesystem}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "UET Mardan (Abschlussprojekt)",
+              "text": "Im Rahmen meines Abschlussprojekts habe ich ein System zur Modeempfehlung und virtuellen Anprobe entwickelt, das Deep Learning und Computer Vision kombiniert. Es basiert auf VITON-HD und erzeugt hochauflösende Bilder mit 1024x768 Pixeln.",
+              "list": [
+                "ResNet50 + Nächste Nachbarn für visuelle Ähnlichkeit",
+                "Hochauflösende Ausgabe mit VITON-HD (1024x768)",
+                "ALIAS-Normalisierung für saubere Ausrichtung und Texturerhalt",
+                "Streamlit-Oberfläche zur Bildauswahl und Vorschau",
+                "Backend mit TensorFlow/Keras für Deep Learning"
+              ]
+            },
+            "ur": {
+              "title": "میں نے بنایا {{فیشن ریکمنڈیشن + ورچوئل ٹرائی آن سسٹم}}",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "UET مردان (فائنل ایئر پروجیکٹ)",
+              "text": "اپنے فائنل ایئر پروجیکٹ میں، میں نے ایک ایسا نظام بنایا جو ڈیپ لرننگ اور کمپیوٹر وژن کی مدد سے کپڑوں کی سفارش اور ورچوئل ٹرائی آن کی سہولت فراہم کرتا ہے۔ VITON-HD کی بنیاد پر، یہ سسٹم 1024x768 ریزولوشن کی تصاویر بناتا ہے۔",
+              "list": [
+                "ResNet50 اور Nearest Neighbors سے بصری مشابہت",
+                "VITON-HD کے ذریعے ہائی ریزولوشن آؤٹ پٹ (1024x768)",
+                "ALIAS normalization کے ذریعے کپڑوں کی سیدھ اور تفصیل",
+                "Streamlit انٹرفیس کے ذریعے تصویر اپلوڈ اور آزمائش",
+                "TensorFlow/Keras بیک اینڈ ڈیپ لرننگ کے لیے"
+              ]
+            },
+            "hi": {
+              "title": "मैंने बनाया {{फैशन रेकमेंडेशन + वर्चुअल ट्राय-ऑन सिस्टम}}",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "UET मर्दान (FYP)",
+              "text": "अपने अंतिम वर्ष के प्रोजेक्ट के लिए मैंने एक फैशन सिफारिश और वर्चुअल ट्राय-ऑन सिस्टम बनाया जो डीप लर्निंग और कंप्यूटर विज़न पर आधारित है। यह VITON-HD के आधार पर 1024x768 की उच्च-गुणवत्ता वाली छवियाँ उत्पन्न करता है।",
+              "list": [
+                "ResNet50 + Nearest Neighbors द्वारा विज़ुअल समानता",
+                "VITON-HD के माध्यम से हाई-रेजोल्यूशन आउटपुट (1024x768)",
+                "ALIAS normalization से कपड़ों का सही अलाइनमेंट और टेक्सचर",
+                "Streamlit UI के साथ इमेज अपलोड और ट्राय-ऑन सुविधा",
+                "TensorFlow/Keras बैकएंड डीप लर्निंग प्रोसेस के लिए"
+              ]
+            },
+            "ar": {
+              "title": "أنشأت {{نظام توصية أزياء وتجربة افتراضية}}",
+              "province": "خيبر بختونخوا",
+              "country": "باكستان",
+              "institution": "جامعة UET مردان (مشروع التخرج)",
+              "text": "في مشروعي النهائي، طورت نظامًا متقدمًا لتوصية الأزياء وتجربة الملابس افتراضيًا باستخدام التعلم العميق ورؤية الحاسوب. النظام مستوحى من VITON-HD ويولد صورًا عالية الدقة (1024x768) باستخدام خرائط التقسيم وخوارزميات المحاذاة.",
+              "list": [
+                "ResNet50 + أقرب الجيران لتحديد التشابه البصري",
+                "صور عالية الدقة 1024x768 بتقنية VITON-HD",
+                "ALIAS normalization لضبط الملابس بدقة وحفظ التفاصيل",
+                "واجهة Streamlit لرفع الصور وتجربة الملابس",
+                "خلفية TensorFlow/Keras للمهام الذكية"
+              ]
+            }
+          }
+        },
+
+        {
+          "id": 5,
+          "date": { "year": 2025, "month": 6 },
+          "preview": {
+            "links": [
+              {
+                "href": "https://muhammadshakeel.dev",
+                "tooltipString": "Visit my Website",
+                "faIcon": "fa-solid fa-link"
+              },
+              {
+                "href": "https://github.com/Muhammad-Shakeel123",
+                "tooltipString": "See on GitHub",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Launched my {{Personal Website!}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Portfolio Project",
+              "text": "In June 2025, I officially launched my personal developer portfolio website as a MERN + Next.js full-stack developer. This platform showcases my work, tech journey, and ideas. I'm proud to present my skills and share value with others through blogs, projects, and contact features.",
+              "list": [
+                "Built using React, Next.js, Tailwind CSS",
+                "Portfolio showcasing my projects and tech stack",
+                "Blog section with insights and tutorials",
+                "Contact form and GitHub/social links"
+              ]
+            },
+            "es": {
+              "title": "¡Lanzamiento de mi {{Sitio Web Personal!}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistán",
+              "institution": "Proyecto Portafolio",
+              "text": "En junio de 2025, lancé oficialmente mi sitio web personal como desarrollador full-stack MERN + Next.js. Esta plataforma muestra mi trabajo, mi trayectoria en tecnología y mis ideas. Estoy orgulloso de presentar mis habilidades y compartir valor a través de blogs, proyectos y opciones de contacto.",
+              "list": [
+                "Construido con React, Next.js, Tailwind CSS",
+                "Portafolio con mis proyectos y tecnologías",
+                "Sección de blog con ideas y tutoriales",
+                "Formulario de contacto y enlaces sociales"
+              ]
+            },
+            "fr": {
+              "title": "Lancement de mon {{Site Web Personnel!}}",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Projet de Portfolio",
+              "text": "En juin 2025, j'ai lancé mon site web personnel en tant que développeur full-stack MERN + Next.js. Cette plateforme présente mon travail, mon parcours technologique et mes idées. Je suis fier de partager mes compétences à travers des blogs, des projets et une section contact.",
+              "list": [
+                "Développé avec React, Next.js, Tailwind CSS",
+                "Portfolio montrant mes projets et compétences",
+                "Blog avec tutoriels et réflexions",
+                "Formulaire de contact et liens sociaux"
+              ]
+            },
+            "ko": {
+              "title": "{{개인 웹사이트}} 런칭",
+              "province": "카이버 파크툰크화",
+              "country": "파키스탄",
+              "institution": "포트폴리오 프로젝트",
+              "text": "2025년 6월, MERN + Next.js 풀스택 개발자로서 제 개인 포트폴리오 웹사이트를 런칭했습니다. 이 플랫폼은 제 프로젝트, 기술 여정, 아이디어를 소개하며 블로그, 작업물, 연락 수단을 통해 가치를 전달하고자 합니다.",
+              "list": [
+                "React, Next.js, Tailwind CSS로 개발",
+                "프로젝트와 기술 스택을 소개하는 포트폴리오",
+                "블로그 섹션: 튜토리얼과 통찰력 제공",
+                "연락처 양식 및 GitHub/소셜 링크 포함"
+              ]
+            },
+            "de": {
+              "title": "Mein {{persönliches Portfolio}} veröffentlicht!",
+              "province": "Khyber Pakhtunkhwa",
+              "country": "Pakistan",
+              "institution": "Portfolio-Projekt",
+              "text": "Im Juni 2025 habe ich als MERN + Next.js Full-Stack-Entwickler meine persönliche Website gestartet. Diese Plattform zeigt meine Arbeit, meinen technischen Werdegang und meine Ideen. Ich teile mein Wissen durch Blogs, Projekte und eine Kontaktmöglichkeit.",
+              "list": [
+                "Erstellt mit React, Next.js, Tailwind CSS",
+                "Portfolio mit Projekten & Technologie-Stack",
+                "Blog-Bereich mit Einblicken und Tutorials",
+                "Kontaktformular & Links zu GitHub/Soziale Netzwerke"
+              ]
+            },
+            "hi": {
+              "title": "लॉन्च किया मेरा {{पर्सनल वेबसाइट!}}",
+              "province": "खैबर पख्तूनख्वा",
+              "country": "पाकिस्तान",
+              "institution": "पोर्टफोलियो प्रोजेक्ट",
+              "text": "जून 2025 में, मैंने एक MERN + Next.js फुल-स्टैक डिवेलपर के रूप में अपनी व्यक्तिगत वेबसाइट लॉन्च की। यह प्लेटफ़ॉर्म मेरे प्रोजेक्ट्स, टेक यात्रा और ब्लॉग्स को दर्शाता है। मैं इसमें अपने अनुभव, कौशल और विचार साझा करता हूं।",
+              "list": [
+                "React, Next.js, Tailwind CSS से बनाया",
+                "प्रोजेक्ट्स और स्किल्स को दिखाता पोर्टफोलियो",
+                "टेक ब्लॉग और ट्यूटोरियल्स",
+                "संपर्क फ़ॉर्म और GitHub/सोशल लिंक"
+              ]
+            },
+            "ur": {
+              "title": "اپنی {{ذاتی ویب سائٹ}} لانچ کی!",
+              "province": "خیبر پختونخوا",
+              "country": "پاکستان",
+              "institution": "پروجیکٹ پورٹ فولیو",
+              "text": "جون 2025 میں، میں نے MERN + Next.js فُل اسٹیک ڈویلپر کے طور پر اپنی ذاتی ویب سائٹ لانچ کی۔ اس ویب سائٹ پر میں اپنے پروجیکٹس، بلاگز، اور ٹیک سفر کو شیئر کرتا ہوں۔ یہ میری صلاحیتوں اور جذبے کو ظاہر کرنے کا پلیٹ فارم ہے۔",
+              "list": [
+                "React، Next.js، Tailwind CSS کا استعمال",
+                "پروجیکٹس اور ٹیکنالوجیز کا پورٹ فولیو",
+                "بلاگ سیکشن اور ٹیوٹوریلز",
+                "رابطہ فارم اور GitHub/سوشل لنکس"
+              ]
+            },
+            "ar": {
+              "title": "أطلقت {{موقعي الشخصي!}}",
+              "province": "خيبر بختونخوا",
+              "country": "باكستان",
+              "institution": "مشروع بورتفوليو",
+              "text": "في يونيو 2025، أطلقت موقعي الشخصي كمطور Full-Stack باستخدام MERN وNext.js. هذه المنصة تعرض مشاريعي، رحلتي في مجال التكنولوجيا، ومقالاتي. أشارك شغفي ومهاراتي من خلال هذه الصفحة.",
+              "list": [
+                "تم تطويره باستخدام React وNext.js وTailwind CSS",
+                "عرض لمشاريعي وتقنياتي",
+                "مدونة تحتوي على مقالات وشروحات",
+                "نموذج تواصل وروابط GitHub والشبكات الاجتماعية"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
